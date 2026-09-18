@@ -31,6 +31,13 @@ Company: `$ARGUMENTS`. If empty, ask for a company name and stop.
   opinions. Then trade press (Reorg, 9fin, Petition, Bloomberg, Reuters, WSJ,
   FT, Law360, CreditSights) and law-firm client alerts. Blogs and
   aggregators are last resort and must be marked as such.
+- **Say how you saw each source.** If the fetch tool cannot open a
+  document (the egress proxy blocks many docket, EDGAR and press hosts in
+  cloud sessions) and you only have a search-result excerpt of it, cite it
+  as "(docket, via search excerpt)" or "(press)" and never quote it
+  verbatim. Put a sourcing caveat block under the title saying which
+  hosts were blocked, so the script skill and the listener know the
+  provenance.
 - **Date everything.** A live situation moves. Record the "as of" date at
   the top and put a date on every event.
 - **Educational, not investment advice.** No recommendations.
