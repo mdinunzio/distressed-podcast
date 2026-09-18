@@ -62,7 +62,7 @@ the book.
 ## Pipeline
 
 ```
-company name → research.md → script.json → episode.mp3 → Oracle bucket
+company name → research.md → script.json → <slug>.mp3 → Oracle bucket
                (Claude)       (Claude)       (Python+Gemini)  (Python+boto3)
 ```
 
@@ -156,7 +156,8 @@ Delegated entirely to Google's Gemini TTS; Claude does not voice anything.
   `response.candidates[0].content.parts[0].inline_data.data`. Wrap as WAV,
   concatenate with ffmpeg, encode MP3 128 kbps mono, write ID3 tags (title,
   album "Distressed Explainers", track number).
-- Output: `episodes/<slug>/episode.mp3`. Log characters sent and estimated
+- Output: `episodes/<slug>/<slug>.mp3` (a descriptive filename, not the
+  literal string `episode.mp3`). Log characters sent and estimated
   cost to `episodes/<slug>/run.log`.
 
 ### Publish (`podcast publish <slug>`)
@@ -167,7 +168,7 @@ Delegated entirely to Google's Gemini TTS; Claude does not voice anything.
   request_checksum_calculation="when_required",
   response_checksum_validation="when_required")`. The checksum settings are
   required; Oracle rejects `aws-chunked` uploads.
-- Uploads `<slug>/episode.mp3`, `<slug>/research.md`, `<slug>/script.json`.
+- Uploads `<slug>/<slug>.mp3`, `<slug>/research.md`, `<slug>/script.json`.
   `put_object` overwrites on re-run. Never delete from code.
 - `podcast url <slug>` prints a pre-signed GET URL (default 7 days).
 - Storage may move to Cloudflare R2 later; keep `storage.py` provider-agnostic

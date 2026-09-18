@@ -89,7 +89,7 @@ def _write_run_log(
 @main.command()
 @click.argument("slug")
 def audio_command(slug: str) -> None:
-    """Render episodes/SLUG/script.json to episodes/SLUG/episode.mp3."""
+    """Render episodes/SLUG/script.json to episodes/SLUG/SLUG.mp3."""
     script = _load_script(slug)
     try:
         settings = GeminiSettings.from_env()
@@ -100,17 +100,17 @@ def audio_command(slug: str) -> None:
         f"{script.slug}: {len(script.segments)} segments, {script.word_count} words, "
         f"{script.character_count} characters (model {settings.model})"
     )
-    final = folder / "episode.mp3"
+    final = folder / f"{slug}.mp3"
     with tempfile.TemporaryDirectory(prefix=".audio-", dir=folder) as tmp:
         workdir = Path(tmp)
         try:
             rendered, wavs = _render_all(script, settings, workdir)
             stitch.concat_to_mp3(
-                wavs, workdir / "episode.mp3", script.title, script.episode
+                wavs, workdir / f"{slug}.mp3", script.title, script.episode
             )
         except (audio.AudioError, stitch.StitchError) as exc:
             raise click.ClickException(str(exc))
-        os.replace(workdir / "episode.mp3", final)
+        os.replace(workdir / f"{slug}.mp3", final)
     cost = audio.estimate_cost_usd(settings, rendered)
     _write_run_log(folder / "run.log", script, settings, rendered, cost)
     total = sum(item.seconds for item in rendered)
@@ -126,7 +126,7 @@ main.add_command(audio_command, name="audio")
 @main.command()
 @click.argument("slug")
 def publish(slug: str) -> None:
-    """Upload episodes/SLUG/{episode.mp3,research.md,script.json} to the bucket."""
+    """Upload episodes/SLUG/{SLUG.mp3,research.md,script.json} to the bucket."""
     _load_script(slug)
     try:
         StorageSettings.from_env()
@@ -139,7 +139,7 @@ def publish(slug: str) -> None:
 @click.argument("slug")
 @click.option("--days", default=7, show_default=True, help="URL validity.")
 def url(slug: str, days: int) -> None:
-    """Print a pre-signed GET URL for episodes/SLUG/episode.mp3 in the bucket."""
+    """Print a pre-signed GET URL for episodes/SLUG/SLUG.mp3 in the bucket."""
     try:
         StorageSettings.from_env()
     except ConfigError as exc:

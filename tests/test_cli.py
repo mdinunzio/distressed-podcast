@@ -57,7 +57,7 @@ def test_audio_writes_mp3_and_log(script_path: Path, mocked_pipeline) -> None:
     result = CliRunner().invoke(main, ["audio", "example-co"])
     assert result.exit_code == 0, result.output
     folder = script_path.parent
-    assert (folder / "episode.mp3").read_bytes() == b"ID3fake"
+    assert (folder / "example-co.mp3").read_bytes() == b"ID3fake"
     log = (folder / "run.log").read_text()
     assert "audio example-co" in log
     assert "situation" in log and "watch" in log
@@ -94,7 +94,7 @@ def test_audio_failure_leaves_no_output(
     assert result.exit_code != 0
     assert "ffmpeg exploded" in result.output
     folder = script_path.parent
-    assert not (folder / "episode.mp3").exists()
+    assert not (folder / "example-co.mp3").exists()
     assert not (folder / "run.log").exists()
 
 

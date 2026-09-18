@@ -7,7 +7,7 @@ story. `CLAUDE.md` is the spec.
 ## Pipeline
 
 ```
-company name → research.md → script.json → episode.mp3 → Oracle bucket
+company name → research.md → script.json → <slug>.mp3 → Oracle bucket
                (Claude)       (Claude)       (Python+Gemini)  (Python+boto3)
 ```
 
@@ -16,7 +16,7 @@ company name → research.md → script.json → episode.mp3 → Oracle bucket
 - The `research` and `script` skills write `episodes/<slug>/research.md` and
   `episodes/<slug>/script.json`.
 - `uv run podcast audio <slug>` renders the script to
-  `episodes/<slug>/episode.mp3` with Gemini TTS and appends characters,
+  `episodes/<slug>/<slug>.mp3` with Gemini TTS and appends characters,
   tokens, duration and estimated cost to `episodes/<slug>/run.log`.
 - `uv run podcast publish <slug>` uploads the MP3, research and script.
 - `uv run podcast url <slug>` prints a pre-signed GET URL.
