@@ -11,7 +11,7 @@
       "turns": [
         {
           "speaker": "Host",
-          "text": "Welcome to Distressed Explainers. Today's case is Saks Global, the company behind Saks Fifth Avenue, Neiman Marcus and Bergdorf Goodman. It's a finished case now. It filed in January 2026, came out of bankruptcy at the end of June, and in between it used almost every tool a special situations desk owns. So we're going to walk through how it played out and why."
+          "text": "Welcome to Distressed Explainers. Today's case is Saks Global, the company behind Saks Fifth Avenue, Neiman Marcus and Bergdorf Goodman. It's a finished case: filed January 2026, out of bankruptcy at the end of June, and in between it used almost every tool a special situations desk owns. We'll walk through how it played out and why."
         },
         {
           "speaker": "Guest",
@@ -27,7 +27,7 @@
         },
         {
           "speaker": "Host",
-          "text": "Less than nothing. In the quarter ending August 2025, revenue was about one point six billion, down thirteen percent, and adjusted EBITDA was a loss of seventy-seven million. So the interest bill was several times the earnings, and the earnings were negative. The reason is what makes this a great teaching case. The company was so short of cash it stopped paying suppliers on time. The fashion houses did the rational thing and shipped less. Less inventory, less sales."
+          "text": "Less than nothing. In the quarter ending August 2025, revenue was about one point six billion, down thirteen percent, and adjusted EBITDA was a loss of seventy-seven million. So the interest bill was several times the earnings, and the earnings were negative. The company was so short of cash it stopped paying suppliers on time. The fashion houses did the rational thing and shipped less. Less inventory, less sales."
         },
         {
           "speaker": "Guest",
@@ -35,7 +35,7 @@
         },
         {
           "speaker": "Host",
-          "text": "The company's own sworn declaration says the opposite: 'when stores have inventory, the inventory sells.' The problem was cash to buy it. In summer 2025 they raised six hundred million of new money from their bondholders in a deal that reorganized who gets paid first. It bought five months. In the second half of 2025 they received more than five hundred and fifty million dollars less inventory than planned. On December 31 about a hundred and twenty-six million of interest came due unpaid. On January 13 and 14, 2026, a hundred and thirteen entities filed Chapter 11 in Houston, before Judge Alfredo Pérez."
+          "text": "The company's own sworn declaration says the opposite: 'when stores have inventory, the inventory sells.' The problem was cash to buy it. In summer 2025 they raised six hundred million of new money from bondholders in a deal that reorganized who gets paid first. It bought five months. In the second half of 2025 they received more than five hundred and fifty million dollars less inventory than planned. On December 31 about a hundred and twenty-six million of interest came due unpaid. On January 13 and 14, 2026, a hundred and thirteen entities filed Chapter 11 in Houston."
         },
         {
           "speaker": "Guest",
@@ -43,7 +43,7 @@
         },
         {
           "speaker": "Host",
-          "text": "The same bondholders that funded the summer deal lent two point six billion dollars in bankruptcy, of which one billion was new cash. A plan was confirmed June 5 and went effective June 26. The company came out as Exemplar Luxury Group, with about forty-nine stores instead of seventy, owned by those lenders, led by Pentwater and Bracebridge. The old equity, including Amazon's four hundred and seventy-five million, got nothing. Vendors who kept shipping got paid in full. Bondholders who weren't in the lender group got a share of a lawsuit."
+          "text": "The same bondholders that funded the summer deal lent two point six billion dollars in bankruptcy, one billion of it new cash. A plan was confirmed June 5 and went effective June 26. The company came out as Exemplar Luxury Group, with forty-nine stores instead of seventy, owned by those lenders, led by Pentwater and Bracebridge. Old equity, including Amazon's four hundred and seventy-five million, got nothing. Vendors who kept shipping got paid in full. Bondholders outside the lender group got a share of a lawsuit."
         }
       ]
     },
@@ -53,7 +53,7 @@
       "turns": [
         {
           "speaker": "Host",
-          "text": "Six ideas carry this story, so let me name them before we go deep. First, the causes of distress. Moyer opens his book with them, and Saks stacks three: acquisition leverage, an operating decline, and a working-capital spiral where the suppliers are the real lenders and they can call the loan by not shipping."
+          "text": "Six ideas carry this story; let me name them first. First, the causes of distress. Moyer opens his book with them, and Saks stacks three: acquisition leverage, an operating decline, and a working-capital spiral where the suppliers are the real lenders and they can call the loan by not shipping."
         },
         {
           "speaker": "Guest",
@@ -77,7 +77,7 @@
         },
         {
           "speaker": "Host",
-          "text": "One lien, one pot, an agreement that says who gets paid out of the pot first. We'll unpack it. Fourth: DIP financing, the loan a company takes inside Chapter 11. Here it was two point six billion, only one billion of it new cash. The rest converted existing bonds into DIP claims. The DIP is where control of Saks was actually won."
+          "text": "One lien, one pot, a contract that orders who gets paid first. Fourth: DIP financing, the loan a company takes inside Chapter 11. Here it was two point six billion, only one billion of it new cash. The rest converted existing bonds into DIP claims. The DIP is where control of Saks was actually won."
         },
         {
           "speaker": "Guest",
@@ -85,7 +85,7 @@
         },
         {
           "speaker": "Host",
-          "text": "Because a DIP claim gets paid first and, in this plan, becomes the company. That's the fifth idea, Moyer's fulcrum security: the class where the value runs out, impaired but holding the equity. At Saks the fulcrum moved three times, from the original bonds to the new first-out layer to the DIP itself. The disclosure statement puts numbers on where it landed."
+          "text": "Because a DIP claim gets paid first and, in this plan, becomes the company. That's the fifth idea, Moyer's fulcrum security: the class where the value runs out, impaired but holding the equity. At Saks the fulcrum moved three times, from the original bonds to the new first-out layer to the DIP itself."
         },
         {
           "speaker": "Guest",
@@ -93,7 +93,7 @@
         },
         {
           "speaker": "Host",
-          "text": "Structural subordination: where the valuable things sit in the corporate tree. The Fifth Avenue flagship is owned by a company that never filed, under a one point two five billion dollar mortgage. The brand names themselves sit in subsidiaries that don't guarantee the debt. So the two things a generalist would call the collateral aren't the bondholders' collateral. Let's take them in order."
+          "text": "Structural subordination: where the valuable things sit in the corporate tree. The Fifth Avenue flagship is owned by a company that never filed, under a one point two five billion dollar mortgage. The brand names sit in subsidiaries that don't guarantee the debt. So the two things a generalist would call the collateral aren't the bondholders' collateral. Let's take them in order."
         }
       ]
     },
@@ -119,7 +119,7 @@
         },
         {
           "speaker": "Host",
-          "text": "That's the spiral in a single sentence. Vendors ship less, inventory falls nine percent below the prior year, the borrowing base falls with it, availability falls, the floor rises, and the company can't pay vendors, so they ship less. Moyer would call this a liquidity crisis that becomes a solvency crisis. Now the collateral split. The ABL had first lien on what the intercreditor agreement calls ABL priority collateral, the inventory and receivables, and only four hundred and forty-two million drawn on one point eight billion of commitments. The bonds had first lien on the rest: the stores, the equity of subsidiaries."
+          "text": "That's the spiral in one sentence. Vendors ship less, inventory falls nine percent below the prior year, the borrowing base falls, availability falls, the floor rises, the company can't pay vendors, so they ship less. Moyer would call it a liquidity crisis that becomes a solvency crisis. Now the collateral split. The ABL had first lien on what the intercreditor calls ABL priority collateral, the inventory and receivables, with four hundred and forty-two million drawn on one point eight billion of commitments. The bonds had first lien on the rest: the stores, the equity of subsidiaries."
         },
         {
           "speaker": "Guest",
@@ -127,7 +127,7 @@
         },
         {
           "speaker": "Host",
-          "text": "Right, we'll get to that. The point for now is that the lender with the smallest claim, four hundred and forty-two million out of three point four billion of funded debt, held the liquid collateral and the covenant that decided when the music stopped. A desk watches excess availability the way a doctor watches blood pressure, and the covenant schedule was public in the credit agreement. The December step-up was on the calendar."
+          "text": "Right, we'll get there. The point for now: the lender with the smallest claim, four hundred and forty-two million out of three point four billion of funded debt, held the liquid collateral and the covenant that decided when the music stopped. A desk watches excess availability the way a doctor watches blood pressure, and the December step-up was on the public covenant schedule."
         }
       ]
     },
@@ -137,7 +137,7 @@
       "turns": [
         {
           "speaker": "Host",
-          "text": "Now the summer deal. In April 2025 the company announced a three hundred million dollar loan from a lender called SLR that never closed. So in late June it went to its own bondholders. A new wholly owned subsidiary, SGUS, sold three hundred million of eleven percent 'asset based notes' to existing holders and lent the cash down to the operating company. Then on July 21 the company launched an exchange offer for the whole two point two billion of old bonds."
+          "text": "Now the summer deal. A three hundred million dollar loan from an outside lender, SLR, fell through in the spring, so in late June the company went to its own bondholders. A new wholly owned subsidiary, SGUS, sold three hundred million of eleven percent 'asset based notes' to existing holders and lent the cash down to the operating company. Then on July 21 the company launched an exchange offer for the whole two point two billion of old bonds."
         },
         {
           "speaker": "Guest",
@@ -153,7 +153,7 @@
         },
         {
           "speaker": "Host",
-          "text": "Picture one lien over the notes collateral, shared by everyone. Then a separate contract, here literally called the Payment Administration Agreement, says the pot pays tier one in full before tier two sees a dollar. First-out, second-out, third-out, and the fifty-one million of untendered old bonds became fourth-out. It's a payment waterfall inside a shared lien, not a new mortgage."
+          "text": "Picture one lien over the notes collateral, shared by everyone. Then a separate contract, literally called the Payment Administration Agreement, says the pot pays tier one in full before tier two sees a dollar. First-out, second-out, third-out, and the fifty-one million of untendered old bonds became fourth-out. A payment waterfall inside a shared lien, not a new mortgage."
         },
         {
           "speaker": "Guest",
@@ -169,7 +169,7 @@
         },
         {
           "speaker": "Host",
-          "text": "The consent solicitation. Tendering holders also voted to amend the old indenture to permit all this. If you didn't tender, you stayed in a stripped bond that is now fourth-out. That's the coercive element in a non-pro-rata exchange, and it's why the desk term is liability management exercise, or LME. Moyer teaches exchange offers as the cheaper alternative to Chapter 11. The twist since his edition is that they now reorder the creditors."
+          "text": "The consent solicitation. Tendering holders also voted to amend the old indenture to permit all this. If you didn't tender, you stayed in a stripped bond that is now fourth-out. That's the coercive element in a non-pro-rata exchange, and why the desk term is liability management exercise, or LME. Moyer teaches exchange offers as the cheaper alternative to Chapter 11; the twist since his edition is that they now reorder the creditors."
         },
         {
           "speaker": "Guest",
@@ -177,7 +177,7 @@
         },
         {
           "speaker": "Host",
-          "text": "No. Of six hundred million raised, only two hundred and forty-four million could go to vendor catch-up; the rest went to working capital and interest. And the market's verdict came fast: by December the second-out notes were quoted around twelve cents on the dollar. Twelve cents on a nominally first lien bond says the market thought value ran out inside the first-out layer. That's press reporting, but the plan later proved it right."
+          "text": "No. Of six hundred million raised, only two hundred and forty-four million could go to vendor catch-up; the rest went to working capital and interest. And the market's verdict came fast: by December the second-out notes were quoted around twelve cents on the dollar. Twelve cents on a nominally first lien bond says the market thought value ran out inside the first-out layer. Press reporting, but the plan later proved it right."
         }
       ]
     },
@@ -187,7 +187,7 @@
       "turns": [
         {
           "speaker": "Host",
-          "text": "January 2026, the DIP. A debtor-in-possession loan is post-petition financing that the court gives superpriority, meaning it's paid before every prepetition claim, and priming liens, meaning liens that jump ahead of existing secured lenders. Moyer covers it in the chapter on the Chapter 11 process. Here the term loan DIP was two point six billion dollars, made to SGUS, that same subsidiary, and backstopped by an ad hoc group holding about seventy-two percent of the SPV notes and half the second-out notes."
+          "text": "January 2026, the DIP. A debtor-in-possession loan is post-petition financing that the court gives superpriority, meaning it's paid before every prepetition claim, and priming liens, meaning liens that jump ahead of existing secured lenders. Moyer covers it in his Chapter 11 process chapter. Here the term loan DIP was two point six billion dollars, made to SGUS, that same subsidiary, and backstopped by an ad hoc group holding about seventy-two percent of the SPV notes and half the second-out notes."
         },
         {
           "speaker": "Guest",
@@ -195,7 +195,7 @@
         },
         {
           "speaker": "Host",
-          "text": "One: a billion of new money, first-out, in three draws, at Term SOFR plus eleven percent, paid in kind. Two: up to eight hundred and eight million of second-out DIP loans that replaced SPV notes dollar for dollar, with no cash changing hands. That's a roll-up. Three: up to seven hundred and fifty-one million of third-out DIP loans that SGUS used to buy participations in second-out notes held by the DIP lenders themselves."
+          "text": "One: a billion of new money, first-out, in three draws, at Term SOFR plus eleven percent, paid in kind. Two: up to eight hundred and eight million of second-out DIP loans that replaced SPV notes dollar for dollar, no cash changing hands. That's a roll-up. Three: up to seven hundred and fifty-one million of third-out DIP loans that SGUS used to buy participations in second-out notes held by the DIP lenders themselves."
         },
         {
           "speaker": "Guest",
@@ -211,7 +211,7 @@
         },
         {
           "speaker": "Host",
-          "text": "After a long first-day hearing on January 14. Amazon and a lender called Axonic objected, both about the same box: HoldCo II, the entity that owns the flagship's owner. Amazon had consent rights there and said the building already backed its commercial deal, a nine hundred million dollar minimum fee commitment over eight years. The interim order gave the DIP a pledge of the flagship owner's equity anyway, and the court found no credit was available on better terms; a third-party DIP had been rejected because it meant priming litigation."
+          "text": "After a long first-day hearing on January 14. Amazon and a lender called Axonic objected, both about the same box: HoldCo II, the entity above the flagship's owner. Amazon had consent rights there and said the building already backed its commercial deal, a nine hundred million dollar minimum fee commitment over eight years. The interim order pledged the flagship owner's equity to the DIP anyway, and the court found no credit was available on better terms; a third-party DIP had been rejected because it meant priming litigation."
         },
         {
           "speaker": "Guest",
@@ -219,7 +219,7 @@
         },
         {
           "speaker": "Host",
-          "text": "Marshaling. The final order on February 20 says that for a hundred and fifty days after the DIP ends, the lenders must recover from everything else before they touch HoldCo II or anything unencumbered at the filing. The creditors' committee, where Amazon sat alongside Chanel, LVMH and Kering, extracted more: the DIP was subordinated to concession vendors' post-petition claims, the estate kept its surcharge rights for post-petition goods, and the committee got until April 15 to challenge the roll-ups. That toolkit is how vendors ended up paid in full."
+          "text": "Marshaling. The final order on February 20 says that for a hundred and fifty days after the DIP ends, the lenders must recover from everything else before they touch HoldCo II or anything unencumbered at the filing. The creditors' committee, with Amazon, Chanel, LVMH and Kering on it, extracted more: the DIP was subordinated to concession vendors' post-petition claims, the estate kept its surcharge rights for post-petition goods, and the committee got until April 15 to challenge the roll-ups."
         },
         {
           "speaker": "Guest",
@@ -253,7 +253,7 @@
         },
         {
           "speaker": "Host",
-          "text": "At the top, the ABL DIP, about seven hundred and fourteen million, paid in cash from the exit financing. Next, the first-out new money, about one point two seven billion with PIK and fees, listed at a hundred percent recovery in take-back paper; the plan supplement shows that became one point three five billion of preferred units with a minimum one and a quarter times return. That's roughly two billion of the three. The remaining billion or so goes as common stock to the second-out and third-out DIP, the rolled SPV notes and the participated second-out notes, about one point five billion of claims. Those two classes are the fulcrum; their recovery is listed as 'undetermined' because it's equity."
+          "text": "At the top, the ABL DIP, about seven hundred and fourteen million, paid in cash from the exit financing. Next, the first-out new money, about one point two seven billion with PIK and fees, listed at a hundred percent recovery in take-back paper, which the plan supplement shows became one point three five billion of preferred units with a minimum one and a quarter times return. That's roughly two billion of the three. The remaining billion goes as common stock to the second-out and third-out DIP, about one point five billion of claims. Those two classes are the fulcrum; their recovery is 'undetermined' because it's equity."
         },
         {
           "speaker": "Guest",
@@ -277,7 +277,7 @@
         },
         {
           "speaker": "Host",
-          "text": "Two outcomes for the same legal class. Vendors the business couldn't reopen without were treated as critical vendors and paid; press puts it above six hundred million. Go-forward trade claims got a two million dollar cash pool, about two point eight percent, plus the trust. Everyone else got the litigation trust, funded with twenty million dollars: the company recoups first, then the next eighty million splits half to the bondholder tiers and half to unsecureds, then eighty-twenty. Its claims come from an independent committee's investigation of the prepetition deals; we couldn't source what they are."
+          "text": "Two outcomes for the same legal class. Vendors the business couldn't reopen without were treated as critical vendors and paid; press puts it above six hundred million. Go-forward trade claims got a two million dollar cash pool, about two point eight percent, plus the trust. Everyone else got the litigation trust, funded with twenty million dollars: the company recoups first, the next eighty million splits half to bondholder tiers and half to unsecureds, then eighty-twenty. Its claims come from an independent committee's investigation; we couldn't source what they are."
         },
         {
           "speaker": "Guest",
@@ -285,7 +285,7 @@
         },
         {
           "speaker": "Host",
-          "text": "Own the new money, at each round. Own trade claims of vendors likely to be critical. Never own the third-out or the stub, the bottom of a waterfall that stopped at tier one. And map the box first: the flagship with its one point two five billion mortgage in a non-debtor, the brand IP in non-guarantor subsidiaries licensed to a joint venture with Authentic Brands, and HoldCo II's two hundred million guarantee. That's structural subordination in practice. 'Senior secured' here meant secured by stores and subsidiary equity, not by the building or the names on the door."
+          "text": "Own the new money at each round. Own trade claims of vendors likely to be critical. Avoid the third-out and the stub, the bottom of a waterfall that stopped at tier one. And map the box first: the flagship with its one point two five billion mortgage in a non-debtor, the brand IP in non-guarantor subsidiaries licensed to a joint venture with Authentic Brands, and HoldCo II's two hundred million guarantee. That's structural subordination in practice. 'Senior secured' here meant secured by stores and subsidiary equity, not by the building or the names on the door."
         }
       ]
     },
@@ -303,7 +303,7 @@
         },
         {
           "speaker": "Host",
-          "text": "Three. The litigation trust and whatever claims the special committee preserved. The Axonic dispute over its put option and the pledge at HoldCo II, which got its own plan class with a settlement option. And the projections: the plan needs adjusted EBITDA to go from about two hundred and twenty million in the partial first year to three hundred and eighty million the next, with the same vendors and a hundred and fifty million minimum availability floor. Whether the fashion houses believe in the new owners is the whole investment case."
+          "text": "Three. The litigation trust and whatever claims the special committee preserved. The Axonic dispute over its put option and the HoldCo II pledge, which got its own plan class with a settlement option. And the projections: adjusted EBITDA has to go from about two hundred and twenty million in the partial first year to three hundred and eighty million the next, with the same vendors and a hundred and fifty million availability floor. Whether the fashion houses believe in the new owners is the whole case."
         },
         {
           "speaker": "Guest",
@@ -319,7 +319,7 @@
         },
         {
           "speaker": "Host",
-          "text": "Exactly. You'll see where the textbook ends and the modern LME begins. As always, this is education, not investment advice. Thanks for listening."
+          "text": "You'll see where the textbook ends and the modern LME begins. As always, this is education, not investment advice. Thanks for listening."
         }
       ]
     }
