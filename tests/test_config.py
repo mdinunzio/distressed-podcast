@@ -61,3 +61,14 @@ def test_storage_requires_every_variable(
     monkeypatch.delenv("S3_BUCKET")
     with pytest.raises(ConfigError, match="S3_BUCKET"):
         StorageSettings.from_env()
+
+
+def test_price_overrides(clean_env: None, monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setenv("GEMINI_TTS_USD_PER_M_INPUT", "1.5")
+    monkeypatch.setenv("GEMINI_TTS_USD_PER_M_OUTPUT", "20")
+    settings = GeminiSettings.from_env()
+    assert settings.usd_per_million_input_tokens == 1.5
+    assert settings.usd_per_million_audio_tokens == 20.0
+    monkeypatch.setenv("GEMINI_TTS_USD_PER_M_OUTPUT", "lots")
+    with pytest.raises(ConfigError, match="GEMINI_TTS_USD_PER_M_OUTPUT"):
+        GeminiSettings.from_env()
