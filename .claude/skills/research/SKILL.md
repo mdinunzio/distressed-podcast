@@ -36,9 +36,19 @@ Company: `$ARGUMENTS`. If empty, ask for a company name and stop.
   - Ad hoc curl from Bash during research is fine; the rule against
     Python HTTP is about the pipeline code.
 - **Never invent numbers or provisions.** Every figure and every
-  contractual term must trace to a source in section 13. If a section
+  contractual term must trace to a source in section 14. If a section
   cannot be sourced, write "Not sourced:" and explain what is missing.
   Prefer to say less than to guess.
+- **Name the players, and what they're known for.** Management, the CRO,
+  the lead funds and advisors on each side of the table — capture who
+  they are and, where the public record supports it, their track record,
+  style or reputation among market participants (a serial acquirer, a
+  fund known for aggressive uptiers or for being the cooperative one, a
+  rivalry carried over from a prior case). This is a teaching tool, not
+  color for its own sake: tying a mechanism to a personality is how it
+  gets remembered. Same rule as numbers — only what's sourced to press or
+  filings, cited; skip anyone you can't characterize on the record rather
+  than padding.
 - **Prefer primary sources** over press, in this order: 8-Ks and 10-Q/10-K
   filings on EDGAR; the docket via the claims agent (Kroll, Epiq, Stretto,
   Verita, Omni) or PACER, especially the first-day declaration, the DIP
@@ -90,16 +100,18 @@ and dates that let the script teach each concept through this case.
 ## The episode shape your research feeds
 
 1. **The situation** (~3 min): who, what, why in trouble, what is happening
-   now, next dated events. Plain English.
+   now, next dated events, and a quick sketch of who's driving it. Plain
+   English. Section 9 is where that cast comes from.
 2. **The concepts at high level** (~4 min): three to six ideas the
    situation turns on, each with a one-paragraph intuition tied to the
-   company. Section 11 of your research is this list.
+   company. Section 12 of your research is this list.
 3. **Unfurling** (~11 min): each concept in depth: mechanics, what the
    documents say here, the numbers and what they compare to, who wins and
-   loses, how a desk trades or positions, what could go wrong. Sections 3
-   to 10 must contain enough specifics for this.
+   loses, how a desk trades or positions, what could go wrong, and — where
+   it's sourced — what a player's known style or history has to do with
+   it. Sections 3 to 11 must contain enough specifics for this.
 4. **What to watch** (~2 min): dated catalysts, open questions, two or
-   three documents the listener could go read. Sections 1, 10 and 13.
+   three documents the listener could go read. Sections 1, 11 and 14.
 
 ## How to work
 
@@ -130,7 +142,7 @@ and dates that let the script teach each concept through this case.
    label it as press-reported.
 6. **Write `research.md`** with exactly the headings below, in order.
    Dense prose and tables, not bullets of adjectives. Cite inline as
-   `[S3]` referring to the numbered list in section 13.
+   `[S3]` referring to the numbered list in section 14.
 
 ## Required headings, in order
 
@@ -146,11 +158,12 @@ As of: <date>. Slug: <slug>. Deal type: <e.g. prearranged Chapter 11 / prepack /
 ## 6. Where the fulcrum security sits and why
 ## 7. The restructuring, step by step
 ## 8. Who wins, who gets diluted or primed, and by how much
-## 9. How a special situations desk would look at each part of the structure
-## 10. Risks and what could derail it
-## 11. Concepts to teach in this episode
-## 12. Glossary
-## 13. Sources
+## 9. Cast of characters: who's driving it, and what they're known for
+## 10. How a special situations desk would look at each part of the structure
+## 11. Risks and what could derail it
+## 12. Concepts to teach in this episode
+## 13. Glossary
+## 14. Sources
 ```
 
 What each section must contain:
@@ -183,22 +196,32 @@ What each section must contain:
    money, roll-ups, priming, releases, milestones, conditions.
 8. A recovery table by class (plan or estimated), pre- and post-deal
    ownership, and who was primed, subordinated or diluted.
-9. Instrument by instrument, how a desk would think about it: what you
-   would own to express which view, the asymmetry, the trade that already
-   happened, what the price implies.
-10. Legal challenges, valuation fights, operational risks, financing
+9. The people and firms actually driving this: the CEO or CRO, founder or
+   controlling holder if one matters, board or special-committee members
+   who mattered, and the lead fund or advisor in each named creditor
+   group. For each, one to three sentences on their role in this deal and
+   what they're publicly known for — a track record, a style, a prior
+   fight, a reputation among market participants — sourced to press or
+   filings. Skip anyone with no sourced characterization rather than
+   padding; a bare name is fine if that's all the record supports.
+10. Instrument by instrument, how a desk would think about it: what you
+    would own to express which view, the asymmetry, the trade that already
+    happened, what the price implies.
+11. Legal challenges, valuation fights, operational risks, financing
     conditions, regulatory approvals, and what happens if the deal fails.
-11. Three to six concepts, each with: one-line definition, why this
+12. Three to six concepts, each with: one-line definition, why this
     situation needs it, the specific fact from this case that teaches it,
     and the Moyer chapter or idea it corresponds to (or "not in Moyer").
-12. Every term of art used above, one sentence each, alphabetical.
-13. Numbered list `[S1]`… of every URL used, primary sources first, each
+13. Every term of art used above, one sentence each, alphabetical.
+14. Numbered list `[S1]`… of every URL used, primary sources first, each
     with document title and date.
 
 ## Before you finish
 
 - Every number in sections 3, 4, 6 and 8 has a citation.
-- Section 11 has three to six concepts and each has a concrete fact.
+- Every characterization in section 9 is sourced to press or filings, not
+  invented, and skipped rather than guessed where nothing is on the record.
+- Section 12 has three to six concepts and each has a concrete fact.
 - Section 1 ends with the next dated event, or says none is scheduled.
 - You have stated explicitly what you could not source.
 - The file is at `episodes/<slug>/research.md` and nothing else was

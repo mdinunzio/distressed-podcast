@@ -17,7 +17,10 @@ provision, name or claim that does not appear in `research.md`. If the
 research is silent on something the conversation naturally reaches, the
 hosts say so on air ("the filings don't break that out", "we couldn't find
 the intercreditor"). If the research marks something as press-reported or
-unsourced, the hosts say that too. Do not fill gaps from memory.
+unsourced, the hosts say that too. Do not fill gaps from memory. This
+includes character color: a reputation, a track record, a prior fight — if
+research.md didn't source it, it doesn't go in the script, however good
+the line would sound.
 
 ## Who is listening and why
 
@@ -60,6 +63,32 @@ Every term of art is defined the first time it is spoken, either by the
 Guest asking or the Host pausing to define it. Keep a running list while
 you write; if a term appears before its definition, fix it.
 
+## Characters and color
+
+Pull from research section 9 (cast of characters). A mechanism remembered
+through a person sticks longer than one remembered as an abstraction —
+that is the point, not decoration. Write it the way Michael Lewis would:
+a telling detail or a track record stated plainly, not a pile of
+adjectives.
+
+- Introduce the two to four players who actually matter with a quick,
+  vivid line each in the `situation` segment: who they are and what
+  they're known for, in a sentence or two.
+- Call a player back in whichever `unfurl_<concept>` segment covers the
+  move they made, when their known style or history explains *why* they
+  did it that way ("this is exactly the kind of uptier this fund is
+  known for"). Let the Guest's reaction carry some of the color —
+  surprise, a raised eyebrow, "wait, the same firm that—?" — rather than
+  stacking adjectives onto the Host's lines.
+- Only what research section 9 sourced. No invented quotes, no guessed
+  motives or inner thoughts, no characterization the research didn't back
+  with a citation. If the research has no sourced angle on someone, name
+  them plainly and move on rather than inventing one.
+- Economical: a sentence or two per beat. This teaches the desk's
+  vocabulary for how players behave — aggressive, cooperative, a repeat
+  player, a known rivalry — it is not a profile piece, and it never
+  displaces a number, a mechanism, or a definition.
+
 ## Two framings, one arc
 
 Read the framing from the research header and section 1 timeline:
@@ -89,17 +118,20 @@ across episodes.
 
 1. `situation` (~3 min, ~450 words). Who the company is, what it does, why
    it is in trouble, what is happening right now and the next dated
-   events. Plain English; no jargon beyond what a generalist knows.
+   events, plus a quick, vivid introduction of who's driving it (research
+   section 9). Plain English; no jargon beyond what a generalist knows.
 2. `concepts` (~4 min, ~600 words). Name the three to six ideas from
-   research section 11 and give each a one-paragraph intuition tied to
+   research section 12 and give each a one-paragraph intuition tied to
    the company. This is a map of the rest of the episode.
 3. to 7. `unfurl_<concept>` segments (~11 min total, ~1,650 words, three
    to five segments). Take each concept in turn and go deeper: how it
    works mechanically, what the documents actually say in this case, what
    the numbers are and what they compare to, who wins and who loses, how a
-   desk would trade or position around it, and what could go wrong. This
-   is where accounting, capital structure and legal detail get taught
-   properly, always through the lens of the event at hand.
+   desk would trade or position around it, what could go wrong, and —
+   where a player's known style or history explains the move — a beat of
+   character color tying the mechanism to the person. This is where
+   accounting, capital structure and legal detail get taught properly,
+   always through the lens of the event at hand.
 8. `watch` (~2 min, ~300 words). Live: dated catalysts, open questions,
    and two or three things the listener could now go read (the RSA, the
    8-K, a docket entry), named with the vocabulary to understand them.
@@ -117,6 +149,10 @@ across episodes.
   billion", not "$2,612.4 million". Spell out units.
 - **No concept without a concrete tie back to this company** within the
   same segment.
+- **Character color is seasoning, not substance.** It only earns its
+  place when it's sourced in the research and it explains a mechanism.
+  If a segment runs over budget, cut a color beat before cutting a
+  definition, a number, or a comparison.
 - Write for the ear: short sentences, contractions, no lists, no
   parentheticals, no citations or bracketed source tags, no URLs. Say
   "eight-K" and "three sixty-three sale" the way people say them. Expand

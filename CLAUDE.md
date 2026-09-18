@@ -41,20 +41,38 @@ connection explicitly ("this is the fulcrum-security idea from Moyer") so the
 book and the episodes reinforce each other. Do not assume they have finished
 the book.
 
+## The cast of characters
+
+Concepts stick when they're anchored to a person, not just a mechanism.
+Every episode names the recurring players — management, the CRO, the lead
+hedge funds and advisors on each side of the table — and sketches them the
+way Michael Lewis would: a telling detail, a track record, a known
+playbook, a rivalry from a prior case. If a fund is known for aggressive
+uptiers, or for being the cooperative consensus-builder, or management has
+a reputation the market talks about, say so and tie it to what they
+actually do in this deal. This is a mnemonic, not decoration: a mechanism
+remembered through a personality sticks longer than one remembered as an
+abstraction. Same sourcing bar as every other fact in the episode — press
+and filings only, cited in the research, economical on air (a sentence or
+two per player), and never invented dialogue, motives, or gossip.
+
 ## Episode shape (every episode follows this arc)
 
 1. **The situation** (~3 min). Who the company is, what it does, why it is in
-   trouble, what is happening right now and what the next dated events are.
-   Plain English. No jargon yet beyond what a generalist would know.
+   trouble, what is happening right now and what the next dated events are,
+   with a quick, vivid sketch of who's driving it. Plain English. No jargon
+   yet beyond what a generalist would know.
 2. **The concepts at high level** (~4 min). Name the three to six ideas this
    situation turns on (e.g. "where the fulcrum sits", "priming", "what a
    prepack is") and give each a one-paragraph intuition, tied to the company.
 3. **Unfurling** (~11 min). Take each concept in turn and go deeper: how it
    works mechanically, what the documents actually say in this case, what the
    numbers are and what they compare to, who wins and who loses, how a desk
-   would trade or position around it, and what could go wrong. This is where
-   accounting, capital structure and legal detail get taught properly,
-   always through the lens of the event at hand.
+   would trade or position around it, and what could go wrong. Where a
+   player's known style or history explains the move, say so — that's how
+   the mechanism gets remembered. This is where accounting, capital
+   structure and legal detail get taught properly, always through the lens
+   of the event at hand.
 4. **What to watch** (~2 min). The dated catalysts, the open questions, and
    two or three things the listener could now go read (the RSA, the 8-K, a
    docket entry) with the vocabulary to understand them.
@@ -94,13 +112,17 @@ User-Agent. Output: `episodes/<slug>/research.md` with these headings, in order:
 6. Where the fulcrum security sits and why
 7. The restructuring: what is proposed or done, mechanically, step by step
 8. Who wins, who gets diluted or primed, and by how much
-9. How a special situations desk would look at each part of the structure
-10. Risks and what could derail it
-11. Concepts to teach in this episode (the list step 2 of the episode will
+9. Cast of characters: the people and firms driving it, and what they're
+   known for (management, the CRO, the lead funds and advisors on each
+   side — track record, style, reputation, rivalries, sourced to press or
+   filings)
+10. How a special situations desk would look at each part of the structure
+11. Risks and what could derail it
+12. Concepts to teach in this episode (the list step 2 of the episode will
     use, each with a one-line note on why this situation needs it and, where
     applicable, the Moyer chapter or idea it corresponds to)
-12. Glossary: every term of art used above, one sentence each
-13. Sources: prefer primary (8-Ks, RSAs, indentures, credit agreements, the
+13. Glossary: every term of art used above, one sentence each
+14. Sources: prefer primary (8-Ks, RSAs, indentures, credit agreements, the
     docket via Kroll/Epiq/PACER) over press; list every URL
 
 If a section cannot be sourced, say so explicitly. Never invent numbers or
@@ -126,6 +148,10 @@ hosts say so on air.
   happening, what to watch) when the situation has dated events ahead;
   **closed** (how it played out, why) when the plan is effective or the
   deal is done. Same four-part didactic arc either way.
+- Weave in the cast: brief, sourced personality color on the recurring
+  players (research section 9) — a track record, a known playbook, a
+  rivalry — used to make a mechanism memorable, in the style of Michael
+  Lewis. Economical, and never invented.
 - No number without a comparison that makes it meaningful. No concept without
   a concrete tie back to this company. Where Moyer covers it, say so.
 - Format:
