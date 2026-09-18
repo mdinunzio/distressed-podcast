@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+
+# Secrets
+.env
+
+# Generated episode outputs: keep only the Claude-written research and script.
+episodes/*/*
+!episodes/*/research.md
+!episodes/*/script.json

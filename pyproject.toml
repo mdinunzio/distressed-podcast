@@ -1,0 +1,36 @@
+[project]
+name = "distressed-podcast"
+version = "0.1.0"
+description = "Turn a Claude-written distressed-debt teaching script into a two-host podcast MP3 and publish it."
+readme = "CLAUDE.md"
+requires-python = ">=3.12"
+dependencies = [
+    "click>=8.1",
+    "pydantic>=2.5",
+    "google-genai>=1.0",
+    "boto3>=1.36",
+]
+
+[project.scripts]
+podcast = "distressed_podcast.cli:main"
+
+[dependency-groups]
+dev = [
+    "black>=24.0",
+    "flake8>=7.0",
+    "pytest>=8.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/distressed_podcast"]
+
+[tool.black]
+line-length = 88
+target-version = ["py312"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
