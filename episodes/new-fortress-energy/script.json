@@ -1,0 +1,311 @@
+{
+  "company": "New Fortress Energy",
+  "slug": "new-fortress-energy",
+  "title": "New Fortress Energy: The Restructuring That Went to London",
+  "deal_type": "Consensual restructuring via English Part 26A Restructuring Plans recognized under Chapter 15, after a 2024 liability management exchange",
+  "episode": 2,
+  "segments": [
+    {
+      "name": "situation",
+      "direction": "Warm and unhurried, two colleagues settling in; plain English, no jargon yet.",
+      "turns": [
+        {
+          "speaker": "Host",
+          "text": "Welcome back to Distressed Explainers. Today's case is New Fortress Energy, an American LNG company that restructured five point seven billion dollars of debt this year without ever filing Chapter 11. It did it through an English court, got the result recognized in New York, and its shareholders kept thirty-five percent of the company. The deal closed on September 11, so it's a finished case."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Start with what the company actually does. I know the ticker, not the business."
+        },
+        {
+          "speaker": "Host",
+          "text": "It builds the plumbing for gas in places that don't have it. Import terminals, gas-fired power plants, a floating liquefaction unit off Mexico, chartered ships. Puerto Rico is the biggest market, then Mexico, Nicaragua, and until this month a large business in Brazil. The model is capital intensive: you build first, borrow to do it, and sign long-term supply contracts to pay it back."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And the borrowing got ahead of the contracts."
+        },
+        {
+          "speaker": "Host",
+          "text": "At the end of 2025 the company had about eight point three billion dollars of debt on a consolidated basis. Revenue that year was one and a half billion, down thirty-six percent from 2024. Interest expense was seven hundred and seventy-eight million, against three hundred and forty million of operating margin from the terminals and ships. The net loss was one point eight billion. So the interest bill alone was more than twice what the assets earned."
+        },
+        {
+          "speaker": "Guest",
+          "text": "What went wrong operationally? Gas demand didn't disappear."
+        },
+        {
+          "speaker": "Host",
+          "text": "Contracts did. An emergency power contract in Puerto Rico funded by FEMA ended in March 2024. Puerto Rico then rejected a twenty billion dollar, fifteen-year supply proposal in July 2025 before signing a smaller seven-year deal. Brazilian power auctions slipped, Nicaragua slipped to 2027, and the second floating liquefaction unit still needs up to one and a half billion dollars to finish. And it had already done one rescue in late 2024: four hundred million of new equity and two point seven billion of twelve percent secured notes. That bought a year."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And then?"
+        },
+        {
+          "speaker": "Host",
+          "text": "In November 2025 it missed a hundred and sixty-four million dollar coupon on those twelve percent notes. In December it missed term loan interest. On March 17, 2026, the company signed a restructuring support agreement with holders of ninety-seven percent of its corporate debt. Two English subsidiaries proposed restructuring plans in London, the High Court sanctioned them on June 18, a New York bankruptcy judge recognized them under Chapter 15 at the end of June, and on September 11 the company split in two: Brazil went to the creditors outright, and the rest, still called New Fortress, swapped five point seven billion of debt for a small term loan, a large preferred stock, and sixty-five percent of the common."
+        }
+      ]
+    },
+    {
+      "name": "concepts",
+      "direction": "Brisk and organized, laying out a map on the table; one clear intuition per idea.",
+      "turns": [
+        {
+          "speaker": "Host",
+          "text": "Six ideas carry this one. First, the cause of distress. Moyer's opening chapters sort companies by why they broke, and this is the capex case: a build-first business that borrowed for growth and then lost the contracts the growth was supposed to serve. Eight billion of debt on a few hundred million of earnings is a leverage problem before it's a liquidity problem."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Second?"
+        },
+        {
+          "speaker": "Host",
+          "text": "The 2024 exchange, and what it did to the collateral map. The company created a new subsidiary, sold twelve percent notes out of it, and gave those notes liens on assets the other lenders didn't have, including a pledge of up to forty-nine percent of the Brazil business. That one structural choice decided who got Brazil two years later. Moyer covers exchange offers; this is the version that redraws who owns what."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Third, I'm guessing, is how you get ninety-seven percent of creditors to sign anything."
+        },
+        {
+          "speaker": "Host",
+          "text": "Right: the restructuring support agreement and consent economics. Early consent fees, standstill fees, cash elections, the ability to swap preferred into debt. Consent was bought, class by class. Fourth, the mechanism itself. Instead of Chapter 11, the company used an English tool called a Part 26A restructuring plan, proposed by two English-incorporated subsidiaries, and then asked a New York court to recognize it under Chapter 15. We'll define every one of those words. Moyer frames the choice as out-of-court versus in-court; this is a third path."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Why bother going to London?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Idea five: the absolute priority rule and the fulcrum. In a contested Chapter 11, a class must be paid in full before anyone junior gets anything, so shareholders who just compromised five point seven billion of debt would normally get zero. English plans have no absolute priority rule. Here shareholders kept thirty-five percent. But the creditors also got two and a half billion dollars of preferred stock that converts into eighty-seven percent of the company in three years unless it's paid off. So who really owns this company is the question Moyer would call 'where does the fulcrum sit'."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And six?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Reading the balance sheet after the deal. The press release says corporate debt fell from five point seven billion to about five hundred and thirty million. True, and misleading. There's the preferred, four hundred million of non-recourse project debt, six hundred million of ship obligations, and about two billion of consolidated long-term debt on the pro forma balance sheet. Let's take them in order."
+        }
+      ]
+    },
+    {
+      "name": "unfurl_causes_and_exchange",
+      "direction": "Teaching mode, patient; slow down on the numbers and let the guest restate them.",
+      "turns": [
+        {
+          "speaker": "Host",
+          "text": "Start with the accounting a creditor would do. The eight point three billion of debt is not one thing. About five point seven billion was corporate debt with recourse to the parent: the twelve percent notes, a term loan B, a term loan A, a revolver, and two older bond series. The rest was project debt in Brazil, a six hundred and thirty-five million dollar sale-leaseback on the ships, and turbine financing. Only the five point seven billion went into the restructuring."
+        },
+        {
+          "speaker": "Guest",
+          "text": "So when I see 'eight billion of debt' in a headline, half of it is money that lenders can only collect from specific assets."
+        },
+        {
+          "speaker": "Host",
+          "text": "Exactly: recourse versus non-recourse is the first sort a desk does. Second, the earnings. Segment operating margin was three hundred and forty million in 2025, but that's before overhead. The creditors' own forecast, which the company had to publish when the deal closed, showed adjusted EBITDA for the core business of about a hundred million dollars in 2026. Against five point seven billion of corporate debt, that's fifty-seven times."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Now the 2024 deal. What exactly did they do?"
+        },
+        {
+          "speaker": "Host",
+          "text": "In September 2024 the company had about eighty million dollars of liquidity and a bond maturing in 2025. Its lenders suspended a leverage covenant on condition that it refinance that bond and raise at least two hundred and fifty million of equity. So on October 1 it sold forty-six million shares at eight dollars sixty-three, about four hundred million, with the CEO Wes Edens buying six million of them. Then in November a brand new subsidiary called NFE Financing issued two point seven three billion of twelve percent senior secured notes due 2029: one point two billion for cash, and one point five billion swapped dollar for dollar for the old 2026 and 2029 bonds."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Why a new subsidiary rather than the parent?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Collateral. The parent's assets were already pledged to the revolver, the letter of credit facility and the term loans. The subsidiary could pledge what wasn't: up to forty-nine percent of the holding company that owns Brazil, plus other unencumbered assets, and it lent the money into the group through intercompany loans that gave it claims on everything else. Supporting holders also got a five percent fee paid in stock. So the twelve percent notes had their own collateral pool, with the best assets."
+        },
+        {
+          "speaker": "Guest",
+          "text": "That sounds like a drop-down."
+        },
+        {
+          "speaker": "Host",
+          "text": "Same family. Moyer's edition treats exchange offers as a way to extend maturities; the twist since then is that exchanges redraw the collateral map, and whoever writes the new money draws it. Hold that thought: when the 2026 plans allocated value pool by pool, the twelve percent notes' pool got ninety-four percent of Brazil."
+        }
+      ]
+    },
+    {
+      "name": "unfurl_rsa",
+      "direction": "Engaged and a little conspiratorial, walking through the deal mechanics step by step.",
+      "turns": [
+        {
+          "speaker": "Host",
+          "text": "Now the restructuring support agreement, signed March 17, 2026. An RSA is a contract where creditors agree to vote for a plan with specific terms and milestones, and the company agrees not to pursue anything else. Seven hundred and seventy-eight creditors signed, about ninety-seven percent by value."
+        },
+        {
+          "speaker": "Guest",
+          "text": "How do you get ninety-seven percent? Half those lenders had just been stiffed on coupons."
+        },
+        {
+          "speaker": "Host",
+          "text": "You pay for it, in small increments. Sign by March 31 and you get an early consent fee of zero point seven five percent, paid in kind. Revolver lenders who agreed to stand still got a two percent standstill fee. Term loan A and part of the revolver could take a forty-five million dollar cash pool instead of shares in Brazil. Revolver lenders could swap their preferred into term loans at fifty cents on the dollar of liquidation preference. And directors offered to buy some holders' preferred for cash at twenty-five cents. Each is a small price for removing a potential holdout."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Walk me through what each class actually got."
+        },
+        {
+          "speaker": "Host",
+          "text": "The RSA has a table, the best document in the case. Five point seven billion of claims. The twelve percent notes, two point seven three billion: ninety-four percent of Brazil, nine hundred and seventy-four million of preferred, and twenty-six percent of the new common. Term loan B, one point two seven billion: three hundred and thirteen million of the new cash-pay term loans, seven hundred million of preferred, eighteen percent of the common, plus most of a four hundred million dollar non-recourse loan and two hundred million of preferred at the second liquefaction unit. The revolver and term loan A got a mix of everything. And the two legacy bond series, seven hundred and fifty million between them, got only preferred and seven percent of the common."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Why were the legacy bonds at the bottom? They were secured too."
+        },
+        {
+          "speaker": "Host",
+          "text": "Secured by what the RSA calls common collateral: the core business assets that every other lender also had a claim on, and nothing in Brazil or the liquefaction units. The plans allocated the value created by the deal first among five collateral pools, based on how much each pool gained, and then pro rata inside each pool. The legacy pool was the weakest. The expert report put their recovery at twenty-six percent under the plan against thirteen percent in the alternative. Even so, ninety-nine point eight percent of them voted yes."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And the CEO? You mentioned he bought shares in 2024."
+        },
+        {
+          "speaker": "Host",
+          "text": "He also bought debt. Two weeks after the RSA, on March 31, Wes Edens purchased about a hundred and ten million dollars of term loan A, the filing says at a discount. At closing he received his pro rata share of what that class got: two hundred thousand common shares and forty-eight thousand preferred. Then he bought a bit more from other creditors for one point seven million. A desk reads that as a signal about where the insider thinks value sits, and as a governance question."
+        }
+      ]
+    },
+    {
+      "name": "unfurl_london",
+      "direction": "Focused and precise, the heart of the episode; keep the legal mechanics slow and concrete.",
+      "turns": [
+        {
+          "speaker": "Host",
+          "text": "Now the mechanism. Instead of filing Chapter 11, New Fortress used a Part 26A restructuring plan. That's an English procedure from 2020: a company proposes a compromise to classes of creditors; each class votes at a seventy-five percent by value threshold with no headcount test; a class that says no can still be bound if it's no worse off than in the most likely alternative; then the High Court sanctions the plan."
+        },
+        {
+          "speaker": "Guest",
+          "text": "But New Fortress is a Delaware company listed on Nasdaq. How does an English court have jurisdiction?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Through subsidiaries. English courts need a 'sufficient connection', and incorporation in England is enough. NFE Global Holdings Limited had guaranteed the core debt since 2021. NFE Brazil Newco Limited was incorporated in April 2026 specifically to guarantee the Brazil debt. Those two were the plan companies. The parent never entered any proceeding, the debt stayed governed by New York law, and Nasdaq never had a bankrupt listed company to deal with."
+        },
+        {
+          "speaker": "Guest",
+          "text": "That sounds like forum shopping."
+        },
+        {
+          "speaker": "Host",
+          "text": "The judge said so. Mr Justice Cawson called it 'good forum shopping': using a forum because it produces a better outcome for creditors. The evidence was that the plans delivered about one point four four billion dollars more value than the alternative, which for the core business was a Chapter 11 with distressed asset sales. Six of the seven core classes voted unanimously, the seventh at ninety-nine point eight. No creditor objected. So the court never had to use its cramdown power."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Then why does New York matter?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Because the debt and assets are largely American, and an English order has no force here on its own. Chapter 15 is the part of the Bankruptcy Code for recognizing foreign proceedings. The two plan companies filed Chapter 15 petitions in the Southern District of New York on May 28. Chief Judge Martin Glenn recognized the English plans as foreign main proceedings on June 26 and wrote a fifty-seven page opinion in July. He found the companies' center of main interests was England: registered offices, books, bank accounts, an English-resident foreign representative."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Did he have concerns?"
+        },
+        {
+          "speaker": "Host",
+          "text": "He wrote them down as guardrails. He warned against what he called COMI tourism, said American courts should scrutinize whether a new English affiliate exists to circumvent the Bankruptcy Code, and said creditor support is the best evidence that it doesn't. He asked specifically how the legacy noteholders at twenty-six cents would have done in the alternative, and got the answer thirteen. He enforced releases of the guarantors, which Chapter 11 can no longer do without consent after the Supreme Court's Purdue decision, as long as they carve out fraud."
+        },
+        {
+          "speaker": "Guest",
+          "text": "So what did London buy them that Houston or New York couldn't?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Four things, in the lawyers' own list: no absolute priority rule, a seventy-five percent threshold with no headcount test, releases for all the guarantors, and speed and cost. Moyer's framework says a company chooses between an out-of-court exchange and a Chapter 11 plan. This is a third door: a court process abroad with a Chapter 11 style binding effect at home, and no bankruptcy filing by the listed parent."
+        }
+      ]
+    },
+    {
+      "name": "unfurl_fulcrum",
+      "direction": "Reflective, pulling the threads together; a little slower, giving the listener room to see the whole structure.",
+      "turns": [
+        {
+          "speaker": "Host",
+          "text": "Now the idea that makes this case worth an episode: shareholders kept thirty-five percent. Moyer's fulcrum security is the class where enterprise value runs out; it's impaired, and it gets the equity. Everyone below it gets nothing. Here corporate debt was five point seven billion and creditors received consideration valued at about three point three billion, a forty percent haircut, so every lender class was in the fulcrum zone. Under the absolute priority rule, old equity gets zero."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And yet."
+        },
+        {
+          "speaker": "Host",
+          "text": "And yet. English plans have no absolute priority rule; the test is only that no dissenting class is worse off than the alternative. No class dissented. And the company needed its own stockholders to vote for the charter amendment, the reverse split and the share issuance on June 17. Giving them thirty-five percent bought that vote. Judge Glenn said the retention 'sits oddly' with American priority rules, then recognized the plan anyway because the creditors had agreed."
+        },
+        {
+          "speaker": "Guest",
+          "text": "So is thirty-five percent real?"
+        },
+        {
+          "speaker": "Host",
+          "text": "That's where the preferred comes in, and it's the instrument to understand. The creditors received two point four six billion dollars of mandatorily convertible preferred stock. It accrues a paid-in-kind return of three percent in year one, five in year two, seven in year three. The company can redeem it at any time from specified proceeds: asset sales, a partner for the second liquefaction unit, the FEMA settlement. If any is still outstanding in September 2029, it converts into eighty-seven percent of the fully diluted common."
+        },
+        {
+          "speaker": "Guest",
+          "text": "So old shareholders own thirty-five percent of thirteen percent unless the company finds two and a half billion dollars in three years."
+        },
+        {
+          "speaker": "Host",
+          "text": "About four and a half percent, before a ten percent management plan. The thirty-five percent is a three-year option on refinancing two point five billion, and the creditors hold a near-certain equity transfer if the option expires. In Moyer's terms the economic fulcrum is the preferred, not the common, and the shareholders' thirty-five percent is the price of a consensual deal rather than a valuation."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Now do the balance sheet. The headline says debt cut to five hundred and thirty million."
+        },
+        {
+          "speaker": "Host",
+          "text": "The September 15 pro forma balance sheet shows: take-back senior term loans of five hundred and seventy-one million, plus a hundred and thirty-six million of new money in senior and junior loans. Then, off to the side, four hundred million of non-recourse debt and two hundred million of preferred at the FLNG 2 subsidiary. Then the ships: about six hundred and thirty-five million of sale-leaseback obligations. Pro forma long-term debt is about two billion, and above the common sits two point six five billion of preferred. Leverage on the creditors' own stressed forecast is seven point six times 2026 EBITDA, falling to two point four times if 2027 delivers three hundred and twenty-six million."
+        },
+        {
+          "speaker": "Guest",
+          "text": "How would a desk have traded this?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Three lessons. The twelve percent notes: the group that wrote the new money in 2024 drew the collateral map and collected Brazil in 2026, even after trading below thirty cents in January. The legacy notes: at under twenty cents in September 2025 they were a bet that a plan would beat a Chapter 11 sale, and it did, twenty-six versus thirteen. And the equity: it survived only because the process had no absolute priority rule, and what it kept is mostly an option. We couldn't source the explanatory statement's valuation or the other classes' recoveries; that's the gap."
+        }
+      ]
+    },
+    {
+      "name": "watch",
+      "direction": "Energetic wrap-up, practical and forward-looking; end on the reading list.",
+      "turns": [
+        {
+          "speaker": "Host",
+          "text": "So what did it teach, and what's left. Outcome by class: the twelve percent notes own Brazil and the biggest share of the preferred and common; term loan B holds the cash-pay debt; the legacy bonds got twenty-six cents in preferred and common; shareholders kept thirty-five percent of the common subject to the preferred; and nobody filed Chapter 11. Corporate debt went from five point seven billion to about seven hundred million including the new money, plus the preferred stack."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Loose ends?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Four. The three-year preferred clock, September 2029, and whether asset sales or a partner for the second liquefaction unit can redeem it. The forecast: adjusted EBITDA has to go from about a hundred million this year to three hundred and twenty-six million or more next year, with Nicaragua already slipped to 2027. Liquidity, with a hundred million dollar minimum and roughly two hundred and seventy-seven million of cash at close. And governance: an interim CFO since September 3, restated financials, and a CEO who is now also a creditor."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Give me the reading list."
+        },
+        {
+          "speaker": "Host",
+          "text": "Four documents, all free on EDGAR under New Fortress Energy. First, the March 17, 2026 8-K: the RSA summary and, above all, the allocation table, which is the whole deal on one page. Second, the September 11 8-K: the new credit agreements, the preferred terms, and the exhibit called cleansing materials, which is the forecast the creditors were shown. Third, the September 15 8-K/A, the pro forma balance sheet. Fourth, the 2025 10-K, note twenty-two, the debt table, for the before picture. Then Judge Glenn's Chapter 15 opinion for the guardrails."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And Moyer's chapter on absolute priority next to that thirty-five percent."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's the pairing. You'll see exactly where the textbook rule ends and the English plan begins. As always, this is education, not investment advice. Thanks for listening."
+        }
+      ]
+    }
+  ]
+}
