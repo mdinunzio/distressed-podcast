@@ -7,6 +7,7 @@ mono. Wrapping, concatenation and encoding live in :mod:`stitch`.
 
 from __future__ import annotations
 
+import logging
 from dataclasses import dataclass
 
 from google import genai
@@ -48,6 +49,9 @@ class SegmentAudio:
 
 def build_client(settings: GeminiSettings) -> genai.Client:
     """Create the Gemini client, with a placeholder key if none is configured."""
+    # The SDK warns about automatic function calling on every generate_content
+    # call; it does not apply to TTS and it breaks the CLI's progress lines.
+    logging.getLogger("google_genai.models").setLevel(logging.ERROR)
     return genai.Client(api_key=settings.api_key or PLACEHOLDER_API_KEY)
 
 
