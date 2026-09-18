@@ -74,6 +74,9 @@ class Script(BaseModel):
     slug: str = Field(pattern=r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
     title: str = Field(min_length=1)
     deal_type: str = Field(min_length=1)
+    episode: int | None = Field(
+        default=None, ge=1, description="Episode number; becomes the ID3 track."
+    )
     segments: list[Segment] = Field(min_length=1)
 
     @property

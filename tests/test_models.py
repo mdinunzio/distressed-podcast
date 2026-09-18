@@ -64,6 +64,15 @@ def test_invalid_scripts_are_rejected(script_dict: dict, mutate) -> None:
         Script.model_validate(script_dict)
 
 
+def test_episode_number_is_optional_and_positive(script_dict: dict) -> None:
+    assert Script.model_validate(script_dict).episode is None
+    script_dict["episode"] = 3
+    assert Script.model_validate(script_dict).episode == 3
+    script_dict["episode"] = 0
+    with pytest.raises(ValidationError):
+        Script.model_validate(script_dict)
+
+
 def test_text_is_stripped(script_dict: dict) -> None:
     script_dict["segments"][0]["turns"][0]["text"] = "  padded  "
     script = Script.model_validate(script_dict)

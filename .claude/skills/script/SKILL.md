@@ -60,6 +60,27 @@ Every term of art is defined the first time it is spoken, either by the
 Guest asking or the Host pausing to define it. Keep a running list while
 you write; if a term appears before its definition, fix it.
 
+## Two framings, one arc
+
+Read the framing from the research header and section 1 timeline:
+
+- **Live**: dated events remain. The situation segment ends on "what is
+  happening right now and what is scheduled next"; the unfurling
+  segments explain what each side is trying to do and how a desk would
+  position *now*; the closing segment is "what to watch": catalysts,
+  open questions, documents to read before the next hearing.
+- **Closed**: the plan is effective or the deal is done. The situation
+  segment ends on how it played out; the unfurling segments explain why
+  each step happened and what a desk would have done at the time,
+  including where the market got it right or wrong; the closing segment
+  is "what it taught": the outcome by class, the post-closing loose ends
+  (trusts, litigation, the new capital structure), and documents to read
+  to see the whole case.
+
+The didactic arc below is identical in both framings; only the tense and
+the final segment's content change. Name the final segment `watch` in
+both cases.
+
 ## Episode shape (six to eight segments, each 2 to 4 minutes)
 
 Follow this arc. Segment `name` values are lowercase snake_case; the
@@ -79,17 +100,20 @@ across episodes.
    desk would trade or position around it, and what could go wrong. This
    is where accounting, capital structure and legal detail get taught
    properly, always through the lens of the event at hand.
-8. `watch` (~2 min, ~300 words). Dated catalysts, open questions, and two
-   or three things the listener could now go read (the RSA, the 8-K, a
-   docket entry), named with the vocabulary to understand them.
+8. `watch` (~2 min, ~300 words). Live: dated catalysts, open questions,
+   and two or three things the listener could now go read (the RSA, the
+   8-K, a docket entry), named with the vocabulary to understand them.
+   Closed: the outcome by class, the loose ends, and the same reading
+   list.
 
 ## Writing rules
 
 - **~150 words per spoken minute. Target 20 minutes: 2,900 to 3,200 words
   total**, counted over all `text` fields. Each segment 300 to 600 words.
-- **No number without a comparison** that makes it meaningful ("$2.6
-  billion of DIP, which is more than the company's entire EBITDA for the
-  last three years combined"). Round for the ear: "about two point six
+- **No number without a comparison** that makes it meaningful, in the
+  same turn ("$2.6 billion of DIP, which is more than the company's
+  entire EBITDA for the last three years combined"). A number with only
+  a date or a label is not enough. Round for the ear: "about two point six
   billion", not "$2,612.4 million". Spell out units.
 - **No concept without a concrete tie back to this company** within the
   same segment.
@@ -114,6 +138,7 @@ across episodes.
   "slug": "…",
   "title": "…",
   "deal_type": "…",
+  "episode": 1,
   "segments": [
     {
       "name": "situation",
@@ -127,7 +152,9 @@ across episodes.
 }
 ```
 
-Speakers are exactly `Host` and `Guest`. No other keys.
+Speakers are exactly `Host` and `Guest`. `episode` is an optional
+positive integer that becomes the MP3's track number; use the next number
+after the highest `episode` in `episodes/*/script.json`. No other keys.
 
 ## Check before writing the file
 

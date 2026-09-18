@@ -73,8 +73,13 @@ all four in order and ends by printing a pre-signed URL for the MP3.
 ### Research (skill: `.claude/skills/research/SKILL.md`)
 
 Claude uses its own web search and fetch tools; **no Python makes HTTP calls
-to research sources**, because cloud sessions only reach allowlisted domains.
-Output: `episodes/<slug>/research.md` with these headings, in order:
+to research sources**. WebSearch runs server-side and only returns excerpts;
+WebFetch goes through the VM, so it needs the environment's Full network
+access. Research must fetch primary documents directly (the first-day
+declaration, DIP orders, disclosure statement, plan) rather than rely on
+search excerpts. When a fetch still fails (paywall, PACER, a blocked host),
+cite the excerpt as such per the skill. For EDGAR, send a descriptive
+User-Agent. Output: `episodes/<slug>/research.md` with these headings, in order:
 
 1. Situation summary and timeline (dated, most recent first, with what is
    scheduled next)
@@ -116,6 +121,11 @@ hosts say so on air.
   segments of 2–4 minutes each, following the four-part episode shape above.
   The skill counts words and rewrites if out of band before writing the file.
 - Each segment has a one-sentence `direction` (pace, mood) for the TTS model.
+- `episode` (optional integer) becomes the ID3 track number.
+- Two framings, chosen from the research timeline: **live** (what is
+  happening, what to watch) when the situation has dated events ahead;
+  **closed** (how it played out, why) when the plan is effective or the
+  deal is done. Same four-part didactic arc either way.
 - No number without a comparison that makes it meaningful. No concept without
   a concrete tie back to this company. Where Moyer covers it, say so.
 - Format:
@@ -123,6 +133,7 @@ hosts say so on air.
 ```json
 {
   "company": "…", "slug": "…", "title": "…", "deal_type": "…",
+  "episode": 1,
   "segments": [
     {"name": "situation", "direction": "…",
      "turns": [{"speaker": "Host", "text": "…"}, {"speaker": "Guest", "text": "…"}]}
@@ -192,7 +203,8 @@ not a Python module.
 - black, flake8, Google-style docstrings, pytest with fixtures; never live
   API calls in tests.
 - Settings only from env via `config.py`; each command validates only what it
-  needs. Provider keys are optional in config (a cloud environment may inject
+  needs. No `.env` auto-loading: locally, run `uv run --env-file .env podcast
+  …` (documented in the README). Provider keys are optional in config (a cloud environment may inject
   them at the proxy); a missing key surfaces as an auth error at call time.
 - Fail loudly; never write a partial output file.
 
@@ -212,10 +224,11 @@ script work.
 
 ## Cloud environment requirements
 
-- Network access: **Custom**, with `*.oraclecloud.com` added and "also
-  include default list of common package managers" checked.
-  `*.googleapis.com` is already on the default list.
+- Network access: **Full**. WebSearch runs server-side; WebFetch goes through
+  the VM, so primary documents (8-Ks, claims-agent dockets, company releases)
+  are only reachable with open egress. Because of this, the only secrets in
+  the environment's env vars are the bucket-scoped Oracle keys; the Gemini key
+  stays an API credential. Never add other credentials as env vars here.
 - Setup script: `apt-get update && apt-get install -y ffmpeg || true`.
-- Research reaches the web through Claude's own tools, which are not subject
-  to the VM's allowlist. Do not add Python-side fetching of SEC, docket, or
-  news hosts.
+- Do not add Python-side fetching of SEC, docket, or news hosts; research
+  goes through Claude's own tools.

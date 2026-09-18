@@ -19,6 +19,22 @@ Company: `$ARGUMENTS`. If empty, ask for a company name and stop.
   Never write Python that fetches SEC, docket or news hosts, and never
   ingest, reference or store non-public or employer data. If you cannot
   find a document, say so; do not reconstruct it from memory.
+- **Fetch primary documents directly.** WebSearch runs server-side and
+  returns only excerpts; WebFetch goes through the VM and, with the
+  environment's Full network access, can open dockets, EDGAR and company
+  newsrooms. Read the first-day declaration, the DIP orders, the
+  disclosure statement and the plan themselves. Practicalities:
+  - Claims-agent docket tables (Stretto, Kroll, Epiq) are often rendered
+    by JavaScript; search for the PDF URL (`site:cases.stretto.com <case>
+    disclosure statement`) or curl the page from Bash to find the
+    document endpoint, then fetch the PDF.
+  - WebFetch saves a fetched PDF to disk; extract its text with
+    `uv run --with pypdf python` into the scratchpad and read it there.
+    Keep extracted documents in the scratchpad, never in the repo.
+  - EDGAR requires a descriptive User-Agent (`curl -A "distressed-podcast
+    research (<your email>)"`); use it when fetching from sec.gov.
+  - Ad hoc curl from Bash during research is fine; the rule against
+    Python HTTP is about the pipeline code.
 - **Never invent numbers or provisions.** Every figure and every
   contractual term must trace to a source in section 13. If a section
   cannot be sourced, write "Not sourced:" and explain what is missing.
@@ -31,13 +47,12 @@ Company: `$ARGUMENTS`. If empty, ask for a company name and stop.
   opinions. Then trade press (Reorg, 9fin, Petition, Bloomberg, Reuters, WSJ,
   FT, Law360, CreditSights) and law-firm client alerts. Blogs and
   aggregators are last resort and must be marked as such.
-- **Say how you saw each source.** If the fetch tool cannot open a
-  document (the egress proxy blocks many docket, EDGAR and press hosts in
-  cloud sessions) and you only have a search-result excerpt of it, cite it
-  as "(docket, via search excerpt)" or "(press)" and never quote it
-  verbatim. Put a sourcing caveat block under the title saying which
-  hosts were blocked, so the script skill and the listener know the
-  provenance.
+- **Say how you saw each source.** If a fetch still fails (paywall,
+  PACER, a host that refuses the VM) and you only have a search-result
+  excerpt of a document, cite it as "(docket, via search excerpt)" or
+  "(press)" and never quote it verbatim. If any primary document could
+  not be opened, put a sourcing caveat block under the title saying which,
+  so the script skill and the listener know the provenance.
 - **Date everything.** A live situation moves. Record the "as of" date at
   the top and put a date on every event.
 - **Educational, not investment advice.** No recommendations.
@@ -121,7 +136,7 @@ and dates that let the script teach each concept through this case.
 
 ```
 # <Company>: <one-line description of the situation>
-As of: <date>. Slug: <slug>. Deal type: <e.g. prearranged Chapter 11 / prepack / out-of-court LME / Chapter 22>
+As of: <date>. Slug: <slug>. Deal type: <e.g. prearranged Chapter 11 / prepack / out-of-court LME / Chapter 22>. Framing: <live | closed>
 
 ## 1. Situation summary and timeline
 ## 2. Business overview and why it broke
@@ -142,6 +157,10 @@ What each section must contain:
 
 1. Dated timeline, most recent first, ending with what is scheduled next
    (hearing dates, milestones under the RSA or DIP, maturities, votes).
+   State the framing: **live** if dated events remain (hearings,
+   milestones, votes, maturities), **closed** if the plan is effective or
+   the deal is done and only post-closing items remain. The script skill
+   uses this.
 2. What the company does, how it makes money, the operational and financial
    causes of distress in Moyer's terms (leverage from an LBO or acquisition,
    secular decline, cyclical shock, mismanagement or fraud, liquidity
