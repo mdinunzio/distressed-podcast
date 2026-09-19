@@ -21,6 +21,17 @@ Speaker = Literal["Host", "Guest"]
 SLUG_PATTERN = r"^[a-z0-9]+(?:-[a-z0-9]+)*$"
 CONCEPT_ID_PATTERN = r"^[a-z0-9]+(?:_[a-z0-9]+)*$"
 QUESTIONS_PER_QUIZ = 20
+MAX_ANSWER_LENGTH_RATIO = 1.25
+"""A correct multiple-choice answer may be at most this many times the length
+of the longest distractor."""
+MIN_ANSWER_LENGTH_RATIO = 0.7
+"""...and at least this fraction of the shortest distractor."""
+MAX_ANSWER_POSITION_SHARE = 0.5
+"""No single answer position may hold more than this share of a quiz's
+multiple-choice answers (checked when there are at least four)."""
+MAX_LONGEST_ANSWER_SHARE = 0.6
+"""The correct choice may be the single longest one in at most this share of
+a quiz's multiple-choice questions (checked when there are at least four)."""
 
 
 def _load_json(path: Path) -> dict:
@@ -241,11 +252,28 @@ class MultipleChoice(_QuestionBase):
 
     @model_validator(mode="after")
     def _answer_in_range(self) -> "MultipleChoice":
-        """The answer must point at a choice."""
+        """The answer must point at a choice and must not stand out by length.
+
+        A correct choice noticeably longer (or shorter) than every distractor
+        gives the answer away without the listener knowing the material, so
+        it is rejected here rather than caught in review.
+        """
         if self.answer >= len(self.choices):
             raise ValueError("answer index out of range")
         if len(set(self.choices)) != len(self.choices):
             raise ValueError("duplicate choices")
+        correct = len(self.choices[self.answer])
+        others = [len(c) for i, c in enumerate(self.choices) if i != self.answer]
+        if correct > MAX_ANSWER_LENGTH_RATIO * max(others):
+            raise ValueError(
+                f"correct choice is {correct / max(others):.2f}x the longest "
+                f"distractor; keep it within {MAX_ANSWER_LENGTH_RATIO}x"
+            )
+        if correct < MIN_ANSWER_LENGTH_RATIO * min(others):
+            raise ValueError(
+                f"correct choice is {correct / min(others):.2f}x the shortest "
+                f"distractor; keep it at least {MIN_ANSWER_LENGTH_RATIO}x"
+            )
         return self
 
 
@@ -309,10 +337,30 @@ class Quiz(BaseModel):
     @field_validator("questions")
     @classmethod
     def _unique_question_ids(cls, value: list) -> list:
-        """Question ids must be unique within a quiz."""
+        """Question ids must be unique, and answer positions must not cluster."""
         ids = [question.id for question in value]
         if len(set(ids)) != len(ids):
             raise ValueError("duplicate question ids")
+        mcs = [q for q in value if q.type == "multiple_choice"]
+        if len(mcs) >= 4:
+            positions = [q.answer for q in mcs]
+            for position in set(positions):
+                share = positions.count(position) / len(positions)
+                if share > MAX_ANSWER_POSITION_SHARE:
+                    raise ValueError(
+                        f"answer position {position} holds {share:.0%} of the "
+                        "multiple-choice answers; spread them out"
+                    )
+            longest = sum(
+                len(q.choices[q.answer])
+                > max(len(c) for c in q.choices if c != q.choices[q.answer])
+                for q in mcs
+            )
+            if longest / len(mcs) > MAX_LONGEST_ANSWER_SHARE:
+                raise ValueError(
+                    f"the correct choice is the longest in {longest} of {len(mcs)} "
+                    "multiple-choice questions; lengthen some distractors"
+                )
         return value
 
     @property

@@ -586,22 +586,27 @@
     if (q.type === "multiple_choice") {
       var name = "mc-" + q.id;
       el = h("div", { class: "choices", role: "radiogroup", "aria-label": "Choices" });
-      var rows = q.choices.map(function (choice, i) {
-        var input = h("input", { type: "radio", name: name, value: String(i), id: name + "-" + i });
-        var row = h("label", { class: "choice", for: name + "-" + i }, [input, h("span", { class: "key", text: "ABCDE"[i] }), h("span", { text: choice })]);
-        return { row: row, input: input };
+      // Shuffle the choices per question (deterministically, so a reopened
+      // page shows the same order) so the answer's position in the file
+      // never becomes a tell. `given` is stored as the original index.
+      var order = seededShuffle(q.choices.map(function (_, i) { return i; }), q.id + ":" + run.ep.slug + ":mc");
+      var rows = order.map(function (orig, i) {
+        var input = h("input", { type: "radio", name: name, value: String(orig), id: name + "-" + i });
+        var row = h("label", { class: "choice", for: name + "-" + i }, [input, h("span", { class: "key", text: "ABCDE"[i] }), h("span", { text: q.choices[orig] })]);
+        return { row: row, input: input, orig: orig, letter: "ABCDE"[i] };
       });
       rows.forEach(function (r) { el.appendChild(r.row); });
       grade = function () {
-        var picked = rows.findIndex(function (r) { return r.input.checked; });
-        if (picked < 0) return null;
-        return { correct: picked === q.answer, given: picked, answerText: "The answer is " + "ABCDE"[q.answer] + ": " + q.choices[q.answer] };
+        var pickedRow = rows.filter(function (r) { return r.input.checked; })[0];
+        if (!pickedRow) return null;
+        var answerRow = rows.filter(function (r) { return r.orig === q.answer; })[0];
+        return { correct: pickedRow.orig === q.answer, given: pickedRow.orig, answerText: "The answer is " + answerRow.letter + ": " + q.choices[q.answer] };
       };
       reveal = function (result) {
-        rows.forEach(function (r, i) {
+        rows.forEach(function (r) {
           r.input.disabled = true;
-          if (i === q.answer) r.row.classList.add("correct");
-          else if (i === result.given) r.row.classList.add("wrong");
+          if (r.orig === q.answer) r.row.classList.add("correct");
+          else if (r.orig === result.given) r.row.classList.add("wrong");
         });
       };
     } else if (q.type === "numeric") {

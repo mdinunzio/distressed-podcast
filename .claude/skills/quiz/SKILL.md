@@ -51,7 +51,27 @@ answer and should teach, not just confirm.
 - Multiple choice: three to five choices, one clearly correct on the
   episode's facts, distractors that are plausible misreadings (the wrong
   rung, the wrong party, the headline number instead of the creditor's
-  number). No "all of the above". Vary the position of the answer.
+  number). No "all of the above".
+- **No unintentional tells.** The listener must not be able to pick the
+  answer without knowing the material. In particular:
+  - Every distractor is as long, as specific and as expert-sounding as
+    the correct choice, and cites a real detail from the episode used
+    wrongly (a real number on the wrong instrument, a real party doing
+    the wrong thing). Write the wrong answers with the same care as the
+    right one. `podcast site` rejects a correct choice more than 1.25
+    times the length of the longest distractor, or shorter than 0.7 of
+    the shortest, and rejects a quiz where the correct choice is the
+    single longest one in more than 60 percent of the questions: in
+    about half of them a distractor should be the longest.
+  - No throwaway distractors: never "Nothing", "There is no difference",
+    "None of these", a joke, or an option a generalist could rule out
+    without having listened.
+  - The correct choice never reuses the prompt's wording or the term
+    being tested more than the distractors do, and is never the only
+    choice that hedges ("roughly", "about") or the only absolute one.
+  - Spread the answer position across A–D; `podcast site` rejects a
+    quiz where one position holds more than half the answers. (The app
+    also shuffles choices on screen, but the file itself must be clean.)
 
 ## Difficulty
 

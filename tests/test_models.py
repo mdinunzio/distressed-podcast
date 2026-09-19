@@ -140,6 +140,24 @@ def test_quiz_loads_all_four_types(quiz_dict: dict) -> None:
         # Fixture order: q01 numeric, q02 short_text, q03 order, q04 multiple_choice.
         lambda d: d["questions"][3].__setitem__("answer", 3),
         lambda d: d["questions"][3].__setitem__("choices", ["A", "A", "B"]),
+        lambda d: d["questions"][3].update(
+            choices=["Short", "A much longer and more detailed answer", "Brief"],
+            answer=1,
+        ),
+        lambda d: d["questions"][3].update(
+            choices=["A long distractor here", "A", "Another long distractor"],
+            answer=1,
+        ),
+        lambda d: [
+            q.__setitem__("answer", 1)
+            for q in d["questions"]
+            if q["type"] == "multiple_choice"
+        ],
+        lambda d: [
+            q.update(choices=["Alpha", "Bravo", "Delta plus"], answer=2)
+            for q in d["questions"]
+            if q["type"] == "multiple_choice"
+        ],
         lambda d: d["questions"][0].__setitem__("tolerance", -1),
         lambda d: d["questions"][1].__setitem__("accepted", [" "]),
         lambda d: d["questions"][2].__setitem__("items", ["A", "B", "A"]),
@@ -154,6 +172,10 @@ def test_quiz_loads_all_four_types(quiz_dict: dict) -> None:
         "duplicate-question-id",
         "answer-out-of-range",
         "duplicate-choices",
+        "answer-longest-by-far",
+        "answer-shortest-by-far",
+        "answers-all-in-one-position",
+        "answer-always-longest",
         "negative-tolerance",
         "blank-accepted",
         "duplicate-order-items",

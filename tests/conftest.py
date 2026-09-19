@@ -48,7 +48,7 @@ def _question(index: int, kind: str) -> dict:
         "explanation": "Because.",
     }
     if kind == "multiple_choice":
-        base.update(choices=["A", "B", "C"], answer=1)
+        base.update(choices=["Alpha", "Bravo", "Delta"], answer=(index // 4) % 3)
     elif kind == "numeric":
         base.update(answer=2.6, tolerance=0.2, unit="$ billions")
     elif kind == "short_text":

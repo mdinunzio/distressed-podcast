@@ -264,7 +264,13 @@ spellings) and `order` (`items` in the correct order; the app shuffles).
 Each has `level` 1–5, `concept_ids` from the ledger, `prompt`,
 `explanation`, and `retest: true` when it re-tests a `needs_reteach`
 concept. Validated by the pydantic `Quiz` model and cross-checked against
-the script and ledger by `podcast site`.
+the script and ledger by `podcast site`. **No unintentional tells**: the
+listener must not be able to pick an answer without knowing the material.
+Distractors are as long, specific and expert-sounding as the answer (the
+model rejects a correct choice more than 1.25× the longest distractor, a
+quiz where the answer is the single longest choice in more than 60% of
+questions, or where one position holds more than half the answers), and
+the app shuffles choices on screen.
 
 ### Site (`podcast site`)
 

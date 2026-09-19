@@ -7,22 +7,26 @@
       "id": "q01",
       "type": "multiple_choice",
       "level": 1,
-      "concept_ids": ["maturity_wall"],
+      "concept_ids": [
+        "maturity_wall"
+      ],
       "prompt": "What is the difference between a stressed credit and a distressed one, as the Host drew it?",
       "choices": [
-        "Stressed companies have missed a coupon; distressed ones have filed for bankruptcy",
-        "A stressed credit pays its coupons today but the market doubts it can refinance a future maturity; distressed is when the price says you won't be paid in full",
-        "Stressed means rated single-B; distressed means rated triple-C",
-        "There is no difference; the words are interchangeable"
+        "Stressed means a coupon has been missed but no filing; distressed means the company has filed or launched an exchange",
+        "Stressed is rated single-B with a negative outlook; distressed is anything rated triple-C or below by two agencies",
+        "Stressed pays its coupons but the market doubts it can refinance a maturity; distressed is a price that says you won't be paid in full",
+        "Stressed is a term-loan borrower under a covenant waiver; distressed is a bond issuer trading below eighty cents"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Quattro pays every coupon and has cash to cover January 2027. The bonds crossed into distressed territory in November 2025 when they fell to 80 and then 70, prices that price a recovery rather than a coupon."
     },
     {
       "id": "q02",
       "type": "numeric",
       "level": 1,
-      "concept_ids": ["ebitda"],
+      "concept_ids": [
+        "ebitda"
+      ],
       "prompt": "What was INEOS Quattro's EBITDA for 2025, in millions of euros?",
       "answer": 717,
       "tolerance": 20,
@@ -33,37 +37,45 @@
       "id": "q03",
       "type": "multiple_choice",
       "level": 1,
-      "concept_ids": ["price_in_points"],
+      "concept_ids": [
+        "price_in_points"
+      ],
       "prompt": "In November 2025 the bonds fell from around par to 80 cents in about a week. What is 80 cents on a secured bond saying?",
       "choices": [
-        "That interest rates rose by twenty percent",
-        "That the market doubts it will be paid in full and is pricing a recovery, not a coupon",
-        "That the company called the bond early at a discount",
-        "That the bond switched from fixed to floating rate"
+        "That the market doubts full repayment and is pricing a recovery rather than a coupon",
+        "That benchmark rates rose enough to reprice every fixed-coupon bond in the sector by twenty points",
+        "That the company called the bond early at a discount under the indenture's redemption schedule",
+        "That the bond switched from a fixed coupon to floating and the market repriced the spread"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Distressed debt is quoted in points, cents per dollar of claim. At 80 the 2029 notes yielded about sixteen percent against an eight-and-a-half coupon; the gap is the market's doubt."
     },
     {
       "id": "q04",
       "type": "multiple_choice",
       "level": 1,
-      "concept_ids": ["secured_vs_unsecured", "lien"],
+      "concept_ids": [
+        "secured_vs_unsecured",
+        "lien"
+      ],
       "prompt": "The 2.25 percent 2027 notes and the 9.625 percent dollar 2029 notes sit on the same rung. What does the coupon tell you?",
       "choices": [
-        "Which bond ranks higher: the bigger coupon is more senior",
-        "When the bond was issued and what the market charged then, not where it ranks",
-        "Which bond is secured: only the higher coupon has a lien",
-        "Which bond matures first"
+        "Which bond ranks higher: the bigger coupon compensates for a more junior position in the waterfall",
+        "Which bond is secured: only the higher coupon carries a lien over the guarantors' assets",
+        "Which bond matures first: the higher coupon is the shorter-dated paper the company must refinance",
+        "When the bond was issued and what the market charged then, not where it ranks in a bad outcome"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "The 2.25 was sold in January 2020, the 9.625 in November 2023 after rates rose and the company weakened. Senior and secured are about where the money comes from in a bad outcome, not the size of the coupon."
     },
     {
       "id": "q05",
       "type": "order",
       "level": 2,
-      "concept_ids": ["payment_waterfall", "pari_passu"],
+      "concept_ids": [
+        "payment_waterfall",
+        "pari_passu"
+      ],
       "prompt": "Put Quattro's layers in the order they get paid in a bad outcome, first to last.",
       "items": [
         "The Goldman inventory facility and the receivables programmes, paid from the assets they legally own",
@@ -76,22 +88,30 @@
       "id": "q06",
       "type": "short_text",
       "level": 2,
-      "concept_ids": ["pari_passu"],
+      "concept_ids": [
+        "pari_passu"
+      ],
       "prompt": "What is the Latin term for debts that rank on an equal footing and share one lien, paid cent for cent in proportion?",
-      "accepted": ["pari passu", "pari-passu", "paripassu"],
+      "accepted": [
+        "pari passu",
+        "pari-passu",
+        "paripassu"
+      ],
       "explanation": "Pari passu. Every note and term loan at Quattro is pari passu under a 2014 intercreditor agreement, so the lenders differ in paperwork, not in priority."
     },
     {
       "id": "q07",
       "type": "multiple_choice",
       "level": 1,
-      "concept_ids": ["preferred_stock"],
+      "concept_ids": [
+        "preferred_stock"
+      ],
       "prompt": "Rung six of the ladder is preferred stock. Which description is right?",
       "choices": [
-        "Debt with a fixed maturity that ranks just above the term loans",
-        "Equity, not debt: no maturity, no default if the dividend is skipped, below every lender but ahead of the common",
-        "A bond that converts into a loan at the company's option",
-        "The most senior claim in the structure, hence the name"
+        "Debt with a fixed maturity that ranks just above the term loans because of its preference",
+        "Equity with no maturity and no default if the dividend is skipped, below every lender but ahead of common",
+        "A bond that converts into a term loan at the company's option once leverage falls below a threshold",
+        "The most senior claim in the structure, paid first from the collateral pool, which is exactly why it is called preferred"
       ],
       "answer": 1,
       "explanation": "Preferred trips everyone because of the name. It is equity with a liquidation preference ahead of common. Quattro has none; New Fortress issued $2.46 billion of it to creditors."
@@ -100,7 +120,9 @@
       "id": "q08",
       "type": "numeric",
       "level": 2,
-      "concept_ids": ["maturity_wall"],
+      "concept_ids": [
+        "maturity_wall"
+      ],
       "prompt": "How much of Quattro's debt comes due in March 2029, in billions of euros?",
       "answer": 3.9,
       "tolerance": 0.2,
@@ -111,82 +133,101 @@
       "id": "q09",
       "type": "multiple_choice",
       "level": 2,
-      "concept_ids": ["covenant_lite", "covenant"],
+      "concept_ids": [
+        "covenant_lite",
+        "covenant"
+      ],
       "prompt": "What is a maintenance covenant, and does Quattro's debt have any?",
       "choices": [
-        "A promise to maintain the plants; Quattro has several",
-        "A financial ratio tested every quarter whose breach is a default; Quattro's annual report says there are none",
-        "A limit on dividends; Quattro has one at 6.5 times leverage",
-        "A requirement to keep a credit rating; Quattro lost it in December 2025"
+        "A promise to maintain the plants to a set standard; Quattro has several in its term loans",
+        "A limit on dividends that switches on above a leverage level; Quattro's sits at 6.5 times",
+        "A ratio tested every quarter whose breach is a default; Quattro's annual report says there are none",
+        "A requirement to keep a public rating; Quattro lost its last one in December 2025"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Covenant-lite. What Quattro has are incurrence covenants that bite only when the company acts: borrows more, pays a dividend, sells an asset, moves a subsidiary outside the group."
     },
     {
       "id": "q10",
       "type": "multiple_choice",
       "level": 3,
-      "concept_ids": ["covenant_lite"],
+      "concept_ids": [
+        "covenant_lite"
+      ],
       "prompt": "With no maintenance covenants, when do Quattro's lenders get a seat at the table?",
       "choices": [
-        "Whenever leverage exceeds eight times",
-        "Only at a payment default or a maturity",
-        "At each quarterly trading statement",
-        "Whenever a rating agency downgrades the company"
+        "Only at a payment default or a maturity, since nothing else in the documents trips",
+        "Whenever leverage exceeds eight times on the company's own quarterly numbers",
+        "At each quarterly trading statement, when the agent tests the guarantor coverage",
+        "Whenever a rating agency downgrades the company below single-B with a negative outlook"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "The lenders cannot call a default because leverage hit eight times. That is why the March 2029 wall matters so much: it is the one moment they have leverage of their own."
     },
     {
       "id": "q11",
       "type": "multiple_choice",
       "level": 3,
-      "concept_ids": ["pari_passu", "first_out_second_out", "liability_management_exercise"],
+      "concept_ids": [
+        "pari_passu",
+        "first_out_second_out",
+        "liability_management_exercise"
+      ],
       "prompt": "Why did the Host call Quattro's flat, single-class structure 'boring on paper, dangerous in practice'?",
       "choices": [
-        "Because with no junior class to write off, any restructuring has to divide the pari passu class against itself, as Saks did with first-out and second-out tiers",
-        "Because a single class cannot vote on a plan",
-        "Because pari passu debt cannot be refinanced",
-        "Because term loans and notes cannot share a lien"
+        "Because a single class cannot form a quorum to vote on a plan under the intercreditor's amendment rules",
+        "Because pari passu debt cannot be refinanced piecemeal; the whole class must be taken out at once",
+        "Because term loans and notes sharing one lien give the security agent a conflict it cannot resolve",
+        "Because with no junior class to write off, any restructuring has to divide the pari passu class against itself"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "The intercreditor even has an empty slot for second-lien debt. The risk is an exchange that moves some equal-ranking holders ahead of others, not a missed coupon."
     },
     {
       "id": "q12",
       "type": "multiple_choice",
       "level": 2,
-      "concept_ids": ["inventory_monetisation"],
+      "concept_ids": [
+        "inventory_monetisation"
+      ],
       "prompt": "How does the Goldman Sachs inventory arrangement work?",
       "choices": [
-        "Goldman lends against the inventory and takes a first lien on it",
-        "Quattro sells inventory to Goldman and agrees to buy equivalent inventory back after two years at the same price, using the stock just in time for a fee",
-        "Goldman buys the inventory outright and resells it to Quattro's customers",
-        "Quattro pledges the inventory to the bondholders and Goldman guarantees it"
+        "Goldman lends against the inventory and takes a first lien on it, ranking ahead of the notes",
+        "Goldman buys the inventory outright and resells it to Quattro's customers, remitting the margin to the group each quarter",
+        "Quattro sells inventory to Goldman and buys equivalent stock back after two years at the same price, for a fee",
+        "Quattro pledges the inventory to the bondholders while Goldman guarantees the buy-back price"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Inventory monetisation: cash from goods on the shelves without, in legal form, borrowing against them. Up to €300 million, €190 million drawn by June, at 4.5 percent over the benchmark plus fees."
     },
     {
       "id": "q13",
       "type": "short_text",
       "level": 2,
-      "concept_ids": ["inventory_monetisation"],
+      "concept_ids": [
+        "inventory_monetisation"
+      ],
       "prompt": "What is the two-word legal concept that makes the inventory Goldman's property rather than the secured lenders' collateral?",
-      "accepted": ["true sale", "a true sale", "true-sale"],
+      "accepted": [
+        "true sale",
+        "a true sale",
+        "true-sale"
+      ],
       "explanation": "A true sale: the buyer owns the goods. If Quattro fails, that inventory is Goldman's. No new lien, no consent vote, no covenant test was needed."
     },
     {
       "id": "q14",
       "type": "multiple_choice",
       "level": 2,
-      "concept_ids": ["securitisation"],
+      "concept_ids": [
+        "securitisation"
+      ],
       "prompt": "What is a receivables securitisation?",
       "choices": [
-        "A bond secured on the company's factories",
+        "A bond secured on the company's factories and sold to insurers through a special vehicle",
         "Selling the company's unpaid customer invoices into a vehicle that borrows against them",
-        "An insurance policy on customer defaults",
-        "A revolving loan from the company's suppliers"
+        "An insurance policy on customer defaults, financed by a bank in exchange for a fee",
+        "A revolving loan from the company's largest suppliers, secured on the goods they deliver to the plants each month"
       ],
       "answer": 1,
       "explanation": "Quattro has two programmes with €790 million of capacity, extended to 2029, at about 1.1 percent over commercial paper. Cheap, but every euro drawn is receivables the noteholders no longer have a claim on."
@@ -195,22 +236,27 @@
       "id": "q15",
       "type": "multiple_choice",
       "level": 3,
-      "concept_ids": ["unrestricted_subsidiary", "drop_down"],
+      "concept_ids": [
+        "unrestricted_subsidiary",
+        "drop_down"
+      ],
       "prompt": "What is an unrestricted subsidiary, and what sits in one at Quattro?",
       "choices": [
-        "A subsidiary with no debt of its own; the Italian chlor-alkali business",
-        "A subsidiary outside the debt covenants whose assets are beyond the lenders' reach; the Sinopec joint ventures, including the Ningbo plant",
-        "A subsidiary that guarantees the notes; Styrolution",
-        "A subsidiary in bankruptcy; Channahon"
+        "A subsidiary with no debt of its own that the lenders may sell freely; the Italian chlor-alkali business",
+        "A subsidiary that guarantees the notes and pledges its shares; INEOS Styrolution Group GmbH",
+        "A subsidiary in a closure process whose assets are impaired to scrap; the Channahon polystyrene site",
+        "A subsidiary outside the debt covenants whose assets are beyond the lenders' reach; the Sinopec joint ventures"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "A locked room the mortgage doesn't cover. New Fortress built one to redraw its collateral map, the drop-down. At Quattro the room already exists; how much can be moved into it is the basket question the public record doesn't answer."
     },
     {
       "id": "q16",
       "type": "numeric",
       "level": 1,
-      "concept_ids": ["liquidity"],
+      "concept_ids": [
+        "liquidity"
+      ],
       "prompt": "How much new equity did the shareholders put into INEOS Quattro in March 2026, in millions of euros?",
       "answer": 200,
       "tolerance": 0,
@@ -221,60 +267,72 @@
       "id": "q17",
       "type": "multiple_choice",
       "level": 2,
-      "concept_ids": ["enterprise_value", "ev_ebitda_multiple"],
+      "concept_ids": [
+        "enterprise_value",
+        "ev_ebitda_multiple"
+      ],
       "prompt": "At five times 2025 EBITDA of €717 million, enterprise value is about €3.6 billion against net debt of €5.6 billion. Where does value run out?",
       "choices": [
-        "In the equity, with the debt fully covered",
-        "Inside the secured class, at roughly sixty cents on the dollar",
-        "In the Goldman inventory facility",
-        "Nowhere; five times is too low to be meaningful"
+        "Inside the secured class, at roughly sixty cents on the dollar for notes and loans alike",
+        "In the equity, with the secured debt fully covered and the owner's 200 million in the money",
+        "In the Goldman inventory facility, which would be the first claim left unpaid",
+        "Nowhere; five times is below any multiple a court would accept for a chemicals business"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "That is what seventy-cent bonds were saying. At 6.5 times trailing EBITDA the debt is just covered; at eight times mid-cycle EBITDA the equity is worth billions. Same company, three answers."
     },
     {
       "id": "q18",
       "type": "multiple_choice",
       "level": 3,
-      "concept_ids": ["mid_cycle_ebitda", "fulcrum_security"],
+      "concept_ids": [
+        "mid_cycle_ebitda",
+        "fulcrum_security"
+      ],
       "prompt": "Why did the Host say the fulcrum at Quattro sits wherever your view of the cycle puts it?",
       "choices": [
-        "Because the fulcrum is always the most junior class",
-        "Because enterprise value is an EBITDA times a multiple, and for a cyclical both move: trough, trailing and mid-cycle EBITDA give different answers",
-        "Because the intercreditor lets the company choose the fulcrum",
-        "Because the rating agencies set the fulcrum"
+        "Because the fulcrum is always the most junior class, and here the junior classes are empty",
+        "Because the intercreditor lets the company designate which class is impaired in an exchange",
+        "Because enterprise value is an EBITDA times a multiple, and for a cyclical both inputs move",
+        "Because the rating agencies set the fulcrum when they assign recovery ratings to each instrument"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Mid-cycle EBITDA, the average across a full cycle, is the number nobody knows; a credit blog puts it at €1.1 to €1.4 billion. That is Moyer's valuation chapter, and it is the whole case."
     },
     {
       "id": "q19",
       "type": "multiple_choice",
       "level": 2,
-      "concept_ids": ["inventory_holding_gains", "adjusted_ebitda"],
+      "concept_ids": [
+        "inventory_holding_gains",
+        "adjusted_ebitda"
+      ],
       "prompt": "Styrolution reported €170 million of EBITDA in the second quarter of 2026. Why would a creditor strip about €70 million of it out before valuing the business?",
       "choices": [
-        "Because it was a one-off legal settlement",
-        "Because it was inventory holding gains: feedstock bought cheap and product sold after prices spiked",
-        "Because it came from an unrestricted subsidiary",
-        "Because it was paid in kind"
+        "Because it was a one-off legal settlement with a supplier, like the Acetyls payment in 2025",
+        "Because it came from the Sinopec joint venture, an unrestricted subsidiary outside the group",
+        "Because it was interest paid in kind on the term loans and booked through operating profit",
+        "Because it was inventory holding gains: feedstock bought cheap, product sold after prices spiked"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "A year earlier the same line was a €38 million loss. Strip the swing and the underlying improvement is about half the headline. Creditors take inventory gains out before they multiply."
     },
     {
       "id": "q20",
       "type": "multiple_choice",
       "level": 3,
-      "concept_ids": ["price_in_points", "recovery"],
+      "concept_ids": [
+        "price_in_points",
+        "recovery"
+      ],
       "prompt": "In the trader's recap, what did the Host say the decision is today?",
       "choices": [
-        "The 2027 notes, which still trade in the low nineties",
-        "The 2029 notes near eighty if you believe the wall gets refinanced, against the 2029 term loans if you want to be in the room when it doesn't",
-        "The common equity, which is publicly listed",
-        "The Goldman facility, which anyone can buy into"
+        "The 2029 notes near eighty if the wall gets refinanced, or the 2029 term loans if you want to be in the room",
+        "The 2027 notes, which still trade in the low nineties and mature before the wall",
+        "The common equity, which the owner has priced with his own two hundred million",
+        "The Goldman facility, which pays four and a half over the benchmark with a parent guarantee"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "The 2027 trade already happened (low nineties to 98) and so did the 2030s (70 to 78). What remains is the March 2029 wall: fixed-coupon notes to be paid to wait, or €2.8 billion of term loans where any cooperation agreement would form."
     }
   ]
