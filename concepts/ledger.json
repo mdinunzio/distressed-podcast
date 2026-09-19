@@ -1405,6 +1405,209 @@
           "date": "2026-09-18"
         }
       ]
+    },
+    {
+      "id": "maturity_wall",
+      "name": "Maturity wall",
+      "one_line": "A large block of debt coming due in one window, which turns a credit that pays its coupons today into a refinancing question tomorrow.",
+      "tier": "capital_structure",
+      "level": 2,
+      "moyer": "Ch. 2, causes of distress; Ch. 13, how distressed claims trade",
+      "aliases": [
+        "stressed versus distressed"
+      ],
+      "introduced_in": "ineos-quattro",
+      "episode": 3,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "ineos-quattro",
+          "episode": 3,
+          "event": "introduced",
+          "date": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "pari_passu",
+      "name": "Pari passu",
+      "one_line": "Ranking equally in right of payment and, when secured, sharing the same lien, so holders are paid in proportion with nobody first.",
+      "tier": "capital_structure",
+      "level": 2,
+      "moyer": "Ch. 4, the capital structure and where value breaks",
+      "aliases": [],
+      "introduced_in": "ineos-quattro",
+      "episode": 3,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "ineos-quattro",
+          "episode": 3,
+          "event": "introduced",
+          "date": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "covenant_lite",
+      "name": "Covenant-lite",
+      "one_line": "Debt whose documents have incurrence covenants only, tested when the company acts, and no maintenance covenants tested every quarter, so lenders get no seat at the table until a payment default or a maturity.",
+      "tier": "legal",
+      "level": 3,
+      "moyer": "Ch. 5, legal aspects",
+      "aliases": [
+        "cov-lite",
+        "maintenance covenant",
+        "incurrence covenant"
+      ],
+      "introduced_in": "ineos-quattro",
+      "episode": 3,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "ineos-quattro",
+          "episode": 3,
+          "event": "introduced",
+          "date": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "securitisation",
+      "name": "Receivables securitisation",
+      "one_line": "Selling a company's unpaid customer invoices into a vehicle that borrows against them, which raises cheap cash and removes those receivables from the secured lenders' collateral.",
+      "tier": "capital_structure",
+      "level": 3,
+      "moyer": null,
+      "aliases": [
+        "securitization",
+        "receivables facility"
+      ],
+      "introduced_in": "ineos-quattro",
+      "episode": 3,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "ineos-quattro",
+          "episode": 3,
+          "event": "introduced",
+          "date": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "inventory_monetisation",
+      "name": "Inventory monetisation",
+      "one_line": "Selling inventory to a financier with an agreement to buy equivalent goods back later at the same price, raising cash through a true sale rather than a lien.",
+      "tier": "capital_structure",
+      "level": 3,
+      "moyer": null,
+      "aliases": [
+        "inventory monetization",
+        "true sale"
+      ],
+      "introduced_in": "ineos-quattro",
+      "episode": 3,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "ineos-quattro",
+          "episode": 3,
+          "event": "introduced",
+          "date": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "unrestricted_subsidiary",
+      "name": "Unrestricted subsidiary",
+      "one_line": "A subsidiary designated outside the debt covenants, whose assets are beyond the lenders' reach and which can borrow and pay dividends freely; the room a drop-down moves assets into.",
+      "tier": "legal",
+      "level": 3,
+      "moyer": "Ch. 4, structural subordination (extended to modern covenant structures)",
+      "aliases": [
+        "restricted subsidiary"
+      ],
+      "introduced_in": "ineos-quattro",
+      "episode": 3,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "ineos-quattro",
+          "episode": 3,
+          "event": "introduced",
+          "date": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "ev_ebitda_multiple",
+      "name": "EV/EBITDA multiple",
+      "one_line": "The number enterprise value is divided by EBITDA to give; for a cyclical company both the multiple and the EBITDA move, and the fulcrum moves with them.",
+      "tier": "valuation",
+      "level": 2,
+      "moyer": "Ch. 6, valuation of the reorganized firm",
+      "aliases": [
+        "multiple",
+        "trading multiple"
+      ],
+      "introduced_in": "ineos-quattro",
+      "episode": 3,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "ineos-quattro",
+          "episode": 3,
+          "event": "introduced",
+          "date": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "mid_cycle_ebitda",
+      "name": "Mid-cycle EBITDA",
+      "one_line": "The average earnings a cyclical business is expected to make across a full cycle, as opposed to trough or peak; the number a creditor multiplies to value it.",
+      "tier": "valuation",
+      "level": 3,
+      "moyer": "Ch. 6",
+      "aliases": [
+        "through-the-cycle earnings",
+        "normalised EBITDA"
+      ],
+      "introduced_in": "ineos-quattro",
+      "episode": 3,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "ineos-quattro",
+          "episode": 3,
+          "event": "introduced",
+          "date": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "inventory_holding_gains",
+      "name": "Inventory holding gains and losses",
+      "one_line": "The profit or loss from selling inventory bought before feedstock prices moved; creditors strip it out of a quarter's EBITDA before they multiply.",
+      "tier": "accounting",
+      "level": 2,
+      "moyer": "Ch. 3, financial analysis",
+      "aliases": [
+        "inventory gains",
+        "inventory losses"
+      ],
+      "introduced_in": "ineos-quattro",
+      "episode": 3,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "ineos-quattro",
+          "episode": 3,
+          "event": "introduced",
+          "date": "2026-09-19"
+        }
+      ]
     }
   ]
 }

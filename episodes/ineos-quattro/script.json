@@ -1,0 +1,325 @@
+{
+  "company": "INEOS Quattro",
+  "slug": "ineos-quattro",
+  "title": "INEOS Quattro: Reading a Credit Before It Breaks",
+  "deal_type": "live stressed credit: no restructuring proposed; liquidity management (shareholder equity, inventory monetisation, receivables securitisation, asset sales, buybacks) ahead of January 2027 maturities and a March 2029 maturity wall",
+  "episode": 3,
+  "segments": [
+    {
+      "name": "situation",
+      "direction": "Measured and curious, like two colleagues opening a file for the first time; slow down on the numbers.",
+      "turns": [
+        {
+          "speaker": "Host",
+          "text": "Welcome back to Distressed Explainers. The first two episodes were finished cases. Today's isn't. INEOS Quattro is a European chemicals company with about seven point two billion euros of debt, and nothing has happened to it yet. That's the most useful kind of case for a desk, because the job is to say what will happen before it does."
+        },
+        {
+          "speaker": "Guest",
+          "text": "So this is where I finally learn what people mean by stressed rather than distressed. Start with what the company actually is."
+        },
+        {
+          "speaker": "Host",
+          "text": "One arm of Sir Jim Ratcliffe's INEOS empire. Four businesses: Styrolution, which makes styrene and the plastics in fridges and packaging; Inovyn, Europe's biggest PVC producer; and aromatics and acetyls, bought from BP in 2021. Revenue last year was about ten point seven billion euros, down fifteen percent. EBITDA, the earnings measure from episode one, was seven hundred and seventeen million, against nine hundred million two years earlier. The debt stayed at seven billion. When two agencies cut it into single-B last autumn, the bonds fell from par to eighty cents in a week, then to seventy by January."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And the owner? It's private, so there's no share price to read. Who's actually on the hook here?"
+        },
+        {
+          "speaker": "Host",
+          "text": "One man, mostly. Ratcliffe holds the majority through a holding company with his partners Andy Currie and John Reece. He built INEOS from one plant bought from BP for eighty-four million pounds in 1998, always with borrowed money, and he's been in this room before: in 2008 the company breached its loan terms and he got two hundred and thirty banks to reset them. Reece calls it the darkest moment in their history."
+        },
+        {
+          "speaker": "Guest",
+          "text": "So what did he do this time, with the bonds at seventy and the agencies cutting?"
+        },
+        {
+          "speaker": "Host",
+          "text": "In January 2026 the company announced half a billion euros of new money: two hundred million of equity from the shareholders and a three hundred million facility from Goldman Sachs secured on the company's own inventory. Then, in April and again in August, it put two hundred million euros each time into shares of other chemical companies. Creditors, per the press, were not amused."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And then, if I remember the spring, a war happened and the whole sector moved."
+        },
+        {
+          "speaker": "Host",
+          "text": "The Iran war closed the Strait of Hormuz in March, Asian feedstock dried up, and Quattro printed four hundred and seven million of EBITDA in one quarter, nearly double a year before. Leverage fell from seven point seven times to six point four; management calls it a supply shock. So, September 19, 2026: seven hundred million due this January, covered by one point six billion of cash, and three point nine billion due in March 2029 that nobody yet knows how to pay."
+        }
+      ]
+    },
+    {
+      "name": "concepts",
+      "direction": "Brisk and organised, like drawing a map on a whiteboard; pause clearly between the rungs of the ladder.",
+      "turns": [
+        {
+          "speaker": "Host",
+          "text": "Six ideas, then the ladder. First, stressed versus distressed, which comes down to the maturity wall. Second, all of this debt ranks equally, one class, with no financial tests. Third, money that gets ahead of the lenders without a lien. Fourth, the owner's cheque. Fifth, valuing a cyclical business, which is the whole argument. Sixth, what ratings and yields are telling you."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Give me the ladder first. Last episode I lost track of what sat where, and I want the picture before the detail."
+        },
+        {
+          "speaker": "Host",
+          "text": "Same seven rungs every episode. Top rung, super-senior: loans paid first from the most liquid assets. Quattro has no DIP and no asset-based revolver, but three things behave like the top rung: local bank lines at operating subsidiaries, about two hundred million; receivables facilities of seven hundred and ninety million, undrawn; and the Goldman inventory facility, one hundred and ninety million drawn. Each is paid from specific assets before anyone else sees them."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Rung two, first-lien secured, is the big one here, I assume. How big is it, and what's in it?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Almost the whole company. Six point eight billion euros of notes and term loans sharing one lien, the legal claim over specific assets we met at Saks. The notes pay fixed coupons, two and a quarter percent on the 2027s up to nine and five-eighths on the dollar 2029s. The term loans pay floating, four to four and a half percent over the benchmark. Different paperwork, identical place in line."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Wait. A two and a quarter percent bond and a nine and five-eighths bond on the same rung? Doesn't the coupon tell you the risk?"
+        },
+        {
+          "speaker": "Host",
+          "text": "The coupon tells you when the bond was issued: January 2020 versus November 2023, after rates rose and the company weakened. Senior and secured are about where the money comes from in a bad outcome, not the size of the coupon."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Rungs three, four and five, second lien, unsecured, subordinated. Who's sitting there in this structure?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Nobody. No second-lien debt, though the intercreditor has a slot for it. No unsecured bond: there was a five hundred million one, repaid in January 2025. No subordinated debt. Rung six, preferred stock, the one that trips everyone: equity, not debt, no maturity, no default if the dividend is skipped, below every lender but ahead of the common. Quattro has none. Rung seven, the common, is Ratcliffe and his partners, who put in two hundred million in March. So: one huge secured rung, four empty rungs, one man at the bottom writing cheques. With one class, any restructuring has to divide that class against itself."
+        }
+      ]
+    },
+    {
+      "name": "unfurl_maturity_wall",
+      "direction": "Patient and precise, teaching pace; let the price numbers land.",
+      "turns": [
+        {
+          "speaker": "Host",
+          "text": "Stressed versus distressed. A stressed credit pays its coupons today, but the market doubts it can refinance a future maturity. Refinancing, from the New Fortress episode, is replacing maturing debt with new debt. Distressed is when the price itself says you won't be paid in full. Quattro crossed that line in November 2025."
+        },
+        {
+          "speaker": "Guest",
+          "text": "What's a maturity wall, then? You said the whole thing turns on it, and I've only heard the phrase on Bloomberg."
+        },
+        {
+          "speaker": "Host",
+          "text": "Think of a mortgage where the whole balance is due on one day rather than over thirty years. A maturity wall is a big block of debt coming due in one window. Quattro's is March 2029: one point one billion of notes and two point eight billion of term loans, three point nine billion in one month, five and a half years of last year's EBITDA due at once. The January 2027 maturity, by contrast, is seven hundred million against one point six billion of cash; the 2027 notes went from ninety-five to ninety-eight the day the package was announced, and the desk moved its worry to 2029."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Now tell me what the prices were saying. I can read a yield, but eighty cents on a secured bond feels like a different animal."
+        },
+        {
+          "speaker": "Host",
+          "text": "Same animal, two languages. The 2029 notes at eighty yield about sixteen percent to maturity against a coupon of eight and a half. The 2030s at seventy yield seventeen against six and three quarters. Distressed debt is quoted in points, cents per dollar of claim, as at Saks, because at those levels you're pricing a recovery, not a coupon. Sixteen percent on a first-lien claim says: we're not sure the wall gets refinanced."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And the ratings cuts, are they the cause of that or just a symptom of it?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Symptom, but they move money. Moody's cut twice in three months to B3 negative; S&P cut Quattro two notches to single-B in February and, per the press, drew a line at six and a half times leverage. Fund rules tied to ratings force some holders to sell, and by November a fifth of one INEOS sibling bond was sold short. That's the crowd a desk reads before it opens the documents."
+        }
+      ]
+    },
+    {
+      "name": "unfurl_one_class",
+      "direction": "Steady and slightly wry; slow down on the contract language.",
+      "turns": [
+        {
+          "speaker": "Host",
+          "text": "Now the documents. Every note and term loan here is pari passu. Latin for on an equal footing: they share one lien, and if the collateral is sold they're paid in the same proportion, cent for cent. Picture friends who each lent to the same restaurant and agreed whatever comes back is split by how much each put in, nobody first. The contract that makes it so is the intercreditor agreement from Saks, the deal among lender groups that fixes who's first on what."
+        },
+        {
+          "speaker": "Guest",
+          "text": "So pari passu means the intercreditor is boring. Nobody's first, nobody's second. Where's the catch?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Boring on paper, dangerous in practice. Quattro's intercreditor dates from 2014, every new bond trustee has signed on, and it has an empty slot for second-lien debt. So the machinery exists to put someone behind the current lenders, and in a flat structure the only people to put behind them are themselves. Remember Saks: first-out, second-out, third-out, inside one lien, a pari passu class divided against itself by a contract. That's the risk here, not a missed coupon."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And there are really no financial tests? I'd have thought seven billion of debt came with a few."
+        },
+        {
+          "speaker": "Host",
+          "text": "Covenant-lite. A covenant, from Saks, is a promise in the loan documents. A maintenance covenant is tested every quarter: keep leverage under a number or you're in default. Quattro's annual report says flatly there are none. What it has are incurrence covenants, limits that bite only when the company acts: borrows more, pays a dividend, sells an asset, moves a subsidiary outside the group. The lenders can't call a default because leverage hit eight times. They get a seat only at a payment default or a maturity."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And the fulcrum? Where would it sit if the wall didn't get refinanced and the whole thing came apart?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Moyer's fulcrum, from episode one: the class where the value runs out, which gets the equity. With one class of six point eight billion, the fulcrum is that whole class, unless the company is worth more than the debt. Which leaves two questions: what's being layered on top of the secured lenders, and what the company is worth."
+        }
+      ]
+    },
+    {
+      "name": "unfurl_structurally_senior",
+      "direction": "Warm and a little conspiratorial, explaining a trick; clear on the mechanics.",
+      "turns": [
+        {
+          "speaker": "Host",
+          "text": "Half of January's package wasn't a loan. It was a sale. Under two agreements with Goldman Sachs, Quattro sells inventory to Goldman and agrees to buy equivalent inventory back after two years at the same price, while Goldman lets it use the stock just in time, for a fee. That's inventory monetisation: turning goods on the shelves into cash without, in legal form, borrowing against them."
+        },
+        {
+          "speaker": "Guest",
+          "text": "That sounds like a loan wearing a costume. Why does the legal form matter to me as a bondholder?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Because a true sale means the buyer owns the goods. If Quattro fails, that inventory isn't the secured lenders' collateral; it's Goldman's. No new lien, no consent vote, no covenant test. It costs four and a half percent over the benchmark plus fees, and one hundred and ninety million was drawn by June. At Saks new money got the front of the line through a subsidiary. Here it got there through a sale."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And the receivables facility you mentioned, the seven hundred and ninety million. Is that the same trick again?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Same family, older and bigger. A securitisation sells the company's unpaid customer invoices into a vehicle that borrows against them. Two programmes, extended in January to 2029, with five hundred and forty-seven million available at about one point one percent over commercial paper. Cheap. But every euro drawn is receivables the noteholders no longer have a claim on. With Goldman, that's about a billion of capacity ahead of the secured class, with no lien at all."
+        },
+        {
+          "speaker": "Guest",
+          "text": "That's structural subordination from Saks again, just dressed differently. Is there a third version I should know about?"
+        },
+        {
+          "speaker": "Host",
+          "text": "There is. The annual report says the Sinopec joint ventures, including a six hundred kilotonne plant in Ningbo, sit in unrestricted subsidiaries. A restricted subsidiary is bound by the debt covenants. An unrestricted one isn't: its assets are outside the lenders' reach and it can borrow and pay dividends freely. A locked room the mortgage doesn't cover. New Fortress built one to redraw its collateral map, the drop-down. Here the room already exists."
+        },
+        {
+          "speaker": "Guest",
+          "text": "How big is the room? Could they move Inovyn, the best business, into it and leave the lenders with the rest?"
+        },
+        {
+          "speaker": "Host",
+          "text": "That's what a desk pays a lawyer to answer, and we can't from the public record. The annual report lists the covenants but not the basket sizes; a credit blog claims over two and a half billion of capacity to move assets, which we couldn't verify. What we can say: the term loans require asset-sale proceeds to repay debt unless reinvested. Watch that word, reinvested."
+        }
+      ]
+    },
+    {
+      "name": "unfurl_owner_and_value",
+      "direction": "Thoughtful and a touch amused about the owner, then rigorous on the valuation math; slow down on the multiples.",
+      "turns": [
+        {
+          "speaker": "Host",
+          "text": "Now the owner. Equity is the one source of cash that primes nobody: it doesn't rank, it needs no consent, and it dilutes only the person writing the cheque. Ratcliffe wrote one for two hundred million euros in March, roughly a third of last year's EBITDA. It fits the man: in 2009 he paid his banks a consent fee and a higher margin rather than hand them the keys."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Then why are creditors annoyed? He put money in, which is exactly what they'd want him to do."
+        },
+        {
+          "speaker": "Host",
+          "text": "Because of what the company did with its own cash. In April it put one hundred and ninety-nine point seven million euros into a basket of listed chemical shares, down fifty-five million by June, and press reports a second two hundred million in August. That money spent on the 2030 notes at seventy-eight would have retired about two hundred and fifty-six million of face. The documents limit dividends and investments, but we don't have the basket sizes, and the annual report's own risk factor warns that the shareholders may pursue transactions, including repurchases of our debt, that carry risks to you."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Now the valuation. Everyone keeps saying the argument is about a multiple. Do the math for me."
+        },
+        {
+          "speaker": "Host",
+          "text": "Enterprise value, from Saks, is what the whole business is worth to everyone who funds it. For a cyclical you multiply an EBITDA by a multiple, and both move. Three EBITDAs are on the table. Last year's: seven hundred and seventeen million. The twelve months to June, after the war quarter: about eight hundred and eighty. And mid-cycle, the average across a full cycle, which a credit blog puts at one point one to one point four billion. Nobody knows that last number. It's the bet."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And the multiples? Give me the three answers, because I want to see where the fulcrum lands in each."
+        },
+        {
+          "speaker": "Host",
+          "text": "Distressed chemicals trade near five times. Five times seven seventeen is three point six billion against net debt of five point six: value runs out inside the secured class, around sixty cents, which is what seventy-cent bonds were saying. Six and a half times the trailing eight-eighty, S&P's line, is five point seven, just covering the debt. Eight times a mid-cycle one point two billion is nine and a half, and the equity is worth billions. That's Moyer's valuation chapter, and it's the whole case."
+        },
+        {
+          "speaker": "Guest",
+          "text": "One caveat on that eight-eighty. How much of the war quarter is real earnings and how much is noise?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Good instinct. Seventy million of Styrolution's one hundred and seventy was inventory holding gains: feedstock bought cheap, product sold after prices spiked. A year earlier the same line was a thirty-eight million loss. Strip the swing and the underlying improvement is about half the headline. Creditors take inventory gains out before they multiply."
+        }
+      ]
+    },
+    {
+      "name": "recap",
+      "direction": "Reflective and direct, a trader talking to a junior at the end of the day; crisp on each verdict.",
+      "turns": [
+        {
+          "speaker": "Guest",
+          "text": "Trader's recap. Where has the value accumulated so far, rung by rung, and in what form?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Where it always was, rung two, the single secured class, while shrinking underneath it. On last year's earnings at a distressed multiple that class covers itself at fifty-five to sixty-five cents. Above it, small well-covered claims: Goldman on the inventory, the securitisation banks on the receivables. Below it, an option on a recovery the owner keeps paying to extend. The war windfall went to cash, and two hundred million of it into other companies' shares."
+        },
+        {
+          "speaker": "Guest",
+          "text": "The twists and turns? Give me the moments it could have gone the other way."
+        },
+        {
+          "speaker": "Host",
+          "text": "Three. November 13, 2025: the bonds fell from par to eighty in a week and an investor told the FT to expect a Drahi-style restructuring. January 30, 2026: the package, the 2027 notes at ninety-eight, the fight moved to 2029. And March: Hormuz closed and one quarter cut leverage from seven point seven to six point four. The risk left is one number: mid-cycle EBITDA."
+        },
+        {
+          "speaker": "Guest",
+          "text": "If I'd been on the desk, where did I want to be, round by round?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Autumn 2025, the 2027 notes in the low nineties: the front of a wall an owner like this pays, and you got ninety-eight in two months. January, the 2030s at seventy: same rung, seventy-eight within weeks. Today the decision is the 2029 notes near eighty, if you believe the wall gets refinanced, against the 2029 term loans, two point eight billion of them, if you want to be in the room when it doesn't."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Winners and losers so far, and has anyone been left in the dust yet, or is it too early?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Winners: whoever bought the 2027s in the nineties, the 2030s at seventy, and Goldman, lending two-year money against goods it legally owns. On paper the biggest loser is Ratcliffe, two hundred million into a company whose debt the market marked at seventy; and the biggest potential winner if the cycle turns, which is why he's buying peers. Nobody's in the dust yet. Deciding who would be is the desk's job. This is education, not advice."
+        }
+      ]
+    },
+    {
+      "name": "watch",
+      "direction": "Forward-looking and practical, closing the file; a little lift at the end.",
+      "turns": [
+        {
+          "speaker": "Host",
+          "text": "What to watch, in date order. Late October: the third-quarter trading statement, the first read on whether the Middle East margins survived the summer. Management expected them to last into the third quarter, and Inovyn's spreads already reversed in June. October 15 the 2030 notes become callable at one hundred and three; it matters only if the company ever gets near par."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Then the January maturities, the three hundred and seventeen million of notes and three hundred and eighty of loan."
+        },
+        {
+          "speaker": "Host",
+          "text": "Almost certainly paid; the tell is if they aren't. Then the quiet dates. January 2028, when Goldman's initial term ends and the inventory either comes back or the deal rolls. And every quarter: how much is drawn on the inventory and receivables facilities, because every euro is collateral leaving the secured class."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And the open questions, the ones the filings can't answer yet? Give me the three you'd write on the whiteboard."
+        },
+        {
+          "speaker": "Host",
+          "text": "Whether Quattro can issue at all. Its sibling, INEOS Group Holdings, sold seven hundred million of new notes in May and more loans in June to clear its own 2027 and 2028 maturities; Quattro has issued nothing in 2026. Second, the baskets: how much debt the documents let in, how much can move to unrestricted subsidiaries. Third, the owner: more equity, an asset sale, or a fee-and-extend like 2009."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Reading list, then. Where do I go to see this with my own eyes, now that I have the words?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Two things, both free on the INEOS Quattro investor site. The 2025 annual report, the section headed Description of Certain Indebtedness: you can now read pari passu debt, security agent and unrestricted subsidiary and know what each does. And the second-quarter 2026 report, note ten, the borrowings table. Then Moyer's valuation chapter next to that three-multiple table."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And the quiz, which I gather now decides what you explain to me next time."
+        },
+        {
+          "speaker": "Host",
+          "text": "Twenty questions, in the app. If the ladder didn't stick, it'll tell us, and we'll walk it again. Thanks for listening."
+        }
+      ]
+    }
+  ]
+}
