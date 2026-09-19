@@ -1,0 +1,282 @@
+{
+  "slug": "saks-global",
+  "episode": 1,
+  "title": "Saks Global: When the Vendors Stop Shipping",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "multiple_choice",
+      "level": 1,
+      "concept_ids": ["working_capital"],
+      "prompt": "Why did Saks's inventory shrink in the second half of 2025?",
+      "choices": [
+        "Shoppers stopped buying luxury goods, so stores ordered less",
+        "Suppliers shipped less because Saks was not paying them on time",
+        "The court ordered the company to liquidate stock",
+        "Amazon took over the merchandising contracts"
+      ],
+      "answer": 1,
+      "explanation": "The company's own declaration said 'when stores have inventory, the inventory sells.' The shortfall of more than $550 million came from vendors shipping less because they were not being paid, which is why the episode calls working capital a retailer's biggest loan."
+    },
+    {
+      "id": "q02",
+      "type": "numeric",
+      "level": 1,
+      "concept_ids": ["leverage", "ebitda"],
+      "prompt": "Saks's $2.2 billion bond paid an 11 percent coupon. Roughly how much annual interest is that, in millions of dollars?",
+      "answer": 242,
+      "tolerance": 15,
+      "unit": "$ millions per year",
+      "explanation": "2.2 billion times 11 percent is about 242 million a year. Against a quarterly adjusted EBITDA of minus 77 million, the interest bill was several times the earnings, and the earnings were negative, so leverage multiples meant nothing."
+    },
+    {
+      "id": "q03",
+      "type": "multiple_choice",
+      "level": 1,
+      "concept_ids": ["abl", "collateral"],
+      "prompt": "What did the ABL revolver have first claim on?",
+      "choices": [
+        "The Fifth Avenue flagship building",
+        "The brand names and intellectual property",
+        "Inventory and receivables",
+        "The equity of the operating subsidiaries"
+      ],
+      "answer": 2,
+      "explanation": "An asset-based loan lends against the most liquid collateral: inventory and receivables, which the intercreditor called ABL Priority Collateral. The bonds had first lien on everything else, so 'senior secured' on the bond did not mean secured by the handbags on the shelves."
+    },
+    {
+      "id": "q04",
+      "type": "multiple_choice",
+      "level": 2,
+      "concept_ids": ["borrowing_base", "liquidity"],
+      "prompt": "Which formula gives an ABL borrower's availability?",
+      "choices": [
+        "Total commitments minus interest owed",
+        "Borrowing base minus amounts drawn minus agent reserves",
+        "Inventory at cost minus payables",
+        "EBITDA times the leverage covenant"
+      ],
+      "answer": 1,
+      "explanation": "The lender advances a percentage of eligible inventory and receivables (the borrowing base); subtract drawings and any reserves the agent imposes at its discretion, and what is left is availability. Reserves of more than $50 million were added during 2025."
+    },
+    {
+      "id": "q05",
+      "type": "numeric",
+      "level": 2,
+      "concept_ids": ["covenant", "abl"],
+      "prompt": "The ABL's minimum excess availability covenant started at $200 million. What did it step up to on December 16, 2025, in millions of dollars?",
+      "answer": 500,
+      "tolerance": 0,
+      "unit": "$ millions",
+      "explanation": "It rose to $375 million on December 1 and to $500 million on December 16, right as inventory was shrinking. The floor rising while the borrowing base fell is the spiral in one sentence."
+    },
+    {
+      "id": "q06",
+      "type": "order",
+      "level": 2,
+      "concept_ids": ["payment_waterfall", "first_out_second_out"],
+      "prompt": "After the August 2025 exchange, put the bond tiers in the order they get paid, first to last.",
+      "items": [
+        "First-out: the SGUS on-loans funded by the SPV notes",
+        "Second-out notes issued by Saks Global",
+        "Third-out notes issued by Saks Global",
+        "Fourth-out: the $51 million of untendered old bonds"
+      ],
+      "explanation": "The Payment Administration Agreement pays tier one in full before tier two sees a dollar. All four tiers carried the same 11 percent coupon and the same December 2029 maturity; only the place in line changed."
+    },
+    {
+      "id": "q07",
+      "type": "multiple_choice",
+      "level": 3,
+      "concept_ids": ["first_out_second_out", "lien"],
+      "prompt": "'First-out' and 'second-out' at Saks were:",
+      "choices": [
+        "Separate first and second liens on different collateral",
+        "A contractual payment order inside one shared lien",
+        "Different maturities on the same bond",
+        "Court-assigned priorities under the DIP order"
+      ],
+      "answer": 1,
+      "explanation": "One lien, one pot, and a contract that orders who gets paid first. That is what makes a first-out/second-out structure different from a first-lien/second-lien structure, where the liens themselves rank."
+    },
+    {
+      "id": "q08",
+      "type": "multiple_choice",
+      "level": 3,
+      "concept_ids": ["spv", "on_loan"],
+      "prompt": "How did the SPV noteholders end up at the front of the line without a new lien?",
+      "choices": [
+        "SGUS bought the old Saks bonds in the market",
+        "The court granted SGUS a priming lien",
+        "SGUS lent the proceeds down through intercompany on-loans that were written as first-out",
+        "Amazon guaranteed the SPV notes"
+      ],
+      "answer": 2,
+      "explanation": "SGUS did not buy Saks bonds. It lent $400 million (the FILO on-loan) and $362 million (the NPC on-loan) down to the operating company, and those loans were first-out under the payment agreement, plus a $200 million guarantee from HoldCo II. New money owned the top of the waterfall through a subsidiary."
+    },
+    {
+      "id": "q09",
+      "type": "short_text",
+      "level": 3,
+      "concept_ids": ["liability_management_exercise"],
+      "prompt": "What is the desk's term (or its three-letter acronym) for an out-of-court transaction that reorders creditors rather than just extending them?",
+      "accepted": ["liability management exercise", "LME", "liability management", "liability management transaction"],
+      "explanation": "A liability management exercise, or LME. Moyer teaches exchange offers as the cheaper alternative to Chapter 11; the twist since his edition is that they now reorder who gets paid first."
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "level": 2,
+      "concept_ids": ["exchange_offer", "liability_management_exercise"],
+      "prompt": "Why did about 98 percent of bondholders tender into an exchange that pushed many of them down the line?",
+      "choices": [
+        "The exchange paid them cash at par",
+        "Holders who did not tender were left in a stripped bond that became fourth-out",
+        "The court required unanimous participation",
+        "The new notes carried a higher coupon"
+      ],
+      "answer": 1,
+      "explanation": "Tendering holders also voted to amend the old indenture. If you stayed out, you held a stripped bond at the bottom of the waterfall. That coercive element is why it is called a liability management exercise rather than a plain exchange."
+    },
+    {
+      "id": "q11",
+      "type": "multiple_choice",
+      "level": 1,
+      "concept_ids": ["price_in_points", "recovery"],
+      "prompt": "By December 2025 the second-out notes were quoted around 12 cents on the dollar. What was the market saying?",
+      "choices": [
+        "That interest rates had risen",
+        "That the bonds were about to be called at par",
+        "That value ran out inside the first-out layer, leaving little for second-out holders",
+        "That the ABL was about to be repaid"
+      ],
+      "answer": 2,
+      "explanation": "A price of 12 on a nominally first-lien bond is the market's recovery guess: enterprise value runs out before it reaches the second-out tier. The plan later proved it right."
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "level": 2,
+      "concept_ids": ["dip_financing", "priming_lien"],
+      "prompt": "A DIP loan gets 'superpriority'. What does that mean?",
+      "choices": [
+        "It is paid before every prepetition claim",
+        "It carries the highest interest rate in the structure",
+        "It must be repaid within 30 days",
+        "Its lenders sit on the creditors' committee"
+      ],
+      "answer": 0,
+      "explanation": "Superpriority means the DIP is paid ahead of every prepetition claim; priming liens mean its liens jump ahead of existing secured lenders. Moyer covers both in his Chapter 11 process chapter."
+    },
+    {
+      "id": "q13",
+      "type": "numeric",
+      "level": 2,
+      "concept_ids": ["dip_financing"],
+      "prompt": "The term loan DIP was $2.6 billion. How much of that was new cash, in billions of dollars?",
+      "answer": 1.0,
+      "tolerance": 0.05,
+      "unit": "$ billions",
+      "explanation": "One billion of new money, first-out, in three draws at Term SOFR plus 11 percent paid in kind. The other $1.6 billion converted existing bonds into DIP claims."
+    },
+    {
+      "id": "q14",
+      "type": "multiple_choice",
+      "level": 3,
+      "concept_ids": ["roll_up"],
+      "prompt": "What was the 'roll-up' in the Saks DIP?",
+      "choices": [
+        "New cash lent to pay down the ABL",
+        "Second-out DIP loans that replaced SPV notes dollar for dollar, with no cash changing hands",
+        "Interest that accrued on the new-money tranche",
+        "The exit term loan that refinanced the DIP"
+      ],
+      "answer": 1,
+      "explanation": "Up to $808 million of SPV notes became second-out DIP loans. A roll-up lifts old claims to the front of the line as a condition of new money, which is why the committee got until April 15 to challenge it."
+    },
+    {
+      "id": "q15",
+      "type": "short_text",
+      "level": 2,
+      "concept_ids": ["pik"],
+      "prompt": "What is it called when interest is added to the loan balance instead of being paid in cash? (The acronym is fine.)",
+      "accepted": ["PIK", "payment in kind", "paid in kind", "pay in kind", "payment-in-kind", "paid-in-kind"],
+      "explanation": "PIK, payment in kind. The DIP paid Term SOFR plus 11 percent in kind because there was no cash, and the 2, 8 and 10 percent premiums were paid in kind too."
+    },
+    {
+      "id": "q16",
+      "type": "multiple_choice",
+      "level": 4,
+      "concept_ids": ["marshaling"],
+      "prompt": "What did the marshaling provision in the final DIP order require?",
+      "choices": [
+        "That the DIP lenders recover from everything else before touching HoldCo II or unencumbered assets, for 150 days after the DIP ends",
+        "That Amazon be repaid before the DIP lenders",
+        "That the flagship be sold to repay the DIP",
+        "That vendors be paid before the ABL"
+      ],
+      "answer": 0,
+      "explanation": "Marshaling makes a creditor with two sources of recovery exhaust one before touching the pool others depend on. Here it protected the HoldCo II assets that Amazon and Axonic had objected about."
+    },
+    {
+      "id": "q17",
+      "type": "multiple_choice",
+      "level": 3,
+      "concept_ids": ["milestones"],
+      "prompt": "How should a desk read a DIP milestone schedule?",
+      "choices": [
+        "As a non-binding target the company sets for itself",
+        "As the lenders' plan for the case, where missing a date is a default",
+        "As the court's docket calendar",
+        "As the vendors' delivery schedule"
+      ],
+      "answer": 1,
+      "explanation": "Final order within 45 days, plan within 75, confirmation within 140, effective date within 160: the lenders wrote the case timetable into the loan. Saks confirmed on day 143 and went effective on day 164."
+    },
+    {
+      "id": "q18",
+      "type": "multiple_choice",
+      "level": 2,
+      "concept_ids": ["fulcrum_security", "enterprise_value"],
+      "prompt": "PJT valued the reorganized company at $2.5 to $3.5 billion. Which classes were the fulcrum, the ones that received the common stock?",
+      "choices": [
+        "The ABL DIP lenders",
+        "The first-out new-money DIP",
+        "The second-out and third-out DIP",
+        "The general unsecured creditors"
+      ],
+      "answer": 2,
+      "explanation": "Pay claims from the top: the ABL DIP was paid in cash, the first-out new money took about $1.35 billion of preferred at a 100 percent recovery, and the remaining billion or so went as common stock to the second- and third-out DIP. That is Moyer's fulcrum: impaired, but holding the equity."
+    },
+    {
+      "id": "q19",
+      "type": "multiple_choice",
+      "level": 2,
+      "concept_ids": ["structural_subordination", "guarantee"],
+      "prompt": "Why was the Fifth Avenue flagship not part of the bondholders' collateral?",
+      "choices": [
+        "It had already been sold to a real estate fund",
+        "It was owned by an entity that never filed, under its own $1.25 billion mortgage",
+        "Bonds can never be secured by real estate",
+        "The court excluded it in the first-day order"
+      ],
+      "answer": 1,
+      "explanation": "The building sat in a non-debtor with a $1.25 billion mortgage, and the brand IP sat in non-guarantor subsidiaries. Structural subordination in practice: 'senior secured' meant secured by stores and subsidiary equity, not by the building or the names on the door."
+    },
+    {
+      "id": "q20",
+      "type": "order",
+      "level": 2,
+      "concept_ids": ["payment_waterfall", "recovery"],
+      "prompt": "Rank these claims by how they came out of the plan, best treated first.",
+      "items": [
+        "ABL DIP: repaid in cash from the exit financing",
+        "First-out new-money DIP: 100 percent, in preferred units",
+        "Second-out and third-out DIP: the common stock and the board",
+        "SPV notes that did not roll into the DIP: a cash pool worth 0.11 percent",
+        "Old equity, including Amazon's $475 million: nothing"
+      ],
+      "explanation": "The same SPV note held inside the lender group became preferred stock; held outside it became a tenth of a cent. In a modern restructuring the instrument you hold is a ticket to the next round, not a recovery in itself."
+    }
+  ]
+}

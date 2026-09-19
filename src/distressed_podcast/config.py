@@ -12,6 +12,10 @@ from dataclasses import dataclass
 from pathlib import Path
 
 EPISODES_DIR = Path("episodes")
+LEDGER_PATH = Path("concepts/ledger.json")
+PROGRESS_PATH = Path("concepts/progress.json")
+SITE_TEMPLATE = Path("quiz/index.html")
+SITE_OUTPUT = Path("quiz/build/index.html")
 
 DEFAULT_TTS_MODEL = "gemini-3.1-flash-tts-preview"
 DEFAULT_VOICE_HOST = "Charon"

@@ -1,0 +1,896 @@
+<title>Distressed Explainers</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --bg: #f4f5f7;
+    --surface: #ffffff;
+    --surface-2: #eceef2;
+    --ink: #17202b;
+    --ink-2: #4a5563;
+    --ink-3: #7b8592;
+    --line: #d5d9e0;
+    --accent: #23407a;
+    --accent-ink: #ffffff;
+    --accent-soft: #e2e8f5;
+    --good: #16704f;
+    --good-soft: #dcefe6;
+    --bad: #a8301f;
+    --bad-soft: #f6e1dc;
+    --warn: #8a5a00;
+    --warn-soft: #f5e9cc;
+    --shadow: 0 1px 2px rgba(23, 32, 43, 0.08), 0 4px 16px rgba(23, 32, 43, 0.06);
+    --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+    --sans: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    --mono: "IBM Plex Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #10161e;
+      --surface: #182029;
+      --surface-2: #212b37;
+      --ink: #e8ecf1;
+      --ink-2: #b4bcc7;
+      --ink-3: #7f8a98;
+      --line: #2e3947;
+      --accent: #8fb0ee;
+      --accent-ink: #0f1a2e;
+      --accent-soft: #223252;
+      --good: #6dcba0;
+      --good-soft: #17352a;
+      --bad: #f09080;
+      --bad-soft: #3d1d17;
+      --warn: #e6b85c;
+      --warn-soft: #3b2f12;
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 4px 16px rgba(0, 0, 0, 0.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #10161e;
+    --surface: #182029;
+    --surface-2: #212b37;
+    --ink: #e8ecf1;
+    --ink-2: #b4bcc7;
+    --ink-3: #7f8a98;
+    --line: #2e3947;
+    --accent: #8fb0ee;
+    --accent-ink: #0f1a2e;
+    --accent-soft: #223252;
+    --good: #6dcba0;
+    --good-soft: #17352a;
+    --bad: #f09080;
+    --bad-soft: #3d1d17;
+    --warn: #e6b85c;
+    --warn-soft: #3b2f12;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 4px 16px rgba(0, 0, 0, 0.35);
+  }
+
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding-inline: 16px; padding-block: 0 48px; }
+  h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text-wrap: balance; margin: 0; }
+  h1 { font-size: 1.75rem; }
+  h2 { font-size: 1.3rem; }
+  h3 { font-size: 1.05rem; }
+  p { margin: 0; }
+  a { color: var(--accent); }
+  button { font: inherit; }
+  .num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+  .eyebrow { font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); font-weight: 600; }
+  .muted { color: var(--ink-2); }
+  .small { font-size: 0.9rem; }
+
+  header.top {
+    position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+    background: var(--bg);
+    border-bottom: 1px solid var(--line);
+  }
+  .top-inner { max-width: 880px; margin: 0 auto; padding: 14px 16px 0; display: flex; flex-direction: column; gap: 10px; }
+  .brand { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .brand .status { font-size: 0.8rem; color: var(--ink-3); display: inline-flex; align-items: center; gap: 6px; }
+  .brand .status .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--ink-3); }
+  .brand .status.on .dot { background: var(--good); }
+  nav.tabs { display: flex; gap: 2px; overflow-x: auto; }
+  nav.tabs button {
+    background: none; border: 0; border-bottom: 2px solid transparent;
+    padding: 8px 12px; color: var(--ink-2); cursor: pointer; white-space: nowrap; font-weight: 500;
+  }
+  nav.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+  nav.tabs button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; border-radius: 4px; }
+
+  main { padding-top: 24px; display: flex; flex-direction: column; gap: 24px; }
+  section.view { display: flex; flex-direction: column; gap: 20px; }
+
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 18px; }
+  .card.lift { box-shadow: var(--shadow); }
+  .row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  .between { justify-content: space-between; }
+  .stack { display: flex; flex-direction: column; gap: 10px; }
+  .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+
+  .btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 9px 16px; border-radius: 8px; border: 1px solid var(--line);
+    background: var(--surface); color: var(--ink); cursor: pointer; font-weight: 500;
+  }
+  .btn:hover { background: var(--surface-2); }
+  .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .btn.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  .btn.primary:hover { filter: brightness(1.08); }
+  .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+  .btn.quiet { border-color: transparent; background: transparent; color: var(--accent); padding-inline: 8px; }
+
+  .pill { display: inline-flex; align-items: center; gap: 6px; padding: 2px 9px; border-radius: 999px; font-size: 0.76rem; font-weight: 600; letter-spacing: 0.02em; background: var(--surface-2); color: var(--ink-2); white-space: nowrap; }
+  .pill.good { background: var(--good-soft); color: var(--good); }
+  .pill.bad { background: var(--bad-soft); color: var(--bad); }
+  .pill.warn { background: var(--warn-soft); color: var(--warn); }
+  .pill.accent { background: var(--accent-soft); color: var(--accent); }
+
+  .level { display: inline-flex; gap: 3px; align-items: center; }
+  .level i { width: 7px; height: 7px; border-radius: 50%; background: var(--line); display: block; }
+  .level i.on { background: var(--accent); }
+
+  /* Episode list */
+  .episode { display: grid; gap: 12px; grid-template-columns: auto 1fr auto; align-items: center; }
+  .episode .no { font-family: var(--serif); font-size: 1.6rem; color: var(--ink-3); width: 44px; text-align: center; }
+  .episode .best { text-align: right; }
+  @media (max-width: 560px) { .episode { grid-template-columns: auto 1fr; } .episode .best { grid-column: 2; text-align: left; } }
+
+  /* Quiz */
+  .progress { height: 6px; background: var(--surface-2); border-radius: 999px; overflow: hidden; }
+  .progress > div { height: 100%; background: var(--accent); width: 0; transition: width 0.25s ease; }
+  @media (prefers-reduced-motion: reduce) { .progress > div { transition: none; } }
+  .prompt { font-family: var(--serif); font-size: 1.2rem; line-height: 1.4; }
+  .choices { display: flex; flex-direction: column; gap: 8px; }
+  .choice { display: flex; gap: 12px; align-items: flex-start; padding: 12px 14px; border: 1px solid var(--line); border-radius: 8px; cursor: pointer; background: var(--surface); }
+  .choice:hover { background: var(--surface-2); }
+  .choice input { margin-top: 4px; accent-color: var(--accent); }
+  .choice.correct { border-color: var(--good); background: var(--good-soft); }
+  .choice.wrong { border-color: var(--bad); background: var(--bad-soft); }
+  .choice .key { font-family: var(--mono); color: var(--ink-3); min-width: 1.2em; }
+  input[type="text"], input[type="number"], select, textarea {
+    font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 9px 12px; width: 100%; max-width: 100%;
+  }
+  input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .inline-input { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  .inline-input input { max-width: 240px; }
+  .order-list { display: flex; flex-direction: column; gap: 8px; }
+  .order-item { display: grid; grid-template-columns: 72px 1fr; gap: 10px; align-items: center; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+  .order-item select { width: 72px; padding: 6px 8px; }
+  .order-item.correct { border-color: var(--good); background: var(--good-soft); }
+  .order-item.wrong { border-color: var(--bad); background: var(--bad-soft); }
+  .feedback { border-left: 3px solid var(--line); padding: 10px 14px; border-radius: 0 8px 8px 0; background: var(--surface-2); }
+  .feedback.good { border-left-color: var(--good); }
+  .feedback.bad { border-left-color: var(--bad); }
+  .feedback .verdict { font-weight: 600; }
+  .feedback.good .verdict { color: var(--good); }
+  .feedback.bad .verdict { color: var(--bad); }
+
+  /* Result */
+  .score { font-family: var(--serif); font-size: 3rem; line-height: 1; }
+  .concept-list { display: flex; flex-direction: column; gap: 6px; }
+  .concept-line { display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: center; padding: 8px 10px; border-radius: 8px; background: var(--surface-2); }
+  table { border-collapse: collapse; width: 100%; font-size: 0.92rem; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: 0.74rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3); }
+  .table-wrap { overflow-x: auto; }
+
+  /* Glossary */
+  .filters { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .filters select { width: auto; }
+  .filters input { flex: 1 1 200px; }
+  .term { display: flex; flex-direction: column; gap: 6px; }
+  .term .head { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+  .term .meta { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; font-size: 0.8rem; color: var(--ink-3); }
+
+  /* Ladder */
+  .ladder { display: flex; flex-direction: column; gap: 0; }
+  .rung { display: grid; grid-template-columns: 34px 1fr; gap: 14px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+  .rung:last-child { border-bottom: 0; }
+  .rung .rail { position: relative; }
+  .rung .rail::before { content: ""; position: absolute; left: 16px; top: 0; bottom: 0; width: 2px; background: var(--line); }
+  .rung .rail i { position: absolute; left: 10px; top: 6px; width: 14px; height: 14px; border-radius: 50%; background: var(--accent); border: 3px solid var(--bg); }
+  .rung.equity .rail i { background: var(--warn); }
+  .rung dl { display: grid; grid-template-columns: max-content 1fr; gap: 4px 12px; margin: 8px 0 0; font-size: 0.92rem; }
+  .rung dt { color: var(--ink-3); }
+  .rung dd { margin: 0; }
+  @media (max-width: 560px) { .rung dl { grid-template-columns: 1fr; } .rung dt { margin-top: 6px; } }
+
+  .notice { padding: 12px 14px; border-radius: 8px; background: var(--warn-soft); color: var(--warn); font-size: 0.92rem; }
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+</style>
+
+<header class="top">
+  <div class="top-inner">
+    <div class="brand">
+      <h1>Distressed Explainers</h1>
+      <span class="status" id="sync-status"><span class="dot"></span><span id="sync-text">Saving locally</span></span>
+    </div>
+    <nav class="tabs" role="tablist" aria-label="Sections">
+      <button role="tab" id="tab-quizzes" aria-selected="true" data-view="quizzes">Quizzes</button>
+      <button role="tab" id="tab-progress" aria-selected="false" data-view="progress">Progress</button>
+      <button role="tab" id="tab-glossary" aria-selected="false" data-view="glossary">Glossary</button>
+      <button role="tab" id="tab-ladder" aria-selected="false" data-view="ladder">The ladder</button>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+  <main>
+    <section class="view" id="view-quizzes" role="tabpanel" aria-labelledby="tab-quizzes"></section>
+    <section class="view" id="view-progress" role="tabpanel" aria-labelledby="tab-progress" hidden></section>
+    <section class="view" id="view-glossary" role="tabpanel" aria-labelledby="tab-glossary" hidden></section>
+    <section class="view" id="view-ladder" role="tabpanel" aria-labelledby="tab-ladder" hidden></section>
+  </main>
+</div>
+
+<script id="podcast-data" type="application/json">"__DISTRESSED_DATA__"</script>
+<script>
+(function () {
+  "use strict";
+
+  // ---- Data ---------------------------------------------------------------
+  var raw = document.getElementById("podcast-data").textContent;
+  var DATA;
+  try { DATA = JSON.parse(raw); } catch (e) { DATA = null; }
+  var BUILT = DATA && typeof DATA === "object" && Array.isArray(DATA.episodes);
+  var LEDGER = BUILT ? DATA.ledger.concepts : [];
+  var EPISODES = BUILT ? DATA.episodes : [];
+  var CONCEPT_BY_ID = {};
+  LEDGER.forEach(function (c) { CONCEPT_BY_ID[c.id] = c; });
+
+  var TIER_LABEL = {
+    accounting: "Accounting", capital_structure: "Capital structure", legal: "Legal",
+    process: "Process", valuation: "Valuation", trading: "Trading"
+  };
+  var STATUS_LABEL = { introduced: "Introduced", mastered: "Mastered", needs_reteach: "Re-teach" };
+  var STATUS_CLASS = { introduced: "", mastered: "good", needs_reteach: "bad" };
+
+  var LADDER = [
+    { name: "Super-senior: DIP loans and the ABL", kind: "debt",
+      what: "The first dollars out. A DIP loan is new money lent to a company already in Chapter 11 with a court-ordered claim ahead of everyone. An ABL is a revolver whose availability is a slice of inventory and receivables, so it sits on the most liquid collateral.",
+      paid: "Cash interest, usually floating; repaid first from its own collateral, and often rolled into the exit financing.",
+      breaks: "Almost never impaired; if it is, the company is worth less than its working capital." },
+    { name: "First-lien secured: term loans and secured notes", kind: "debt",
+      what: "Debt with a first claim on specific collateral (plants, ships, brands, stock of subsidiaries). Whether it is a bank loan or a bond changes the documents, not the rung.",
+      paid: "Cash interest; principal at maturity. In a restructuring: from collateral value first, and any shortfall becomes an unsecured deficiency claim.",
+      breaks: "When enterprise value falls below the first-lien debt, this is the fulcrum and ends up owning the company." },
+    { name: "Second-lien secured", kind: "debt",
+      what: "Same collateral, second in line. The intercreditor agreement says how far it must stand back (payment blockage, standstill, who controls the collateral).",
+      paid: "Higher coupon for the lower rung; often PIK toggles appear here first.",
+      breaks: "Often the fulcrum in a moderate downturn; often 'primed' by new super-senior money." },
+    { name: "Senior unsecured: bonds, trade, leases, litigation", kind: "debt",
+      what: "No collateral, just a promise from the issuing entity plus any guarantees. Vendors, landlords whose leases are rejected, and lawsuit plaintiffs sit here too, sharing pro rata.",
+      paid: "Fixed coupon; repaid from whatever value is left after secured claims are covered. Recoveries are quoted in cents on the dollar.",
+      breaks: "The classic fulcrum in a full-blown Chapter 11; the committee (UCC) represents this class." },
+    { name: "Subordinated debt", kind: "debt",
+      what: "Debt that has agreed by contract to be paid after the senior unsecured. Structural subordination is the cousin: a claim at the parent is behind every claim at the subsidiary that owns the assets.",
+      paid: "Highest coupon of the debt rungs; often PIK.",
+      breaks: "Usually wiped out or handed a sliver of equity and warrants." },
+    { name: "Preferred stock", kind: "equity",
+      what: "Equity, not debt. No maturity, no default if the dividend is skipped (it accrues or PIKs), but a liquidation preference that must be paid before the common gets anything. Convertible preferred can turn into a large share of the common on a date or a trigger.",
+      paid: "Dividends (cash or PIK) and the preference amount; sits below every creditor on the ladder.",
+      breaks: "Lenders often take 'take-back preferred' in a plan when they want an equity-like claim that still ranks ahead of the old shareholders." },
+    { name: "Common equity", kind: "equity",
+      what: "The residual owner: whatever is left after every rung above is paid in full. Absolute priority says the common gets nothing unless every class above is paid or consents.",
+      paid: "Dividends and the upside; in a restructuring, typically diluted to a few percent, warrants, or zero.",
+      breaks: "First to lose everything; the 'left in the dust' rung in a trader's recap." }
+  ];
+
+  // ---- Store: db capability with a localStorage mirror -------------------
+  var LS_KEY = "distressed-explainers.attempts.v1";
+  var db = null;
+  var attempts = [];
+  var listeners = [];
+
+  function lsRead() {
+    try { var v = localStorage.getItem(LS_KEY); return v ? JSON.parse(v) : []; } catch (e) { return []; }
+  }
+  function lsWrite(list) {
+    try { localStorage.setItem(LS_KEY, JSON.stringify(list)); } catch (e) { /* private window etc. */ }
+  }
+  function setAttempts(list) {
+    attempts = list.slice().sort(function (a, b) { return (a.finished_at < b.finished_at) ? 1 : -1; });
+    listeners.forEach(function (fn) { fn(); });
+  }
+  function onAttempts(fn) { listeners.push(fn); }
+
+  function setSync(on, text) {
+    var el = document.getElementById("sync-status");
+    el.classList.toggle("on", on);
+    document.getElementById("sync-text").textContent = text;
+  }
+
+  attempts = lsRead();
+
+  function saveAttempt(attempt) {
+    var next = attempts.concat([attempt]);
+    lsWrite(next);
+    setAttempts(next);
+    if (!db) return Promise.resolve(false);
+    return db.collection("attempts").doc(attempt.id).set(attempt).then(function () {
+      return true;
+    }).catch(function (err) {
+      setSync(false, "Saved locally only (" + (err && err.code ? err.code : "error") + ")");
+      return false;
+    });
+  }
+
+  function connectDb() {
+    if (!window.claude || typeof window.claude.use !== "function") return;
+    window.claude.use("db").then(function (ns) {
+      if (!ns) return;
+      db = ns;
+      setSync(true, "Synced to your Claude account");
+      db.collection("attempts").orderBy("finished_at", "desc").limit(500).onSnapshot(function (snap) {
+        var remote = snap.docs.map(function (d) { return d.data(); });
+        var local = lsRead();
+        var byId = {};
+        remote.concat(local).forEach(function (a) { if (a && a.id) byId[a.id] = a; });
+        var merged = Object.keys(byId).map(function (k) { return byId[k]; });
+        // Push any local-only attempts up, one at a time.
+        var remoteIds = {};
+        remote.forEach(function (a) { remoteIds[a.id] = true; });
+        var pending = local.filter(function (a) { return a && a.id && !remoteIds[a.id]; });
+        pending.reduce(function (p, a) {
+          return p.then(function () { return db.collection("attempts").doc(a.id).set(a).catch(function () {}); });
+        }, Promise.resolve());
+        lsWrite(merged);
+        setAttempts(merged);
+      }, function (err) {
+        setSync(false, "Saving locally (" + (err && err.code ? err.code : "sync lost") + ")");
+      });
+    });
+  }
+
+  // ---- Derived progress ---------------------------------------------------
+  function conceptState() {
+    // Latest quiz result per concept, newest attempt first.
+    var state = {};
+    LEDGER.forEach(function (c) { state[c.id] = { concept: c, status: c.status, tested: 0, missed: 0, last: null }; });
+    attempts.slice().reverse().forEach(function (a) {
+      (a.answers || []).forEach(function (ans) {
+        (ans.concept_ids || []).forEach(function (cid) {
+          if (!state[cid]) return;
+          state[cid].tested += 1;
+          if (!ans.correct) state[cid].missed += 1;
+          state[cid].last = ans.correct ? "correct" : "wrong";
+          state[cid].status = ans.correct ? "mastered" : "needs_reteach";
+        });
+      });
+    });
+    return state;
+  }
+
+  function bestFor(slug) {
+    var best = null;
+    attempts.forEach(function (a) {
+      if (a.slug !== slug) return;
+      if (!best || a.score > best.score) best = a;
+    });
+    return best;
+  }
+  function countFor(slug) { return attempts.filter(function (a) { return a.slug === slug; }).length; }
+
+  // ---- Utilities ----------------------------------------------------------
+  function h(tag, attrs, children) {
+    var el = document.createElement(tag);
+    if (attrs) Object.keys(attrs).forEach(function (k) {
+      if (k === "class") el.className = attrs[k];
+      else if (k === "text") el.textContent = attrs[k];
+      else if (k === "html") el.innerHTML = attrs[k];
+      else if (k.indexOf("on") === 0) el.addEventListener(k.slice(2), attrs[k]);
+      else if (attrs[k] === false || attrs[k] == null) { /* skip */ }
+      else el.setAttribute(k, attrs[k]);
+    });
+    (children || []).forEach(function (c) {
+      if (c == null) return;
+      el.appendChild(typeof c === "string" ? document.createTextNode(c) : c);
+    });
+    return el;
+  }
+  function clear(el) { while (el.firstChild) el.removeChild(el.firstChild); }
+  function levelDots(n) {
+    var el = h("span", { class: "level", title: "Level " + n + " of 5", "aria-label": "Level " + n + " of 5" });
+    for (var i = 1; i <= 5; i++) el.appendChild(h("i", { class: i <= n ? "on" : "" }));
+    return el;
+  }
+  function pill(text, cls) { return h("span", { class: "pill " + (cls || ""), text: text }); }
+  function fmtDate(iso) {
+    if (!iso) return "";
+    var d = new Date(iso);
+    if (isNaN(d.getTime())) return iso;
+    return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
+  }
+  function normalize(s) {
+    return String(s || "").toLowerCase().replace(/[^a-z0-9%$.]+/g, " ").replace(/\s+/g, " ").trim();
+  }
+  function seededShuffle(list, seed) {
+    var a = list.slice();
+    var x = 0;
+    for (var i = 0; i < seed.length; i++) x = (x * 31 + seed.charCodeAt(i)) >>> 0;
+    function rnd() { x = (x * 1664525 + 1013904223) >>> 0; return x / 4294967296; }
+    for (var j = a.length - 1; j > 0; j--) {
+      var k = Math.floor(rnd() * (j + 1));
+      var t = a[j]; a[j] = a[k]; a[k] = t;
+    }
+    var same = a.every(function (v, idx) { return v === list[idx]; });
+    if (same && a.length > 1) { a.push(a.shift()); }
+    return a;
+  }
+  function conceptNames(ids) {
+    return ids.map(function (id) { return CONCEPT_BY_ID[id] ? CONCEPT_BY_ID[id].name : id; }).join(", ");
+  }
+
+  // ---- Views --------------------------------------------------------------
+  var views = {
+    quizzes: document.getElementById("view-quizzes"),
+    progress: document.getElementById("view-progress"),
+    glossary: document.getElementById("view-glossary"),
+    ladder: document.getElementById("view-ladder")
+  };
+  var current = "quizzes";
+
+  function show(name) {
+    current = name;
+    Object.keys(views).forEach(function (k) { views[k].hidden = k !== name; });
+    document.querySelectorAll("nav.tabs button").forEach(function (b) {
+      b.setAttribute("aria-selected", b.getAttribute("data-view") === name ? "true" : "false");
+    });
+    try { localStorage.setItem("distressed-explainers.tab", name); } catch (e) { /* ignore */ }
+    render[name]();
+    window.scrollTo(0, 0);
+  }
+  document.querySelectorAll("nav.tabs button").forEach(function (b) {
+    b.addEventListener("click", function () { show(b.getAttribute("data-view")); });
+  });
+
+  var render = {};
+  var listShown = false; // false while a quiz or a result is on screen
+
+  // -- Quizzes list --
+  render.quizzes = function () {
+    var root = views.quizzes;
+    clear(root);
+    listShown = true;
+    if (!BUILT) {
+      root.appendChild(h("div", { class: "notice", text: "This page has no data yet. Run `uv run podcast site` to build quiz/build/index.html and open that file." }));
+      return;
+    }
+    root.appendChild(h("div", { class: "stack" }, [
+      h("p", { class: "eyebrow", text: "Twenty questions per episode" }),
+      h("h2", { text: "Take the quiz after you listen" }),
+      h("p", { class: "muted", text: "Questions get harder as the series goes on. A concept you miss is flagged for re-teaching, and the next episode explains it again and re-tests it." })
+    ]));
+    if (!EPISODES.length) {
+      root.appendChild(h("div", { class: "card", text: "No quizzes yet." }));
+      return;
+    }
+    EPISODES.forEach(function (ep) {
+      var best = bestFor(ep.slug);
+      var n = countFor(ep.slug);
+      var retests = ep.quiz.questions.filter(function (q) { return q.retest; }).length;
+      var meta = [h("span", { text: ep.company })];
+      if (retests) meta.push(pill(retests + " re-test" + (retests > 1 ? "s" : ""), "warn"));
+      root.appendChild(h("div", { class: "card lift episode" }, [
+        h("div", { class: "no num", text: String(ep.episode) }),
+        h("div", { class: "stack", style: "gap:6px;min-width:0" }, [
+          h("h3", { text: ep.title }),
+          h("div", { class: "row small muted", style: "gap:8px" }, meta),
+          h("p", { class: "small muted", text: ep.deal_type }),
+          h("div", { class: "row", style: "gap:8px" }, [
+            h("button", { class: "btn primary", onclick: function () { startQuiz(ep); }, text: n ? "Take it again" : "Start quiz" }),
+            best ? h("button", { class: "btn quiet", onclick: function () { showResult(ep, best, true); }, text: "Review best attempt" }) : null
+          ])
+        ]),
+        h("div", { class: "best small muted" }, best
+          ? [h("div", { class: "num", style: "font-size:1.4rem;color:var(--ink)", text: best.score + "/" + best.total }), h("div", { text: n + " attempt" + (n > 1 ? "s" : "") + " · best " + fmtDate(best.finished_at) })]
+          : [h("div", { text: "Not taken yet" })])
+      ]));
+    });
+  };
+
+  // -- Quiz runner --
+  var run = null;
+
+  function startQuiz(ep) {
+    listShown = false;
+    run = {
+      ep: ep,
+      index: 0,
+      started_at: new Date().toISOString(),
+      answers: [],
+      checked: false
+    };
+    renderQuestion();
+  }
+
+  function renderQuestion() {
+    var root = views.quizzes;
+    clear(root);
+    var ep = run.ep;
+    var qs = ep.quiz.questions;
+    var q = qs[run.index];
+    var bar = h("div", { class: "progress" }, [h("div", { style: "width:" + Math.round((run.index / qs.length) * 100) + "%" })]);
+    var header = h("div", { class: "stack", style: "gap:8px" }, [
+      h("div", { class: "row between" }, [
+        h("span", { class: "eyebrow", text: "Episode " + ep.episode + " · " + ep.company }),
+        h("button", { class: "btn quiet", text: "Quit", onclick: function () { run = null; render.quizzes(); } })
+      ]),
+      bar,
+      h("div", { class: "row between" }, [
+        h("span", { class: "small muted num", text: "Question " + (run.index + 1) + " of " + qs.length }),
+        h("span", { class: "row", style: "gap:8px" }, [q.retest ? pill("Re-test", "warn") : null, levelDots(q.level)])
+      ])
+    ]);
+    var card = h("div", { class: "card lift stack", style: "gap:16px" });
+    card.appendChild(h("p", { class: "prompt", text: q.prompt }));
+    var control = buildControl(q);
+    card.appendChild(control.el);
+    var feedback = h("div", { class: "feedback", hidden: true });
+    card.appendChild(feedback);
+    var actions = h("div", { class: "row between" });
+    var checkBtn = h("button", { class: "btn primary", text: "Check answer" });
+    var nextBtn = h("button", { class: "btn", text: run.index === qs.length - 1 ? "See results" : "Next question", hidden: true });
+    actions.appendChild(h("span", { class: "small muted", text: "Tests: " + conceptNames(q.concept_ids) }));
+    actions.appendChild(h("span", { class: "row" }, [checkBtn, nextBtn]));
+    card.appendChild(actions);
+
+    function check() {
+      var result = control.grade();
+      if (result === null || result.error) {
+        clear(feedback);
+        feedback.hidden = false;
+        feedback.className = "feedback";
+        feedback.appendChild(h("p", { class: "small", text: result && result.error ? result.error : "Answer first, then check." }));
+        var focusable = control.el.querySelector("input,select");
+        if (focusable) focusable.focus();
+        return;
+      }
+      run.answers.push({
+        q: q.id, type: q.type, level: q.level, retest: !!q.retest,
+        concept_ids: q.concept_ids.slice(), correct: result.correct, given: result.given
+      });
+      control.reveal(result);
+      clear(feedback);
+      feedback.hidden = false;
+      feedback.className = "feedback " + (result.correct ? "good" : "bad");
+      feedback.appendChild(h("div", { class: "verdict", text: result.correct ? "Correct." : "Not quite. " + result.answerText }));
+      feedback.appendChild(h("p", { class: "small", text: q.explanation }));
+      checkBtn.hidden = true;
+      nextBtn.hidden = false;
+      nextBtn.focus();
+    }
+    checkBtn.addEventListener("click", check);
+    control.el.addEventListener("keydown", function (e) { if (e.key === "Enter" && !checkBtn.hidden && e.target.tagName !== "TEXTAREA") { e.preventDefault(); check(); } });
+    nextBtn.addEventListener("click", function () {
+      run.index += 1;
+      if (run.index >= qs.length) finishQuiz(); else renderQuestion();
+    });
+    root.appendChild(header);
+    root.appendChild(card);
+    var first = control.el.querySelector("input,select");
+    if (first) first.focus();
+  }
+
+  function buildControl(q) {
+    var el, grade, reveal;
+    if (q.type === "multiple_choice") {
+      var name = "mc-" + q.id;
+      el = h("div", { class: "choices", role: "radiogroup", "aria-label": "Choices" });
+      var rows = q.choices.map(function (choice, i) {
+        var input = h("input", { type: "radio", name: name, value: String(i), id: name + "-" + i });
+        var row = h("label", { class: "choice", for: name + "-" + i }, [input, h("span", { class: "key", text: "ABCDE"[i] }), h("span", { text: choice })]);
+        return { row: row, input: input };
+      });
+      rows.forEach(function (r) { el.appendChild(r.row); });
+      grade = function () {
+        var picked = rows.findIndex(function (r) { return r.input.checked; });
+        if (picked < 0) return null;
+        return { correct: picked === q.answer, given: picked, answerText: "The answer is " + "ABCDE"[q.answer] + ": " + q.choices[q.answer] };
+      };
+      reveal = function (result) {
+        rows.forEach(function (r, i) {
+          r.input.disabled = true;
+          if (i === q.answer) r.row.classList.add("correct");
+          else if (i === result.given) r.row.classList.add("wrong");
+        });
+      };
+    } else if (q.type === "numeric") {
+      var num = h("input", { type: "number", step: "any", inputmode: "decimal", id: "num-" + q.id, "aria-label": "Your answer in " + q.unit });
+      el = h("div", { class: "inline-input" }, [num, h("span", { class: "muted", text: q.unit })]);
+      grade = function () {
+        if (num.value.trim() === "") return null;
+        var v = parseFloat(num.value);
+        if (isNaN(v)) return null;
+        var ok = Math.abs(v - q.answer) <= q.tolerance + 1e-9;
+        return { correct: ok, given: v, answerText: "The answer is about " + q.answer + " " + q.unit + (q.tolerance ? " (within " + q.tolerance + ")" : "") + "." };
+      };
+      reveal = function (result) { num.disabled = true; num.classList.add(result.correct ? "correct" : "wrong"); };
+    } else if (q.type === "short_text") {
+      var txt = h("input", { type: "text", autocomplete: "off", autocapitalize: "off", spellcheck: "false", id: "txt-" + q.id, "aria-label": "Your answer" });
+      el = h("div", { class: "inline-input" }, [txt]);
+      grade = function () {
+        var given = txt.value.trim();
+        if (!given) return null;
+        var n = normalize(given);
+        var ok = q.accepted.some(function (a) { return normalize(a) === n; });
+        return { correct: ok, given: given, answerText: "We were looking for: " + q.accepted[0] + "." };
+      };
+      reveal = function () { txt.disabled = true; };
+    } else {
+      var shuffled = seededShuffle(q.items, q.id + ":" + run.ep.slug);
+      el = h("div", { class: "order-list", "aria-label": "Put in order: 1 is first" });
+      var selects = shuffled.map(function (item) {
+        var sel = h("select", { "aria-label": "Position of " + item, id: "ord-" + q.id + "-" + q.items.indexOf(item) });
+        sel.appendChild(h("option", { value: "", text: "—" }));
+        q.items.forEach(function (_, i) { sel.appendChild(h("option", { value: String(i + 1), text: String(i + 1) })); });
+        var row = h("div", { class: "order-item" }, [sel, h("span", { text: item })]);
+        el.appendChild(row);
+        return { item: item, sel: sel, row: row };
+      });
+      grade = function () {
+        var positions = selects.map(function (s) { return s.sel.value; });
+        if (positions.some(function (p) { return !p; })) return null;
+        if (new Set(positions).size !== positions.length) return { error: "Each position can only be used once." };
+        var correct = selects.every(function (s) { return Number(s.sel.value) === q.items.indexOf(s.item) + 1; });
+        var given = selects.slice().sort(function (a, b) { return Number(a.sel.value) - Number(b.sel.value); }).map(function (s) { return s.item; });
+        return { correct: correct, given: given, answerText: "The order is: " + q.items.join(" → ") + "." };
+      };
+      reveal = function () {
+        selects.forEach(function (s) {
+          s.sel.disabled = true;
+          s.row.classList.add(Number(s.sel.value) === q.items.indexOf(s.item) + 1 ? "correct" : "wrong");
+        });
+      };
+    }
+    return { el: el, grade: grade, reveal: reveal };
+  }
+
+  function finishQuiz() {
+    var ep = run.ep;
+    var score = run.answers.filter(function (a) { return a.correct; }).length;
+    var attempt = {
+      id: ep.slug + "-" + Date.now(),
+      slug: ep.slug,
+      episode: ep.episode,
+      started_at: run.started_at,
+      finished_at: new Date().toISOString(),
+      score: score,
+      total: run.answers.length,
+      answers: run.answers
+    };
+    run = null;
+    saveAttempt(attempt);
+    showResult(ep, attempt, false);
+  }
+
+  function showResult(ep, attempt, isReview) {
+    var root = views.quizzes;
+    clear(root);
+    listShown = false;
+    var missed = {};
+    var right = {};
+    attempt.answers.forEach(function (a) {
+      a.concept_ids.forEach(function (cid) { (a.correct ? right : missed)[cid] = true; });
+    });
+    var missedIds = Object.keys(missed);
+    var rightOnly = Object.keys(right).filter(function (id) { return !missed[id]; });
+    var pct = attempt.total ? Math.round((attempt.score / attempt.total) * 100) : 0;
+    root.appendChild(h("div", { class: "card lift stack", style: "gap:14px" }, [
+      h("span", { class: "eyebrow", text: (isReview ? "Best attempt · " : "Result · ") + ep.title }),
+      h("div", { class: "row", style: "gap:18px;align-items:baseline" }, [
+        h("span", { class: "score num", text: attempt.score + "/" + attempt.total }),
+        h("span", { class: "muted", text: pct + "% · " + fmtDate(attempt.finished_at) })
+      ]),
+      h("p", { class: "muted", text: pct >= 85 ? "That's a desk-ready score for this episode." : pct >= 60 ? "Solid. The missed concepts below get re-explained and re-tested in the next episode." : "Worth a re-listen. The missed concepts below are flagged for re-teaching in the next episode." }),
+      h("div", { class: "row" }, [
+        h("button", { class: "btn primary", text: "Back to episodes", onclick: function () { render.quizzes(); } }),
+        h("button", { class: "btn", text: "Try again", onclick: function () { startQuiz(ep); } }),
+        h("button", { class: "btn quiet", text: "See progress", onclick: function () { show("progress"); } })
+      ])
+    ]));
+    if (missedIds.length) {
+      root.appendChild(h("div", { class: "card stack" }, [
+        h("h3", { text: "Flagged for re-teaching" }),
+        h("div", { class: "concept-list" }, missedIds.map(function (id) {
+          var c = CONCEPT_BY_ID[id];
+          return h("div", { class: "concept-line" }, [
+            h("div", {}, [h("strong", { text: c ? c.name : id }), c ? h("div", { class: "small muted", text: c.one_line }) : null]),
+            pill("Missed", "bad")
+          ]);
+        }))
+      ]));
+    }
+    if (rightOnly.length) {
+      root.appendChild(h("div", { class: "card stack" }, [
+        h("h3", { text: "Landed" }),
+        h("p", { class: "small muted", text: conceptNames(rightOnly) })
+      ]));
+    }
+    var table = h("table", {}, [
+      h("thead", {}, [h("tr", {}, [h("th", { text: "#" }), h("th", { text: "Type" }), h("th", { text: "Level" }), h("th", { text: "Concepts" }), h("th", { text: "Result" })])]),
+      h("tbody", {}, attempt.answers.map(function (a, i) {
+        return h("tr", {}, [
+          h("td", { class: "num", text: String(i + 1) }),
+          h("td", { text: a.type.replace("_", " ") + (a.retest ? " · re-test" : "") }),
+          h("td", {}, [levelDots(a.level)]),
+          h("td", { text: conceptNames(a.concept_ids) }),
+          h("td", {}, [pill(a.correct ? "Right" : "Wrong", a.correct ? "good" : "bad")])
+        ]);
+      }))
+    ]);
+    root.appendChild(h("div", { class: "card stack" }, [h("h3", { text: "Question by question" }), h("div", { class: "table-wrap" }, [table])]));
+  }
+
+  // -- Progress --
+  render.progress = function () {
+    var root = views.progress;
+    clear(root);
+    var state = conceptState();
+    var ids = Object.keys(state);
+    var reteach = ids.filter(function (id) { return state[id].status === "needs_reteach"; });
+    var mastered = ids.filter(function (id) { return state[id].status === "mastered"; });
+    var untested = ids.filter(function (id) { return state[id].status === "introduced"; });
+    root.appendChild(h("div", { class: "stack" }, [
+      h("p", { class: "eyebrow", text: attempts.length + " attempt" + (attempts.length === 1 ? "" : "s") + " recorded" }),
+      h("h2", { text: "Where you stand" }),
+      h("p", { class: "muted", text: "Derived from your latest answer on each concept. The progress skill reads these attempts and updates the ledger before the next episode is written." })
+    ]));
+    root.appendChild(h("div", { class: "grid" }, [
+      statCard(String(mastered.length), "Mastered", "good"),
+      statCard(String(reteach.length), "Need re-teaching", "bad"),
+      statCard(String(untested.length), "Introduced, not yet tested", "")
+    ]));
+    if (reteach.length) {
+      root.appendChild(h("div", { class: "card stack" }, [
+        h("h3", { text: "Re-teach next" }),
+        h("div", { class: "concept-list" }, reteach.map(function (id) {
+          var s = state[id];
+          return h("div", { class: "concept-line" }, [
+            h("div", {}, [h("strong", { text: s.concept.name }), h("div", { class: "small muted", text: s.concept.one_line })]),
+            h("span", { class: "small muted num", text: s.missed + "/" + s.tested + " missed" })
+          ]);
+        }))
+      ]));
+    }
+    if (attempts.length) {
+      var rows = attempts.map(function (a) {
+        var ep = EPISODES.filter(function (e) { return e.slug === a.slug; })[0];
+        return h("tr", {}, [
+          h("td", { text: fmtDate(a.finished_at) }),
+          h("td", { text: ep ? "Ep. " + ep.episode + " · " + ep.company : a.slug }),
+          h("td", { class: "num", text: a.score + "/" + a.total }),
+          h("td", { text: a.answers.filter(function (x) { return !x.correct; }).map(function (x) { return conceptNames(x.concept_ids); }).filter(function (v, i, arr) { return arr.indexOf(v) === i; }).join("; ") || "—" })
+        ]);
+      });
+      root.appendChild(h("div", { class: "card stack" }, [
+        h("h3", { text: "Attempts" }),
+        h("div", { class: "table-wrap" }, [h("table", {}, [
+          h("thead", {}, [h("tr", {}, [h("th", { text: "Date" }), h("th", { text: "Episode" }), h("th", { text: "Score" }), h("th", { text: "Missed" })])]),
+          h("tbody", {}, rows)
+        ])])
+      ]));
+      var ta = h("textarea", { rows: "4", readonly: "readonly", "aria-label": "Attempts as JSON", spellcheck: "false" });
+      ta.value = JSON.stringify(attempts);
+      root.appendChild(h("div", { class: "card stack" }, [
+        h("h3", { text: "Export" }),
+        h("p", { class: "small muted", text: db ? "Attempts are synced to your Claude account, so the progress skill can read them directly. This copy is a fallback." : "This page could not reach the shared store, so attempts live only in this browser. Paste this JSON into concepts/attempts.json in the repo so the progress skill can use it." }),
+        ta,
+        h("button", { class: "btn", text: "Copy JSON", onclick: function () {
+          ta.select();
+          try { navigator.clipboard.writeText(ta.value); } catch (e) { document.execCommand("copy"); }
+        } })
+      ]));
+    } else {
+      root.appendChild(h("div", { class: "card muted", text: "No attempts yet. Take a quiz and your results appear here." }));
+    }
+  };
+  function statCard(value, label, cls) {
+    return h("div", { class: "card stack", style: "gap:4px" }, [
+      h("div", { class: "score num", style: "font-size:2.2rem;color:" + (cls === "good" ? "var(--good)" : cls === "bad" ? "var(--bad)" : "var(--ink)"), text: value }),
+      h("div", { class: "small muted", text: label })
+    ]);
+  }
+
+  // -- Glossary --
+  var glossaryFilter = { q: "", tier: "", status: "", episode: "" };
+  render.glossary = function () {
+    var root = views.glossary;
+    clear(root);
+    var state = conceptState();
+    var search = h("input", { type: "search", id: "glossary-search", placeholder: "Search terms and definitions", value: glossaryFilter.q, "aria-label": "Search" });
+    var tierSel = h("select", { id: "glossary-tier", "aria-label": "Filter by area" }, [h("option", { value: "", text: "All areas" })].concat(Object.keys(TIER_LABEL).map(function (k) { return h("option", { value: k, text: TIER_LABEL[k] }); })));
+    var statusSel = h("select", { id: "glossary-status", "aria-label": "Filter by status" }, [h("option", { value: "", text: "Any status" })].concat(Object.keys(STATUS_LABEL).map(function (k) { return h("option", { value: k, text: STATUS_LABEL[k] }); })));
+    var epSel = h("select", { id: "glossary-episode", "aria-label": "Filter by episode" }, [h("option", { value: "", text: "Any episode" })].concat(EPISODES.map(function (e) { return h("option", { value: String(e.episode), text: "Ep. " + e.episode + " · " + e.company }); })));
+    tierSel.value = glossaryFilter.tier; statusSel.value = glossaryFilter.status; epSel.value = glossaryFilter.episode;
+    var list = h("div", { class: "stack" });
+    function apply() {
+      glossaryFilter = { q: search.value, tier: tierSel.value, status: statusSel.value, episode: epSel.value };
+      clear(list);
+      var q = normalize(glossaryFilter.q);
+      var shown = LEDGER.filter(function (c) {
+        if (glossaryFilter.tier && c.tier !== glossaryFilter.tier) return false;
+        if (glossaryFilter.status && state[c.id].status !== glossaryFilter.status) return false;
+        if (glossaryFilter.episode && String(c.episode) !== glossaryFilter.episode) return false;
+        if (q) {
+          var hay = normalize(c.name + " " + c.one_line + " " + (c.aliases || []).join(" ") + " " + (c.moyer || ""));
+          if (hay.indexOf(q) < 0) return false;
+        }
+        return true;
+      }).sort(function (a, b) { return a.name.localeCompare(b.name); });
+      list.appendChild(h("p", { class: "small muted", text: shown.length + " of " + LEDGER.length + " terms" }));
+      shown.forEach(function (c) {
+        var st = state[c.id].status;
+        var ep = EPISODES.filter(function (e) { return e.slug === c.introduced_in; })[0];
+        list.appendChild(h("div", { class: "card term" }, [
+          h("div", { class: "head" }, [h("h3", { text: c.name }), pill(STATUS_LABEL[st], STATUS_CLASS[st])]),
+          h("p", { text: c.one_line }),
+          h("div", { class: "meta" }, [
+            pill(TIER_LABEL[c.tier] || c.tier),
+            levelDots(c.level),
+            h("span", { text: "Explained in ep. " + c.episode + (ep ? " (" + ep.company + ")" : " (" + c.introduced_in + ")") }),
+            c.moyer ? h("span", { text: "Moyer: " + c.moyer }) : null,
+            c.aliases && c.aliases.length ? h("span", { text: "Also: " + c.aliases.join(", ") }) : null
+          ])
+        ]));
+      });
+    }
+    [search, tierSel, statusSel, epSel].forEach(function (el) { el.addEventListener("input", apply); el.addEventListener("change", apply); });
+    root.appendChild(h("div", { class: "stack" }, [
+      h("p", { class: "eyebrow", text: LEDGER.length + " terms explained so far" }),
+      h("h2", { text: "The ledger" }),
+      h("p", { class: "muted", text: "Every term the episodes have defined on air, with where it was taught and whether you have it down. Later episodes use these words without re-explaining them, unless one is flagged for re-teaching." })
+    ]));
+    root.appendChild(h("div", { class: "filters" }, [search, tierSel, statusSel, epSel]));
+    root.appendChild(list);
+    apply();
+  };
+
+  // -- Ladder --
+  render.ladder = function () {
+    var root = views.ladder;
+    clear(root);
+    root.appendChild(h("div", { class: "stack" }, [
+      h("p", { class: "eyebrow", text: "Reference · senior to junior" }),
+      h("h2", { text: "The capital structure ladder" }),
+      h("p", { class: "muted", text: "Every instrument in every episode sits on one of these rungs. Value fills the ladder from the top; the rung where it runs out is the fulcrum, and everything below it is fighting over scraps. Preferred stock is the rung newcomers misplace most often: it is equity, below every lender, however senior its name sounds." })
+    ]));
+    var ladder = h("div", { class: "card ladder" });
+    LADDER.forEach(function (r, i) {
+      ladder.appendChild(h("div", { class: "rung " + r.kind }, [
+        h("div", { class: "rail" }, [h("i")]),
+        h("div", {}, [
+          h("div", { class: "row between" }, [h("h3", { text: r.name }), pill(r.kind === "debt" ? "Creditor" : "Equity", r.kind === "debt" ? "accent" : "warn")]),
+          h("dl", {}, [
+            h("dt", { text: "What it is" }), h("dd", { text: r.what }),
+            h("dt", { text: "How it gets paid" }), h("dd", { text: r.paid }),
+            h("dt", { text: "When it breaks" }), h("dd", { text: r.breaks })
+          ])
+        ])
+      ]));
+    });
+    root.appendChild(ladder);
+    root.appendChild(h("div", { class: "card stack small muted" }, [
+      h("h3", { style: "color:var(--ink)", text: "Two things that move a claim between rungs" }),
+      h("p", { text: "A guarantee from another entity pulls a claim up: the lender can also collect from the guarantor. Structural subordination pushes a claim down: a bond at the holding company is paid only from what is left after the operating subsidiary's own creditors are done, because the subsidiary's assets belong to the subsidiary." }),
+      h("p", { text: "This ladder is general education, not a description of any one company. Each episode's research says where its instruments actually sit." })
+    ]));
+  };
+
+  // ---- Boot ---------------------------------------------------------------
+  onAttempts(function () { if (current !== "quizzes" || listShown) render[current](); });
+  var remembered = null;
+  try { remembered = localStorage.getItem("distressed-explainers.tab"); } catch (e) { /* ignore */ }
+  show(remembered && views[remembered] ? remembered : "quizzes");
+  connectDb();
+})();
+</script>

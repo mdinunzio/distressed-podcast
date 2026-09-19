@@ -1,0 +1,281 @@
+{
+  "slug": "new-fortress-energy",
+  "episode": 2,
+  "title": "New Fortress Energy: The Restructuring That Went to London",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "multiple_choice",
+      "level": 1,
+      "concept_ids": ["capex"],
+      "prompt": "In Moyer's sorting of why companies break, New Fortress is best described as:",
+      "choices": [
+        "A fraud case",
+        "A capex-heavy growth business that borrowed to build and then lost the contracts the growth was meant to serve",
+        "A leveraged buyout with too much acquisition debt",
+        "A cyclical commodity producer hit by a price collapse"
+      ],
+      "answer": 1,
+      "explanation": "Build first, borrow to do it, sign contracts to pay it back. The FEMA contract ended, Puerto Rico rejected the big proposal, Brazil and Nicaragua slipped, and the second liquefaction unit still needed up to $1.5 billion."
+    },
+    {
+      "id": "q02",
+      "type": "numeric",
+      "level": 1,
+      "concept_ids": ["leverage", "adjusted_ebitda"],
+      "prompt": "Corporate debt was $5.7 billion and the creditors' forecast showed core adjusted EBITDA of about $100 million for 2026. What is the leverage multiple?",
+      "answer": 57,
+      "tolerance": 3,
+      "unit": "times EBITDA",
+      "explanation": "5.7 billion divided by 100 million is 57 times. Segment operating margin was $340 million, but that is before overhead; a creditor uses the forecast the lenders were actually shown."
+    },
+    {
+      "id": "q03",
+      "type": "multiple_choice",
+      "level": 2,
+      "concept_ids": ["non_recourse_debt"],
+      "prompt": "Consolidated debt was $8.3 billion, but only about $5.7 billion went into the restructuring. Why?",
+      "choices": [
+        "The rest had already been repaid from asset sales",
+        "The rest was project debt, ship sale-leasebacks and turbine financing that lenders could only collect from specific assets",
+        "The rest was owed to the CEO",
+        "English courts can only restructure bonds"
+      ],
+      "answer": 1,
+      "explanation": "Recourse versus non-recourse is the first sort a desk does. Only the debt with recourse to the parent was compromised; the Brazil project debt, the $635 million of sale-leasebacks and the turbine financing stayed where they were."
+    },
+    {
+      "id": "q04",
+      "type": "multiple_choice",
+      "level": 3,
+      "concept_ids": ["subsidiary_issuer", "collateral_pools"],
+      "prompt": "Why did the 2024 12 percent notes come out of a brand-new subsidiary, NFE Financing, rather than the parent?",
+      "choices": [
+        "Tax treatment of the coupon",
+        "The parent's assets were already pledged, so the subsidiary could pledge what was still unencumbered, including up to 49 percent of Brazil",
+        "Nasdaq rules prohibit the parent from issuing secured debt",
+        "The old bondholders refused to lend to the parent"
+      ],
+      "answer": 1,
+      "explanation": "The revolver, letter-of-credit facility and term loans already had the parent's assets. The new issuer pledged the unencumbered assets and lent the money into the group through intercompany loans, giving the 12 percent notes their own collateral pool with the best assets."
+    },
+    {
+      "id": "q05",
+      "type": "short_text",
+      "level": 3,
+      "concept_ids": ["drop_down"],
+      "prompt": "What is the desk's name for moving assets outside the existing lenders' collateral so new debt can be raised against them?",
+      "accepted": ["drop-down", "drop down", "dropdown", "drop-down transaction", "drop down transaction"],
+      "explanation": "A drop-down. The Guest called the 2024 deal one and the Host said 'same family': whoever writes the new money redraws the collateral map, and in 2026 that map decided who got Brazil."
+    },
+    {
+      "id": "q06",
+      "type": "multiple_choice",
+      "level": 2,
+      "concept_ids": ["restructuring_support_agreement"],
+      "prompt": "What is a restructuring support agreement?",
+      "choices": [
+        "A court order that stays creditor lawsuits",
+        "A contract in which creditors agree to vote for a plan with specific terms and milestones, and the company agrees not to pursue alternatives",
+        "A loan that funds the company through a bankruptcy",
+        "A rating agency's recovery estimate"
+      ],
+      "answer": 1,
+      "explanation": "Signed March 17, 2026 by 778 creditors holding about 97 percent of the corporate debt. Its allocation table was, in the Host's words, the best document in the case."
+    },
+    {
+      "id": "q07",
+      "type": "numeric",
+      "level": 3,
+      "concept_ids": ["consent_fee"],
+      "prompt": "What early consent fee, in percent, did creditors earn for signing the RSA by March 31?",
+      "answer": 0.75,
+      "tolerance": 0.01,
+      "unit": "percent, paid in kind",
+      "explanation": "Zero point seven five percent, paid in kind. Consent was bought in small increments: a consent fee here, a standstill fee there, a cash election, a preferred-to-debt swap."
+    },
+    {
+      "id": "q08",
+      "type": "multiple_choice",
+      "level": 3,
+      "concept_ids": ["standstill_fee", "holdout"],
+      "prompt": "What did the 2 percent standstill fee buy?",
+      "choices": [
+        "Revolver lenders' agreement not to enforce, removing a potential holdout",
+        "The CEO's agreement to buy term loan A",
+        "An extension of the FLNG 2 construction deadline",
+        "Nasdaq's consent to the reverse split"
+      ],
+      "answer": 0,
+      "explanation": "Each fee is a small price for removing a potential holdout, the creditor who refuses a consensual deal hoping to be paid in full by the others. The court processes exist to solve that problem; the fees meant the court never had to."
+    },
+    {
+      "id": "q09",
+      "type": "order",
+      "level": 3,
+      "concept_ids": ["payment_waterfall", "collateral_pools", "recovery"],
+      "prompt": "Rank these creditor classes from best treated to worst treated under the plans.",
+      "items": [
+        "The 12 percent notes: 94 percent of Brazil, $974 million of preferred and 26 percent of the common",
+        "Term loan B: $313 million of cash-pay term loans, $700 million of preferred, 18 percent of the common and the FLNG 2 paper",
+        "The legacy 2026 and 2029 bonds: preferred and 7 percent of the common, about 26 cents"
+      ],
+      "explanation": "Value was allocated first among five collateral pools by how much each gained, then pro rata inside each pool. The 12 percent notes' pool held Brazil; the legacy pool held only the common collateral everyone shared."
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "level": 2,
+      "concept_ids": ["collateral_pools"],
+      "prompt": "The legacy bonds were secured, yet they came out worst. Why?",
+      "choices": [
+        "They had the latest maturity",
+        "They were secured only by the common collateral every other lender also had a claim on, with nothing in Brazil or the liquefaction units",
+        "Their holders voted against the plan",
+        "They were subordinated by the 2021 guarantee"
+      ],
+      "answer": 1,
+      "explanation": "Secured by what the RSA called common collateral, and nothing more. The expert report put their recovery at 26 percent under the plan against 13 percent in the alternative, and 99.8 percent of them still voted yes."
+    },
+    {
+      "id": "q11",
+      "type": "multiple_choice",
+      "level": 3,
+      "concept_ids": ["part_26a_plan"],
+      "prompt": "What is the voting threshold in an English Part 26A restructuring plan?",
+      "choices": [
+        "A simple majority by headcount",
+        "Two-thirds by value and a majority by number, like Chapter 11",
+        "75 percent by value in each class, with no headcount test",
+        "Unanimity"
+      ],
+      "answer": 2,
+      "explanation": "Seventy-five percent by value, no headcount test, and a court sanction at the end. Six of the seven core classes voted unanimously and the seventh at 99.8 percent."
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "level": 3,
+      "concept_ids": ["cross_class_cramdown"],
+      "prompt": "Under a Part 26A plan, a class that votes no can still be bound if:",
+      "choices": [
+        "The company's shareholders approve",
+        "It is no worse off than in the most likely alternative",
+        "It holds less than 10 percent of the debt",
+        "The plan pays it in full"
+      ],
+      "answer": 1,
+      "explanation": "The no-worse-off test against the relevant alternative, which for the core business was a Chapter 11 with distressed asset sales. No class dissented, so the court never had to use the cramdown power."
+    },
+    {
+      "id": "q13",
+      "type": "short_text",
+      "level": 3,
+      "concept_ids": ["chapter_15"],
+      "prompt": "Which chapter of the U.S. Bankruptcy Code did the plan companies use to have the English plans recognized in New York?",
+      "accepted": ["Chapter 15", "15", "chapter fifteen", "ch 15", "ch. 15"],
+      "explanation": "Chapter 15 recognizes foreign proceedings. The two plan companies filed on May 28; Chief Judge Glenn recognized the plans as foreign main proceedings on June 26."
+    },
+    {
+      "id": "q14",
+      "type": "multiple_choice",
+      "level": 4,
+      "concept_ids": ["comi"],
+      "prompt": "On what basis did Judge Glenn find the plan companies' centre of main interests was England?",
+      "choices": [
+        "The parent's Nasdaq listing",
+        "Registered offices, books, bank accounts and an English-resident foreign representative",
+        "The location of the LNG terminals",
+        "New York law governing the debt"
+      ],
+      "answer": 1,
+      "explanation": "COMI was in England on those facts. He also warned against 'COMI tourism', said courts should scrutinize whether a new English affiliate exists to circumvent the Bankruptcy Code, and called creditor support the best evidence that it does not."
+    },
+    {
+      "id": "q15",
+      "type": "multiple_choice",
+      "level": 2,
+      "concept_ids": ["absolute_priority_rule"],
+      "prompt": "Creditors compromised $5.7 billion of debt, yet shareholders kept 35 percent. What made that possible?",
+      "choices": [
+        "The company was solvent on a liquidation basis",
+        "English plans have no absolute priority rule, no class dissented, and the deal needed a stockholder vote",
+        "The DIP lenders gifted the equity to shareholders",
+        "The preferred stock was issued to the shareholders"
+      ],
+      "answer": 1,
+      "explanation": "In a contested Chapter 11 the absolute priority rule would hand old equity zero. A Part 26A plan only asks whether a dissenting class is worse off than the alternative, and the June 17 stockholder vote for the charter amendment, reverse split and share issuance had to be won."
+    },
+    {
+      "id": "q16",
+      "type": "multiple_choice",
+      "level": 2,
+      "concept_ids": ["preferred_stock", "liquidation_preference"],
+      "prompt": "Where does preferred stock sit on the capital structure ladder?",
+      "choices": [
+        "Above the secured term loans, because it is 'preferred'",
+        "Level with the senior unsecured bonds",
+        "Below every creditor but ahead of the common, with a liquidation preference the common must wait behind",
+        "Below the common, because it has no vote"
+      ],
+      "answer": 2,
+      "explanation": "Preferred is equity, not debt: no maturity, no default if the dividend is skipped, but a liquidation preference that ranks ahead of common. That is why creditors who wanted an equity-like claim that still outranks old shareholders took $2.46 billion of it."
+    },
+    {
+      "id": "q17",
+      "type": "numeric",
+      "level": 3,
+      "concept_ids": ["mandatorily_convertible_preferred"],
+      "prompt": "If the preferred is still outstanding in September 2029, what percentage of the fully diluted common does it convert into?",
+      "answer": 87,
+      "tolerance": 0,
+      "unit": "percent of the common",
+      "explanation": "Eighty-seven percent, unless the company redeems it first from specified proceeds such as asset sales, an FLNG 2 partner or the FEMA settlement. The PIK return steps from 3 to 5 to 7 percent over the three years."
+    },
+    {
+      "id": "q18",
+      "type": "multiple_choice",
+      "level": 3,
+      "concept_ids": ["dilution", "fulcrum_security"],
+      "prompt": "The Host called the shareholders' 35 percent 'mostly an option'. What did that mean?",
+      "choices": [
+        "Shareholders received call options instead of shares",
+        "It is a three-year option on refinancing about $2.5 billion; if the preferred converts, old holders keep about 35 percent of 13 percent",
+        "The shares are restricted from trading for three years",
+        "Management can buy the shares back at par"
+      ],
+      "answer": 1,
+      "explanation": "Thirty-five percent of the 13 percent left after conversion is about 4.5 percent, before a 10 percent management plan. In Moyer's terms the economic fulcrum is the preferred, not the common; the 35 percent was the price of a consensual deal, not a valuation."
+    },
+    {
+      "id": "q19",
+      "type": "multiple_choice",
+      "level": 3,
+      "concept_ids": ["pro_forma_capital_structure"],
+      "prompt": "The press release said corporate debt fell to about $530 million. What does that headline leave out?",
+      "choices": [
+        "Nothing; the balance sheet is now nearly debt-free",
+        "The $2.46 billion of accreting preferred, $400 million of non-recourse FLNG 2 debt, about $635 million of ship obligations and roughly $2 billion of pro forma long-term debt",
+        "Only the new-money loans",
+        "The Brazil business, which the company still consolidates"
+      ],
+      "answer": 1,
+      "explanation": "True and misleading. Reading a post-restructuring balance sheet means adding back what the headline drops: leverage on the creditors' own stressed forecast is 7.6 times 2026 EBITDA, and $2.65 billion of preferred sits above the common."
+    },
+    {
+      "id": "q20",
+      "type": "multiple_choice",
+      "level": 2,
+      "concept_ids": ["price_in_points", "recovery"],
+      "prompt": "The legacy notes traded under 20 cents in September 2025 and recovered about 26 under the plan against 13 in the alternative. What was the trade?",
+      "choices": [
+        "A bet on rising gas prices",
+        "A bet that a consensual plan would beat a Chapter 11 asset sale",
+        "A bet that the notes would be repaid at par from the Brazil sale",
+        "A bet that the CEO would buy them out"
+      ],
+      "answer": 1,
+      "explanation": "Under twenty cents was a price for the alternative. The plan delivered 26 because the process avoided distressed sales, which is the whole point of the $1.44 billion uplift the judge was shown."
+    }
+  ]
+}

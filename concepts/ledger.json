@@ -1,0 +1,1410 @@
+{
+  "concepts": [
+    {
+      "id": "ebitda",
+      "name": "EBITDA",
+      "one_line": "Earnings before interest, taxes, depreciation and amortization: the rough cash-earnings number every leverage and coverage ratio is built on, before creditors adjust it.",
+      "tier": "accounting",
+      "level": 1,
+      "moyer": "Ch. 3, financial analysis of the distressed firm",
+      "aliases": [
+        "adjusted EBITDA"
+      ],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "enterprise_value",
+      "name": "Enterprise value",
+      "one_line": "What the whole business is worth to all its capital providers together; value fills the capital structure from the top, and where it runs out decides who gets paid.",
+      "tier": "valuation",
+      "level": 1,
+      "moyer": "Ch. 6, valuation of the reorganized firm",
+      "aliases": [
+        "EV",
+        "TEV"
+      ],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "working_capital",
+      "name": "Working capital",
+      "one_line": "Inventory plus receivables minus payables: the cash tied up in running the business day to day, and the first thing to seize up when vendors stop shipping.",
+      "tier": "accounting",
+      "level": 1,
+      "moyer": "Ch. 3",
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "liquidity",
+      "name": "Liquidity",
+      "one_line": "Cash plus what can still be drawn on the revolver: the runway a company has before it must file, refinance or do a deal.",
+      "tier": "accounting",
+      "level": 1,
+      "moyer": "Ch. 2, liquidity versus solvency",
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "leverage",
+      "name": "Leverage",
+      "one_line": "Debt divided by EBITDA: how many years of earnings it would take to repay the debt, and the ratio covenants and rating agencies watch.",
+      "tier": "accounting",
+      "level": 1,
+      "moyer": "Ch. 3",
+      "aliases": [
+        "leverage ratio",
+        "debt to EBITDA"
+      ],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "secured_vs_unsecured",
+      "name": "Secured versus unsecured debt",
+      "one_line": "Secured debt has a claim on specific collateral and is paid from it first; unsecured debt has only the borrower's promise and shares in what is left.",
+      "tier": "capital_structure",
+      "level": 1,
+      "moyer": "Ch. 4, the capital structure and where value breaks",
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "collateral",
+      "name": "Collateral",
+      "one_line": "The specific assets pledged to a lender, which that lender can be paid from ahead of everyone else.",
+      "tier": "capital_structure",
+      "level": 1,
+      "moyer": "Ch. 4",
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "lien",
+      "name": "Lien",
+      "one_line": "The legal claim a secured lender holds over collateral; first lien is paid first, second lien next, from the same assets.",
+      "tier": "capital_structure",
+      "level": 2,
+      "moyer": "Ch. 4",
+      "aliases": [
+        "first lien",
+        "second lien"
+      ],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "abl",
+      "name": "Asset-based loan (ABL)",
+      "one_line": "A revolver whose availability is a percentage of eligible inventory and receivables, so the lender with the smallest claim can control the company's cash.",
+      "tier": "capital_structure",
+      "level": 2,
+      "moyer": null,
+      "aliases": [
+        "asset-based revolver"
+      ],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "borrowing_base",
+      "name": "Borrowing base",
+      "one_line": "The formula that sets how much an ABL lender will lend: eligible inventory and receivables times advance rates, minus reserves the agent can impose.",
+      "tier": "capital_structure",
+      "level": 2,
+      "moyer": null,
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "revolver",
+      "name": "Revolving credit facility",
+      "one_line": "A bank line that can be drawn, repaid and redrawn; the first place a company reaches for liquidity and the first lender to notice trouble.",
+      "tier": "capital_structure",
+      "level": 1,
+      "moyer": null,
+      "aliases": [
+        "revolving credit facility",
+        "RCF"
+      ],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "term_loan",
+      "name": "Term loan",
+      "one_line": "A loan drawn once and repaid on a schedule or at maturity, usually secured and usually held by institutions rather than banks.",
+      "tier": "capital_structure",
+      "level": 1,
+      "moyer": null,
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "indenture",
+      "name": "Indenture",
+      "one_line": "The contract governing a bond issue: the coupon, maturity, covenants, guarantees and what counts as a default.",
+      "tier": "legal",
+      "level": 2,
+      "moyer": "Ch. 5, legal aspects of the indenture",
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "name": "Covenant",
+      "one_line": "A promise in a loan or bond document about what the borrower must do or may not do, whose breach lets lenders act.",
+      "tier": "legal",
+      "level": 1,
+      "moyer": "Ch. 5",
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "guarantee",
+      "name": "Guarantee",
+      "one_line": "A promise by another entity, usually a parent or subsidiary, to pay a debt if the borrower does not, which pulls a claim up to that entity.",
+      "tier": "capital_structure",
+      "level": 2,
+      "moyer": "Ch. 4, guarantees",
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "structural_subordination",
+      "name": "Structural subordination",
+      "one_line": "A claim at a parent company is paid only from what is left after the subsidiary's own creditors are paid, because the subsidiary's assets belong to the subsidiary.",
+      "tier": "capital_structure",
+      "level": 2,
+      "moyer": "Ch. 4, structural versus contractual subordination",
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "intercreditor_agreement",
+      "name": "Intercreditor agreement",
+      "one_line": "The contract among lender groups fixing who is first on which collateral, who gets paid in what order, and who controls remedies.",
+      "tier": "legal",
+      "level": 2,
+      "moyer": "Ch. 4",
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "payment_waterfall",
+      "name": "Payment waterfall",
+      "one_line": "The order in which proceeds are distributed: each layer is paid in full before the next receives anything.",
+      "tier": "capital_structure",
+      "level": 2,
+      "moyer": "Ch. 4",
+      "aliases": [
+        "waterfall"
+      ],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "first_out_second_out",
+      "name": "First-out / second-out / third-out",
+      "one_line": "A payment order among lenders sharing one lien: they hold the same collateral but agree by contract who is paid first from it.",
+      "tier": "capital_structure",
+      "level": 3,
+      "moyer": "not in Moyer by name; extends the intercreditor idea",
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "liability_management_exercise",
+      "name": "Liability management exercise (LME)",
+      "one_line": "An out-of-court transaction that changes who ranks where or raises new money without a bankruptcy filing, often at the expense of non-participating lenders.",
+      "tier": "process",
+      "level": 3,
+      "moyer": "Ch. 9, out-of-court exchanges, extended to modern LMEs",
+      "aliases": [
+        "LME",
+        "liability management"
+      ],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "exchange_offer",
+      "name": "Exchange offer",
+      "one_line": "An offer to swap existing bonds or loans for new instruments, usually with a discount, a longer maturity or a better ranking, to avoid a filing.",
+      "tier": "process",
+      "level": 2,
+      "moyer": "Ch. 9, exchange offers",
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "spv",
+      "name": "Special purpose vehicle (SPV)",
+      "one_line": "A subsidiary created to issue debt or hold assets so the new paper can rank ahead of the existing lenders' claims on the parent.",
+      "tier": "capital_structure",
+      "level": 3,
+      "moyer": null,
+      "aliases": [
+        "special purpose vehicle"
+      ],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "on_loan",
+      "name": "On-loan",
+      "one_line": "An intercompany loan passing bond proceeds from an SPV issuer down to the operating company, which creates a claim the SPV lenders sit behind.",
+      "tier": "capital_structure",
+      "level": 3,
+      "moyer": null,
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "priming_lien",
+      "name": "Priming lien",
+      "one_line": "A new lien placed ahead of existing liens on the same collateral, which the Bankruptcy Code allows for a DIP if the old lenders are adequately protected.",
+      "tier": "legal",
+      "level": 2,
+      "moyer": "Ch. 11, DIP financing",
+      "aliases": [
+        "priming"
+      ],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "chapter_11",
+      "name": "Chapter 11",
+      "one_line": "The U.S. reorganization chapter: the company keeps operating under court protection while it negotiates a plan that binds its creditors.",
+      "tier": "legal",
+      "level": 1,
+      "moyer": "Ch. 11, the Chapter 11 process",
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "dip_financing",
+      "name": "DIP financing",
+      "one_line": "Debtor-in-possession loans made after a filing with a court-ordered superpriority claim and usually priming liens; whoever writes the DIP often ends up owning the company.",
+      "tier": "legal",
+      "level": 2,
+      "moyer": "Ch. 11, DIP financing",
+      "aliases": [
+        "DIP",
+        "debtor-in-possession financing"
+      ],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "roll_up",
+      "name": "Roll-up",
+      "one_line": "Converting a lender's pre-petition claims into DIP claims as a condition of new money, which lifts old debt to the front of the line.",
+      "tier": "legal",
+      "level": 3,
+      "moyer": "Ch. 11",
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "pik",
+      "name": "Payment in kind (PIK)",
+      "one_line": "Interest or a fee paid by adding it to principal rather than in cash, which saves cash today and makes the claim grow.",
+      "tier": "capital_structure",
+      "level": 2,
+      "moyer": null,
+      "aliases": [
+        "PIK",
+        "paid in kind"
+      ],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "backstop_premium",
+      "name": "Backstop premium",
+      "one_line": "A fee paid to lenders who commit to fund whatever other lenders decline to, in exchange for guaranteeing the deal gets done.",
+      "tier": "process",
+      "level": 3,
+      "moyer": null,
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "milestones",
+      "name": "Milestones",
+      "one_line": "Dated case steps written into a DIP or RSA, whose miss is a default that hands the lenders control of the timetable.",
+      "tier": "legal",
+      "level": 3,
+      "moyer": "Ch. 11",
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "sofr",
+      "name": "Term SOFR",
+      "one_line": "The floating-rate benchmark that replaced LIBOR; DIP and revolver pricing is quoted as a spread over it.",
+      "tier": "trading",
+      "level": 1,
+      "moyer": null,
+      "aliases": [
+        "SOFR"
+      ],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "critical_vendor",
+      "name": "Critical vendor",
+      "one_line": "A supplier the court lets the debtor pay on pre-petition claims because the business cannot run without it, jumping that vendor ahead of other unsecureds.",
+      "tier": "legal",
+      "level": 3,
+      "moyer": "Ch. 11",
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "unsecured_creditors_committee",
+      "name": "Unsecured creditors' committee (UCC)",
+      "one_line": "The court-appointed body that represents general unsecured creditors and negotiates or fights for their recovery.",
+      "tier": "legal",
+      "level": 2,
+      "moyer": "Ch. 11",
+      "aliases": [
+        "UCC",
+        "the committee"
+      ],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "litigation_trust",
+      "name": "Litigation trust",
+      "one_line": "A vehicle set up by a plan to hold the estate's lawsuits for the benefit of a creditor class, so a recovery can come later from litigation.",
+      "tier": "legal",
+      "level": 3,
+      "moyer": "Ch. 12, the plan",
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "marshaling",
+      "name": "Marshaling",
+      "one_line": "The equitable rule that a creditor with two sources of recovery can be required to exhaust one before touching the pool another creditor depends on.",
+      "tier": "legal",
+      "level": 4,
+      "moyer": null,
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "disclosure_statement",
+      "name": "Disclosure statement",
+      "one_line": "The court-approved voting document for a plan: valuation, recoveries by class, the liquidation analysis and the risks.",
+      "tier": "legal",
+      "level": 2,
+      "moyer": "Ch. 12, the plan and disclosure statement",
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "restructuring_support_agreement",
+      "name": "Restructuring support agreement (RSA)",
+      "one_line": "A contract in which creditors agree to support a plan on stated terms and milestones before it is filed or launched.",
+      "tier": "process",
+      "level": 2,
+      "moyer": "Ch. 12, prearranged plans",
+      "aliases": [
+        "RSA"
+      ],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "impaired_class",
+      "name": "Impaired class",
+      "one_line": "A class of claims that does not get paid in full or on its original terms under a plan, and so gets to vote on it.",
+      "tier": "legal",
+      "level": 2,
+      "moyer": "Ch. 12",
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "claim",
+      "name": "Claim",
+      "one_line": "What a creditor is owed, as the bankruptcy court counts it; recoveries are quoted as a percentage of the claim.",
+      "tier": "legal",
+      "level": 1,
+      "moyer": "Ch. 11",
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "recovery",
+      "name": "Recovery",
+      "one_line": "What a class actually receives against its claim, in cash, new debt or equity, usually quoted in cents on the dollar.",
+      "tier": "valuation",
+      "level": 1,
+      "moyer": "Ch. 6",
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "fulcrum_security",
+      "name": "Fulcrum security",
+      "one_line": "The class where enterprise value runs out: the most senior impaired class, which receives the reorganized equity.",
+      "tier": "valuation",
+      "level": 2,
+      "moyer": "Ch. 4 and 6, the fulcrum security",
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "take_back_paper",
+      "name": "Take-back debt or preferred",
+      "one_line": "New debt or preferred stock issued under a plan to existing lenders in satisfaction of their claims, instead of cash.",
+      "tier": "capital_structure",
+      "level": 3,
+      "moyer": "Ch. 12",
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "ad_hoc_group",
+      "name": "Ad hoc group",
+      "one_line": "An informal group of holders of one instrument who hire counsel and negotiate as a block.",
+      "tier": "process",
+      "level": 2,
+      "moyer": "Ch. 13",
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "price_in_points",
+      "name": "Price in points and cents on the dollar",
+      "one_line": "Distressed debt trades as a percentage of face value; a bond at 40 costs forty cents per dollar of claim, and the price implies the market's recovery guess.",
+      "tier": "trading",
+      "level": 1,
+      "moyer": "Ch. 13, how distressed claims trade",
+      "aliases": [
+        "cents on the dollar",
+        "points"
+      ],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "par",
+      "name": "Par",
+      "one_line": "The face value of a bond or loan, the 100 that prices and recoveries are measured against.",
+      "tier": "trading",
+      "level": 1,
+      "moyer": null,
+      "aliases": [],
+      "introduced_in": "saks-global",
+      "episode": 1,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "saks-global",
+          "episode": 1,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "credit_agreement",
+      "name": "Credit agreement",
+      "one_line": "The contract governing a bank or term loan, the loan-market cousin of an indenture, with tighter covenants and a lender group that can act faster.",
+      "tier": "legal",
+      "level": 2,
+      "moyer": "Ch. 5",
+      "aliases": [],
+      "introduced_in": "new-fortress-energy",
+      "episode": 2,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "new-fortress-energy",
+          "episode": 2,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "capex",
+      "name": "Capital expenditure (capex)",
+      "one_line": "Cash spent on long-lived assets such as terminals and ships; growth capex funded with debt is a classic cause of distress when the projects run late.",
+      "tier": "accounting",
+      "level": 1,
+      "moyer": "Ch. 2, causes of distress",
+      "aliases": [
+        "capital expenditure"
+      ],
+      "introduced_in": "new-fortress-energy",
+      "episode": 2,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "new-fortress-energy",
+          "episode": 2,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "adjusted_ebitda",
+      "name": "Adjusted EBITDA",
+      "one_line": "Management's EBITDA after add-backs for items it calls one-off; creditors strip the add-backs back out before trusting a leverage ratio.",
+      "tier": "accounting",
+      "level": 2,
+      "moyer": "Ch. 3",
+      "aliases": [
+        "AEBITDA"
+      ],
+      "introduced_in": "new-fortress-energy",
+      "episode": 2,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "new-fortress-energy",
+          "episode": 2,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "refinancing",
+      "name": "Refinancing",
+      "one_line": "Replacing maturing debt with new debt; when the market will not refinance, a maturity becomes the event that forces a restructuring.",
+      "tier": "process",
+      "level": 1,
+      "moyer": "Ch. 2",
+      "aliases": [],
+      "introduced_in": "new-fortress-energy",
+      "episode": 2,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "new-fortress-energy",
+          "episode": 2,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "collateral_pools",
+      "name": "Collateral pools and non-collateral assets",
+      "one_line": "Assets pledged to one lender group versus those left unpledged; unpledged assets are what a later deal can pledge to new money, ahead of everyone.",
+      "tier": "capital_structure",
+      "level": 3,
+      "moyer": "Ch. 4",
+      "aliases": [],
+      "introduced_in": "new-fortress-energy",
+      "episode": 2,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "new-fortress-energy",
+          "episode": 2,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "drop_down",
+      "name": "Drop-down",
+      "one_line": "Moving assets into a subsidiary outside the existing lenders' collateral so new debt can be raised against them, priming the old lenders without touching their documents.",
+      "tier": "process",
+      "level": 3,
+      "moyer": "not in Moyer by name; extends out-of-court exchanges",
+      "aliases": [
+        "drop-down transaction"
+      ],
+      "introduced_in": "new-fortress-energy",
+      "episode": 2,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "new-fortress-energy",
+          "episode": 2,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "subsidiary_issuer",
+      "name": "Subsidiary issuer",
+      "one_line": "A new entity created to issue debt with its own collateral, so that its lenders rank ahead of the parent's on those assets.",
+      "tier": "capital_structure",
+      "level": 3,
+      "moyer": null,
+      "aliases": [],
+      "introduced_in": "new-fortress-energy",
+      "episode": 2,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "new-fortress-energy",
+          "episode": 2,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "consent_fee",
+      "name": "Consent fee",
+      "one_line": "A cash payment to creditors for signing an RSA early or voting for a plan, the price of buying near-unanimous support.",
+      "tier": "process",
+      "level": 3,
+      "moyer": "Ch. 9, holdouts and consents",
+      "aliases": [
+        "early consent fee"
+      ],
+      "introduced_in": "new-fortress-energy",
+      "episode": 2,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "new-fortress-energy",
+          "episode": 2,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "standstill_fee",
+      "name": "Standstill fee",
+      "one_line": "A payment for agreeing not to enforce remedies for a period, so a deal can be negotiated without an acceleration.",
+      "tier": "process",
+      "level": 3,
+      "moyer": "Ch. 9",
+      "aliases": [
+        "standstill"
+      ],
+      "introduced_in": "new-fortress-energy",
+      "episode": 2,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "new-fortress-energy",
+          "episode": 2,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "holdout",
+      "name": "Holdout",
+      "one_line": "A creditor who refuses to join a consensual deal hoping to be paid in full by the others, the problem that court processes exist to solve.",
+      "tier": "process",
+      "level": 2,
+      "moyer": "Ch. 9, the holdout problem",
+      "aliases": [],
+      "introduced_in": "new-fortress-energy",
+      "episode": 2,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "new-fortress-energy",
+          "episode": 2,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "part_26a_plan",
+      "name": "English Part 26A restructuring plan",
+      "one_line": "A court-supervised compromise under English law with class voting at 75 percent by value and the power to bind a dissenting class.",
+      "tier": "legal",
+      "level": 3,
+      "moyer": null,
+      "aliases": [
+        "Part 26A",
+        "restructuring plan"
+      ],
+      "introduced_in": "new-fortress-energy",
+      "episode": 2,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "new-fortress-energy",
+          "episode": 2,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "cross_class_cramdown",
+      "name": "Cross-class cramdown",
+      "one_line": "A court's power to confirm a plan over a dissenting class if that class is no worse off than in the alternative.",
+      "tier": "legal",
+      "level": 3,
+      "moyer": "Ch. 12, cramdown",
+      "aliases": [
+        "cramdown"
+      ],
+      "introduced_in": "new-fortress-energy",
+      "episode": 2,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "new-fortress-energy",
+          "episode": 2,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "chapter_15",
+      "name": "Chapter 15",
+      "one_line": "The U.S. Bankruptcy Code chapter for recognizing a foreign proceeding so it binds creditors and assets in the United States.",
+      "tier": "legal",
+      "level": 3,
+      "moyer": null,
+      "aliases": [],
+      "introduced_in": "new-fortress-energy",
+      "episode": 2,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "new-fortress-energy",
+          "episode": 2,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "comi",
+      "name": "Centre of main interests (COMI)",
+      "one_line": "Where a debtor's main insolvency proceeding belongs; picking the entity and the forum is part of the deal design.",
+      "tier": "legal",
+      "level": 4,
+      "moyer": null,
+      "aliases": [
+        "COMI"
+      ],
+      "introduced_in": "new-fortress-energy",
+      "episode": 2,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "new-fortress-energy",
+          "episode": 2,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "sanction_hearing",
+      "name": "Sanction hearing",
+      "one_line": "The English court hearing that approves a scheme or plan; the equivalent of a U.S. confirmation hearing.",
+      "tier": "legal",
+      "level": 3,
+      "moyer": null,
+      "aliases": [
+        "sanction"
+      ],
+      "introduced_in": "new-fortress-energy",
+      "episode": 2,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "new-fortress-energy",
+          "episode": 2,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "absolute_priority_rule",
+      "name": "Absolute priority rule",
+      "one_line": "In a contested plan a class must be paid in full before any junior class receives anything; consensual deals can and do depart from it.",
+      "tier": "legal",
+      "level": 2,
+      "moyer": "Ch. 12, absolute priority",
+      "aliases": [],
+      "introduced_in": "new-fortress-energy",
+      "episode": 2,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "new-fortress-energy",
+          "episode": 2,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "preferred_stock",
+      "name": "Preferred stock",
+      "one_line": "Equity, not debt: no maturity and no default if the dividend is skipped, but a liquidation preference ahead of common; it sits below every creditor.",
+      "tier": "capital_structure",
+      "level": 2,
+      "moyer": "Ch. 4",
+      "aliases": [
+        "preferred"
+      ],
+      "introduced_in": "new-fortress-energy",
+      "episode": 2,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "new-fortress-energy",
+          "episode": 2,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "liquidation_preference",
+      "name": "Liquidation preference",
+      "one_line": "The amount a preferred stock must receive before the common gets anything, the number that makes 'equity' still rank.",
+      "tier": "capital_structure",
+      "level": 2,
+      "moyer": null,
+      "aliases": [],
+      "introduced_in": "new-fortress-energy",
+      "episode": 2,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "new-fortress-energy",
+          "episode": 2,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "mandatorily_convertible_preferred",
+      "name": "Mandatorily convertible preferred",
+      "one_line": "Preferred stock that turns into a fixed share of the common on a date unless redeemed, so the clock is the real transfer of ownership.",
+      "tier": "capital_structure",
+      "level": 3,
+      "moyer": null,
+      "aliases": [
+        "convertible preferred"
+      ],
+      "introduced_in": "new-fortress-energy",
+      "episode": 2,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "new-fortress-energy",
+          "episode": 2,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "dilution",
+      "name": "Dilution",
+      "one_line": "The shrinking of existing owners' share when new equity is issued; a plan's 'equity keeps 35 percent' is the dilution stated the other way round.",
+      "tier": "valuation",
+      "level": 1,
+      "moyer": "Ch. 6",
+      "aliases": [],
+      "introduced_in": "new-fortress-energy",
+      "episode": 2,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "new-fortress-energy",
+          "episode": 2,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "non_recourse_debt",
+      "name": "Non-recourse debt",
+      "one_line": "Debt whose lenders can look only to a specific asset, not to the parent, so it can be left out of headline leverage and still matter.",
+      "tier": "capital_structure",
+      "level": 3,
+      "moyer": "Ch. 4",
+      "aliases": [
+        "non-recourse"
+      ],
+      "introduced_in": "new-fortress-energy",
+      "episode": 2,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "new-fortress-energy",
+          "episode": 2,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "pro_forma_capital_structure",
+      "name": "Reading a post-restructuring balance sheet",
+      "one_line": "Checking what the headline 'debt cut' hides: accreting preferred, non-recourse project debt, lease obligations and the pro forma consolidated total.",
+      "tier": "valuation",
+      "level": 3,
+      "moyer": "Ch. 6, capital structure after emergence",
+      "aliases": [],
+      "introduced_in": "new-fortress-energy",
+      "episode": 2,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "new-fortress-energy",
+          "episode": 2,
+          "event": "introduced",
+          "date": "2026-09-18"
+        }
+      ]
+    }
+  ]
+}

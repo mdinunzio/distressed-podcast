@@ -10,7 +10,11 @@ dist/
 # Secrets
 .env
 
-# Generated episode outputs: keep only the Claude-written research and script.
+# Generated episode outputs: keep only the Claude-written research, script and quiz.
 episodes/*/*
 !episodes/*/research.md
 !episodes/*/script.json
+!episodes/*/quiz.json
+
+# Built quiz site (`uv run podcast site`); the source is quiz/index.html.
+quiz/build/

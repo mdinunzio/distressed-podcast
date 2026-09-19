@@ -7,8 +7,9 @@ argument-hint: <slug>
 # Write the episode script
 
 Slug: `$ARGUMENTS`. If empty, ask for a slug and stop. Read
-`episodes/<slug>/research.md` in full before writing a word. Write
-`episodes/<slug>/script.json` and nothing else.
+`episodes/<slug>/research.md` in full, then `concepts/ledger.json`, before
+writing a word. Write `episodes/<slug>/script.json`, then update
+`concepts/ledger.json` as described at the end, and nothing else.
 
 ## The one hard rule
 
@@ -59,9 +60,62 @@ exchanges, LMEs such as drop-downs and uptiers).
   ideas to check understanding, and pushes on "so who loses?" and "how
   would you actually trade that?"
 
-Every term of art is defined the first time it is spoken, either by the
-Guest asking or the Host pausing to define it. Keep a running list while
+Every term of art is defined the first time it is spoken *in the series*,
+either by the Guest asking or the Host pausing to define it. The ledger
+says which terms the series has already defined. Keep a running list while
 you write; if a term appears before its definition, fix it.
+
+## The ledger: how deep to explain each concept
+
+`concepts/ledger.json` is the dictionary of everything earlier episodes
+have explained, with a status per concept. It decides how much air time a
+term gets, so the series starts gentle and gets more professional without
+re-teaching what already landed:
+
+| Status | What the hosts do |
+| --- | --- |
+| not in the ledger (**new**) | The full gentle explainer: the Guest asks; the Host gives a plain-English definition, one everyday analogy, where it sits on the ladder if it is an instrument, then the number or clause from this case. 60 to 120 words. |
+| `introduced` (explained before, not yet tested) | One clause of reminder on first use ("the DIP, the loan a company takes inside Chapter 11"), then use it freely. |
+| `mastered` (answered right on a quiz) | Use the term without stopping, the way the desk would. |
+| `needs_reteach` (missed on a quiz) | Re-explain it fully, at the moment the story needs it, and say so lightly: "we covered this in episode two and it's worth a second pass". The quiz skill will re-test it. |
+
+Budget: an episode introduces **six to ten new concepts** in full, no more.
+If the research's section 12 supporting list is longer, pick the ones this
+story cannot be told without and let the others wait for a later episode
+(name them plainly, without a full explainer, only if unavoidable). Every
+`needs_reteach` concept the research flagged in section 12 gets its
+re-explanation. Progression: episodes one to three should introduce
+concepts of ledger level 1–2, later episodes level 3 and up, so the series
+climbs from beginner to expert.
+
+## The capital structure ladder
+
+The listener's hardest problem is holding the instruments in their head at
+once. Every episode uses the same mental model, out loud, and the quiz app
+shows the same picture. When the structure is first laid out (usually in
+`concepts` or the first `unfurl_*` segment), the Host walks the rungs top
+to bottom and places each of this company's instruments on one:
+
+1. super-senior: DIP loans, the ABL revolver
+2. first-lien secured: term loans, secured notes
+3. second-lien secured
+4. senior unsecured: bonds, trade, rejected leases, litigation
+5. subordinated debt
+6. preferred stock
+7. common equity
+
+For each instrument, two things: its rung, and how it gets paid (cash
+coupon, PIK, accreting preference, at maturity, from specific collateral).
+Say explicitly that "senior" and "secured" are about where the money comes
+from in a bad outcome, not about the size of the coupon. **Preferred stock
+gets its own sentence every time it appears**: equity, not debt; no
+maturity and no default if the dividend is skipped; a liquidation
+preference ahead of the common; below every lender. Guarantees pull a
+claim up a rung at another entity; structural subordination pushes it
+down. Then, whenever a number or a recovery is quoted later, name the
+rung it belongs to ("the second-lien, rung three, at forty cents"). The
+research's section 4 table has the rung and payment form for each
+instrument; if it doesn't, say on air where you are placing it and why.
 
 ## Characters and color
 
@@ -107,36 +161,48 @@ Read the framing from the research header and section 1 timeline:
   to see the whole case.
 
 The didactic arc below is identical in both framings; only the tense and
-the final segment's content change. Name the final segment `watch` in
-both cases.
+the final segment's content change. Name the last two segments `recap`
+and `watch` in both cases.
 
-## Episode shape (six to eight segments, each 2 to 4 minutes)
+## Episode shape (seven to nine segments, each 2 to 4 minutes)
 
 Follow this arc. Segment `name` values are lowercase snake_case; the
-first, second and last names are fixed so the audio log is comparable
+first, second and last two names are fixed so the audio log is comparable
 across episodes.
 
 1. `situation` (~3 min, ~450 words). Who the company is, what it does, why
    it is in trouble, what is happening right now and the next dated
    events, plus a quick, vivid introduction of who's driving it (research
    section 9). Plain English; no jargon beyond what a generalist knows.
-2. `concepts` (~4 min, ~600 words). Name the three to six ideas from
+2. `concepts` (~4 min, ~550 words). Name the three to six ideas from
    research section 12 and give each a one-paragraph intuition tied to
-   the company. This is a map of the rest of the episode.
-3. to 7. `unfurl_<concept>` segments (~11 min total, ~1,650 words, three
-   to five segments). Take each concept in turn and go deeper: how it
+   the company, and walk the capital structure ladder for this company.
+   This is a map of the rest of the episode.
+3. to 6. `unfurl_<concept>` segments (~9 min total, ~1,350 words, three
+   or four segments). Take each concept in turn and go deeper: how it
    works mechanically, what the documents actually say in this case, what
    the numbers are and what they compare to, who wins and who loses, how a
    desk would trade or position around it, what could go wrong, and —
    where a player's known style or history explains the move — a beat of
    character color tying the mechanism to the person. This is where
    accounting, capital structure and legal detail get taught properly,
-   always through the lens of the event at hand.
+   always through the lens of the event at hand. Gentle explainers for
+   new concepts live here, at the moment the story needs them.
+7. `recap` (~2 min, ~300 words). The trader's recap, from research
+   section 8's closing paragraphs. Three beats, in this order, each tied
+   to a rung and a number: **where the value accumulated** (which
+   instruments ended up holding the enterprise value, and in what form);
+   **the twists, turns and risks** (the two or three moments it could have
+   gone the other way, and what a desk would have been watching); and
+   **winners, losers, and who was left in the dust** (by class and by
+   named player). The Guest asks "so if I'd been on the desk, where did I
+   want to be?" and the Host answers for each round of the deal. In a
+   live framing, say what is still in play.
 8. `watch` (~2 min, ~300 words). Live: dated catalysts, open questions,
    and two or three things the listener could now go read (the RSA, the
    8-K, a docket entry), named with the vocabulary to understand them.
-   Closed: the outcome by class, the loose ends, and the same reading
-   list.
+   Closed: the loose ends and the same reading list. End with one line
+   pointing the listener to the quiz.
 
 ## Writing rules
 
@@ -153,6 +219,10 @@ across episodes.
   place when it's sourced in the research and it explains a mechanism.
   If a segment runs over budget, cut a color beat before cutting a
   definition, a number, or a comparison.
+- **Gentle beats clever.** For a new concept, the everyday analogy comes
+  before the mechanism and the number comes after both. The Guest
+  restates it in their own words once. Never define two new terms in the
+  same turn.
 - Write for the ear: short sentences, contractions, no lists, no
   parentheticals, no citations or bracketed source tags, no URLs. Say
   "eight-K" and "three sixty-three sale" the way people say them. Expand
@@ -214,7 +284,28 @@ If the total is outside 2,900 to 3,200, or any segment is outside 300 to
 `episodes/<slug>/script.json`. Cutting is usually better than padding:
 remove repeated framing, not definitions or numbers.
 
-Finally, re-read once as the Guest: is every term defined before it is
+Finally, re-read once as the Guest: is every new term defined before it is
 used, does every number have a comparison, does every concept come back to
-the company, and is every Moyer connection said out loud? Fix, re-count,
-then write the file and print the per-segment word counts.
+the company, is every instrument placed on the ladder, and is every Moyer
+connection said out loud? Fix, re-count, then write the file and print the
+per-segment word counts.
+
+## Update the ledger
+
+After writing the script, edit `concepts/ledger.json`:
+
+- Append one entry for each concept the episode explained in full for the
+  first time: `id` (snake_case, the id research section 12 proposed),
+  `name`, `one_line` (a dictionary definition the listener can look up,
+  not the analogy), `tier` (`accounting`, `capital_structure`, `legal`,
+  `process`, `valuation`, `trading`), `level` 1–5, `moyer` (chapter or
+  idea, or null), `aliases` (acronyms and alternative spellings),
+  `introduced_in` (this slug), `episode`, `status: "introduced"`, and one
+  `history` entry `{"slug", "episode", "event": "introduced", "date"}`.
+- For each `needs_reteach` concept the script re-explained, leave its
+  status alone (the next quiz decides) and append a history entry with
+  `"event": "retaught"`.
+- Do not change anything else. Then run `uv run podcast site`; it
+  validates the ledger and fails loudly if an entry is malformed.
+
+Print the ids added and retaught.

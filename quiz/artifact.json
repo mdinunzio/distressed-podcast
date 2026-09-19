@@ -1,0 +1,5 @@
+{
+  "url": "https://claude.ai/artifact/DDuL7EZHAZeoDcG7f9334t",
+  "capabilities": {"db": {}},
+  "note": "Republish quiz/build/index.html to this URL after `uv run podcast site`. The progress skill lists the `attempts` collection here."
+}

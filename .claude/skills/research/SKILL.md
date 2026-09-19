@@ -110,8 +110,18 @@ and dates that let the script teach each concept through this case.
    loses, how a desk trades or positions, what could go wrong, and — where
    it's sourced — what a player's known style or history has to do with
    it. Sections 3 to 11 must contain enough specifics for this.
-4. **What to watch** (~2 min): dated catalysts, open questions, two or
+4. **The trader's recap** (~2 min): where the value ended up, instrument
+   by instrument; the twists, turns and risks along the way; who won, who
+   lost, and who was left in the dust. Section 8's closing paragraphs.
+5. **What to watch** (~2 min): dated catalysts, open questions, two or
    three documents the listener could go read. Sections 1, 11 and 14.
+
+Before you start, read `concepts/ledger.json`: it lists every concept
+earlier episodes have explained and whether the listener has it down
+(`introduced`, `mastered`) or missed it on a quiz (`needs_reteach`).
+Section 12 must mark each concept against it, and a `needs_reteach`
+concept this situation touches must be in section 12 so the script
+re-teaches it.
 
 ## How to work
 
@@ -183,9 +193,15 @@ What each section must contain:
    with dates and the creditor's caveats. Table where possible.
 4. One table, senior to junior: instrument, size, rate, maturity,
    security and ranking, guarantors, key covenants, and trading level or
-   price with date if public. Then prose on structural points: which
-   entities issue and guarantee, unrestricted subsidiaries, intercreditor
-   terms, where trade and lease claims sit.
+   price with date if public. Add two columns the script needs for the
+   capital structure ladder: **rung** (super-senior / first-lien secured /
+   second-lien secured / senior unsecured / subordinated / preferred /
+   common) and **how it is paid** (cash coupon, PIK, accreting preference,
+   at maturity, from specific collateral). Preferred stock always gets a
+   row, below every debt instrument, with its liquidation preference and
+   any conversion terms. Then prose on structural points: which entities
+   issue and guarantee, unrestricted subsidiaries, intercreditor terms,
+   where trade and lease claims sit.
 5. For each governing document actually in play (indenture, credit
    agreement, intercreditor, RSA, DIP credit agreement, plan): what it is,
    who the parties are, and the specific provisions that matter here,
@@ -195,7 +211,14 @@ What each section must contain:
 7. The transaction mechanics in order: what is exchanged for what, new
    money, roll-ups, priming, releases, milestones, conditions.
 8. A recovery table by class (plan or estimated), pre- and post-deal
-   ownership, and who was primed, subordinated or diluted.
+   ownership, and who was primed, subordinated or diluted. Close the
+   section with three short paragraphs the recap segment will be built
+   from: **where the value accumulated** (which instruments or pools
+   ended up holding the enterprise value, and in what form: cash, new
+   debt, preferred, common, a trust); **twists, turns and risks** (the
+   moments the outcome could have gone another way, dated); and **winners,
+   losers, and who was left in the dust** (by class and by named player,
+   with the number that shows it).
 9. The people and firms actually driving this: the CEO or CRO, founder or
    controlling holder if one matters, board or special-committee members
    who mattered, and the lead fund or advisor in each named creditor
@@ -211,7 +234,12 @@ What each section must contain:
     conditions, regulatory approvals, and what happens if the deal fails.
 12. Three to six concepts, each with: one-line definition, why this
     situation needs it, the specific fact from this case that teaches it,
-    and the Moyer chapter or idea it corresponds to (or "not in Moyer").
+    the Moyer chapter or idea it corresponds to (or "not in Moyer"), and
+    its ledger status: `new` (not in `concepts/ledger.json`), or the id
+    and status from the ledger. Then a short list of the supporting terms
+    the episode will have to define for the first time (each with the
+    ledger id it should get, `snake_case`) so the script can budget its
+    gentle explainers.
 13. Every term of art used above, one sentence each, alphabetical.
 14. Numbered list `[S1]`… of every URL used, primary sources first, each
     with document title and date.
@@ -221,7 +249,11 @@ What each section must contain:
 - Every number in sections 3, 4, 6 and 8 has a citation.
 - Every characterization in section 9 is sourced to press or filings, not
   invented, and skipped rather than guessed where nothing is on the record.
-- Section 12 has three to six concepts and each has a concrete fact.
+- Section 12 has three to six concepts, each with a concrete fact and a
+  ledger status, and includes every `needs_reteach` concept the case
+  touches.
+- Section 4 gives every instrument a rung and a payment form; section 8
+  ends with the three recap paragraphs.
 - Section 1 ends with the next dated event, or says none is scheduled.
 - You have stated explicitly what you could not source.
 - The file is at `episodes/<slug>/research.md` and nothing else was

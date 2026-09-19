@@ -16,7 +16,7 @@ from pathlib import Path
 import click
 from pydantic import ValidationError
 
-from distressed_podcast import audio, stitch
+from distressed_podcast import audio, config, progress, site, stitch
 from distressed_podcast.config import ConfigError, GeminiSettings, StorageSettings
 from distressed_podcast.config import episode_dir
 from distressed_podcast.models import Script
@@ -121,6 +121,56 @@ def audio_command(slug: str) -> None:
 
 
 main.add_command(audio_command, name="audio")
+
+
+@main.command(name="site")
+@click.option(
+    "--output",
+    type=click.Path(dir_okay=False, path_type=Path),
+    default=None,
+    help=f"Where to write the page [default: {config.SITE_OUTPUT}].",
+)
+def site_command(output: Path | None) -> None:
+    """Validate every quiz against the ledger and build quiz/build/index.html."""
+    try:
+        result = site.build(
+            template_path=config.SITE_TEMPLATE,
+            ledger_path=config.LEDGER_PATH,
+            episodes_dir=config.EPISODES_DIR,
+            output=output or config.SITE_OUTPUT,
+        )
+    except site.SiteError as exc:
+        raise click.ClickException(str(exc))
+    click.echo(
+        f"wrote {result.output} ({result.bytes / 1024:.0f} KB): "
+        f"{result.episodes} quizzes, {result.concepts} ledger concepts"
+    )
+
+
+@main.command(name="progress")
+@click.argument(
+    "attempts", type=click.Path(exists=True, path_type=Path), metavar="ATTEMPTS"
+)
+def progress_command(attempts: Path) -> None:
+    """Fold quiz ATTEMPTS (a JSON file or a directory) into the concept ledger."""
+    try:
+        result = progress.sync(attempts, config.LEDGER_PATH, config.PROGRESS_PATH)
+    except progress.ProgressError as exc:
+        raise click.ClickException(str(exc))
+    click.echo(
+        f"applied {len(result.applied)} attempt(s), "
+        f"skipped {len(result.skipped)} already synced"
+    )
+    if result.unknown_concepts:
+        click.echo(
+            "ignored concepts not in the ledger: "
+            + ", ".join(sorted(result.unknown_concepts))
+        )
+    click.echo(f"mastered: {len(result.mastered)}")
+    click.echo(
+        "needs re-teaching: "
+        + (", ".join(result.needs_reteach) if result.needs_reteach else "none")
+    )
 
 
 @main.command()
