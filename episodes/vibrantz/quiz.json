@@ -1,0 +1,336 @@
+{
+  "slug": "vibrantz",
+  "episode": 4,
+  "title": "Vibrantz: Two Queues for One Lifeboat",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "multiple_choice",
+      "level": 1,
+      "concept_ids": [
+        "non_pro_rata_exchange"
+      ],
+      "prompt": "What made Vibrantz's February 2026 deal the most talked-about restructuring of the year?",
+      "choices": [
+        "S&P kept the company at D for the rest of 2026 while GoldenTree, Monarch and Oak Hill litigated over which of them held the first-out tranche",
+        "The company filed a prepackaged Chapter Eleven that handed the equity to its term-loan lenders, as had happened to the same sponsor's Air Methods in 2023",
+        "The nine percent noteholders were repaid at par from a two hundred million receivables facility while the term-loan lenders were left unpaid until 2030",
+        "Three funds approached separately got the safest new paper, while the other lenders saw terms only after signing an NDA and got paper worth about half of face"
+      ],
+      "answer": 3,
+      "explanation": "The deal was run on two tracks: GoldenTree, Monarch and Oak Hill provided new money and got first-out paper; everyone else got second- and third-out paper after signing a non-disclosure agreement. There was no filing and no litigation on the public record."
+    },
+    {
+      "id": "q02",
+      "type": "numeric",
+      "level": 1,
+      "concept_ids": [
+        "new_money_tranche"
+      ],
+      "prompt": "About how much new money did the three first-out funds put in, in millions of dollars, according to press accounts?",
+      "answer": 350,
+      "tolerance": 30,
+      "unit": "$ millions",
+      "explanation": "Press reports put the first-out new money at about three hundred and fifty million dollars. The exact terms are not public."
+    },
+    {
+      "id": "q03",
+      "type": "numeric",
+      "level": 2,
+      "concept_ids": [
+        "issue_price"
+      ],
+      "prompt": "By December 2025, at what price in cents on the dollar was a lender fund (Barings) marking Vibrantz's first-lien term loan?",
+      "answer": 55,
+      "tolerance": 3,
+      "unit": "cents on the dollar",
+      "explanation": "The Barings mark of about fifty-five cents on a first-lien loan was the market saying even the secured lenders would not be paid in full, and it is the benchmark the episode compares the exchange prices to."
+    },
+    {
+      "id": "q04",
+      "type": "order",
+      "level": 2,
+      "concept_ids": [
+        "first_out_second_out"
+      ],
+      "prompt": "Rank Vibrantz's post-exchange claims from most senior (paid first) to most junior.",
+      "items": [
+        "New first-lien revolver",
+        "First-out term loans (the new money and the three funds' exchanged paper)",
+        "Second-out term loans",
+        "Third-out term loans and notes",
+        "American Securities' common equity"
+      ],
+      "explanation": "The revolver sits on rung one; the three tiers all share one first lien on rung two but are paid strictly in order, first-out, second-out, third-out; the sponsor's common sits on rung seven."
+    },
+    {
+      "id": "q05",
+      "type": "multiple_choice",
+      "level": 2,
+      "concept_ids": [
+        "first_out_second_out"
+      ],
+      "prompt": "All three tiers of the new term loans share the same first lien. If the collateral were sold for one billion dollars, what did the Host say happens?",
+      "choices": [
+        "Each tier is paid the same cents on the dollar, because a shared lien means pari passu treatment across the tiers",
+        "The first-out is repaid in full, the second-out splits what is left, and the third-out receives nothing",
+        "The revolver and the third-out notes are paid first because their maturities in 2031 are the longest",
+        "The proceeds go to the second-out first, because at twelve to fourteen times leverage that is the fulcrum tranche"
+      ],
+      "answer": 1,
+      "explanation": "The lien tells you what you can grab; the tier tells you who gets paid from it first. With about seven hundred and seventy million of first-out ahead, a billion of proceeds leaves only the remainder for the second-out."
+    },
+    {
+      "id": "q06",
+      "type": "multiple_choice",
+      "level": 2,
+      "concept_ids": [
+        "sponsor_option_value"
+      ],
+      "prompt": "Why, according to the Host, did American Securities extend the debt out of court rather than file for Chapter Eleven?",
+      "choices": [
+        "A filing would have triggered the two hundred million receivables facility and forced the company to repay the revolver first",
+        "Its equity is out of the money and behaves like an option, which a filing would kill but an extension keeps alive for free",
+        "The three first-out funds refused to provide new money unless the company avoided a rating agency default",
+        "Out-of-court exchanges are exempt from the absolute priority rule, so the sponsor could keep a share of the reorganised equity"
+      ],
+      "answer": 1,
+      "explanation": "Sponsor option value: equity that far underwater has value only while the company avoids a filing. Air Methods, the sponsor's previous case, filed and emerged owned by its lenders nine weeks later."
+    },
+    {
+      "id": "q07",
+      "type": "multiple_choice",
+      "level": 3,
+      "concept_ids": [
+        "non_pro_rata_exchange"
+      ],
+      "prompt": "Per hundred dollars of old term loan, what did a lender outside the first-out room receive in the exchange?",
+      "choices": [
+        "About ninety-eight dollars of first-out paper plus a pro rata share of the three hundred and fifty million of new money, the same package the three funds took",
+        "About sixty-five dollars of second-out and twenty-six of third-out paper, worth about fifty dollars at the company's own prices",
+        "One hundred dollars of second-out paper priced at sixty-six, plus a small allocation of the four million of second-out notes",
+        "About eighty dollars of mostly third-out paper, worth about thirty-one dollars, in exchange for giving up the old lien"
+      ],
+      "answer": 1,
+      "explanation": "Ninety-two dollars of new face for a hundred of old, but at the tax-form issue prices of sixty-six and twenty-seven it was worth about fifty. The first-out queue held about ninety-eight on the same original loan; the noteholders' package was worth about thirty-one."
+    },
+    {
+      "id": "q08",
+      "type": "short_text",
+      "level": 3,
+      "concept_ids": [
+        "nda_restricted"
+      ],
+      "prompt": "What does the desk call a lender who has signed an NDA to see a company's private information and therefore cannot trade the name until it is public?",
+      "accepted": [
+        "restricted",
+        "going restricted",
+        "gone restricted",
+        "private side",
+        "private-side",
+        "private"
+      ],
+      "explanation": "Going restricted. Here the NDA also barred lenders from talking to each other or challenging the deal before it closed, which the episode called using the restriction as a gag."
+    },
+    {
+      "id": "q09",
+      "type": "multiple_choice",
+      "level": 3,
+      "concept_ids": [
+        "new_money_tranche"
+      ],
+      "prompt": "The Host called the new-money tranche the out-of-court cousin of which in-court instrument?",
+      "choices": [
+        "The DIP loan, whose priority a judge blesses rather than the votes of the existing lenders",
+        "A three sixty-three sale, whose price the court approves in place of a lender vote",
+        "A litigation trust, funded by the estate to pursue claims on behalf of unsecured creditors",
+        "A consent fee, paid in cash to lenders who vote for a covenant waiver before the filing"
+      ],
+      "answer": 0,
+      "explanation": "Same economics, different referee: fresh cash in exchange for priority at the top of the structure. In Chapter Eleven the court approves it; out of court, the amendment vote does."
+    },
+    {
+      "id": "q10",
+      "type": "short_text",
+      "level": 4,
+      "concept_ids": [
+        "issue_price"
+      ],
+      "prompt": "Name the IRS form Vibrantz posted in April 2026 that lists every exchange tranche and its issue price.",
+      "accepted": [
+        "Form 8937",
+        "8937",
+        "form 8937",
+        "IRS Form 8937",
+        "IRS 8937"
+      ],
+      "explanation": "Form 8937, the report of organisational actions affecting basis of securities, is often the only public document listing the tranches of a private exchange, and its issue prices are the market's marks on the new paper."
+    },
+    {
+      "id": "q11",
+      "type": "multiple_choice",
+      "level": 4,
+      "concept_ids": [
+        "issue_price"
+      ],
+      "prompt": "For debt that trades, what does the issue price on the tax form represent?",
+      "choices": [
+        "The price at which the company will redeem the tranche at maturity, net of the discount lenders accepted in the exchange",
+        "The price the three first-out funds paid in cash for their allocation, which the tax rules then apply to every tranche",
+        "The rating agency's recovery estimate for the tranche converted into cents on the dollar, one for ninety to one hundred percent and six for zero to ten",
+        "The trading value of the new paper in the month around the exchange, which the company reports so holders can compute gains and losses"
+      ],
+      "answer": 3,
+      "explanation": "Issue price is a tax term: for publicly traded debt it is the trading value around issuance. Ninety-eight, sixty-six, twenty-seven and twenty-four are therefore market marks published by the company itself."
+    },
+    {
+      "id": "q12",
+      "type": "numeric",
+      "level": 2,
+      "concept_ids": [
+        "interest_coverage"
+      ],
+      "prompt": "Using the Host's rough numbers (interest of roughly 250 to 290 million against earnings of roughly 220 to 280 million), about what was Vibrantz's interest coverage, in times?",
+      "answer": 1,
+      "tolerance": 0.3,
+      "unit": "times",
+      "explanation": "About one times: every dollar earned goes to interest. The inputs are inferred from public coupons and S&P's leverage multiple, since the company publishes no financials."
+    },
+    {
+      "id": "q13",
+      "type": "multiple_choice",
+      "level": 2,
+      "concept_ids": [
+        "interest_coverage"
+      ],
+      "prompt": "In the Host's household analogy, which ratio did interest coverage correspond to?",
+      "choices": [
+        "The mortgage balance divided by the household's annual salary",
+        "The household's salary divided by the annual mortgage payment",
+        "The house price divided by the mortgage balance outstanding",
+        "The annual mortgage payment divided by the mortgage balance"
+      ],
+      "answer": 1,
+      "explanation": "Leverage is the mortgage divided by salary; coverage is salary divided by the payment. You can live with a big mortgage if the payment is small, and Vibrantz cannot."
+    },
+    {
+      "id": "q14",
+      "type": "multiple_choice",
+      "level": 3,
+      "concept_ids": [
+        "fulcrum_security",
+        "first_out_second_out"
+      ],
+      "prompt": "Reading S&P's recovery ratings and the issue prices, where did the Host place the fulcrum security?",
+      "choices": [
+        "In the second-out tranche, rated triple-C-minus with a recovery rating of five and priced at sixty-six",
+        "In the third-out tranche, rated double-C with a recovery rating of six and priced at twenty-seven, where the option on a recovery sits",
+        "In the first-out tranche, rated B-minus with a recovery rating of one and priced at ninety-eight",
+        "In the sponsor's common equity, which was not diluted and still holds all of the upside"
+      ],
+      "answer": 0,
+      "explanation": "Value covers the seven hundred and seventy million of first-out and runs out inside the one and a half billion of second-out. That is Moyer's fulcrum; the third-out is an option on a recovery and the equity an option behind that."
+    },
+    {
+      "id": "q15",
+      "type": "multiple_choice",
+      "level": 2,
+      "concept_ids": [
+        "distressed_exchange_default"
+      ],
+      "prompt": "Nobody missed a payment, yet S&P rated Vibrantz D on February the twentieth. Which two tests did the Host say the agency applies?",
+      "choices": [
+        "Whether the company breached a financial covenant in its credit agreement, and whether the lenders waived that breach in return for a consent fee",
+        "Whether the new paper trades below eighty cents, and whether the sponsor contributed new equity",
+        "Whether the exchange was approved by a court, and whether more than ninety percent of holders participated",
+        "Whether holders received less than originally promised, and whether the company would have defaulted anyway without the exchange"
+      ],
+      "answer": 3,
+      "explanation": "A distressed exchange is a default under the agencies' rules when both tests are met. S&P called the deal tantamount to default, rated it D on completion and re-rated the new structure two weeks later."
+    },
+    {
+      "id": "q16",
+      "type": "multiple_choice",
+      "level": 3,
+      "concept_ids": [
+        "clo"
+      ],
+      "prompt": "Why did the two weeks between the D rating and the triple-C re-rating matter to the loan's holders?",
+      "choices": [
+        "In a CLO's tests a defaulted loan counts at market value, about fifty cents, while a triple-C loan inside the allowed bucket counts at par",
+        "A CLO must sell any loan rated D within thirty days of the downgrade, so the holders would have been forced sellers of Vibrantz at about fifty cents",
+        "A defaulted loan cannot pay its coupon into the CLO's waterfall until the rating is restored, starving the equity slice",
+        "Fitch required CLOs holding Vibrantz to hold extra capital against it for as long as the D rating stood"
+      ],
+      "answer": 0,
+      "explanation": "CLOs, a bank made of a spreadsheet, hold most of a loan like this. Their tests treat a defaulted loan at market value and a CCC loan at par, which is the criticism Rod Dubitsky made of the quick re-rating."
+    },
+    {
+      "id": "q17",
+      "type": "numeric",
+      "level": 3,
+      "concept_ids": [
+        "clo"
+      ],
+      "prompt": "According to Fitch, in what percentage of the US broadly syndicated loan CLOs it rates did Vibrantz appear in February 2026?",
+      "answer": 29,
+      "tolerance": 3,
+      "unit": "percent",
+      "explanation": "Twenty-nine percent, making Vibrantz the most widely held defaulted issuer of the month."
+    },
+    {
+      "id": "q18",
+      "type": "short_text",
+      "level": 3,
+      "concept_ids": [
+        "cooperation_agreement"
+      ],
+      "prompt": "What is the name of the contract among lenders, usually holding a majority of a loan, to negotiate as a block and take no side deal?",
+      "accepted": [
+        "cooperation agreement",
+        "co-op",
+        "coop",
+        "co-operation agreement",
+        "cooperation agreements",
+        "co-op agreement",
+        "coop agreement"
+      ],
+      "explanation": "A cooperation agreement, or co-op, is the lenders' union. Scott Greenberg of Gibson Dunn predicts that aggressive sponsors will produce more of them in 2026."
+    },
+    {
+      "id": "q19",
+      "type": "multiple_choice",
+      "level": 4,
+      "concept_ids": [
+        "redefault_risk"
+      ],
+      "prompt": "Which description of what the exchange did to Vibrantz's finances matches what the Host reported from S&P?",
+      "choices": [
+        "It cut the debt quantum by about eleven percent and reduced cash interest through the new tiers, which is why S&P moved the outlook from negative to developing in March",
+        "It converted the third-out tranches to payment-in-kind so that free cash flow turns positive in 2026",
+        "It cancelled scheduled amortisation, pushed maturities to 2030 and 2031 and added cash, while cash interest rose and the debt quantum stayed largely unchanged",
+        "It replaced the floating-rate term loan with fixed nine percent notes, removing the rate exposure that broke the credit"
+      ],
+      "answer": 2,
+      "explanation": "Runway, not repair. S&P's negative outlook names the triggers for redefault: continued cash burn, liquidity below uses, a skipped interest payment or another distressed exchange."
+    },
+    {
+      "id": "q20",
+      "type": "multiple_choice",
+      "level": 4,
+      "concept_ids": [
+        "non_pro_rata_exchange",
+        "first_out_second_out"
+      ],
+      "prompt": "In the trader's recap, who was left in the dust?",
+      "choices": [
+        "The second-out term-loan holders, mostly CLOs, who ate the market's loss and were primed behind the new first-out tranche",
+        "The three first-out funds, whose new money was subordinated to the new revolver",
+        "The third-out noteholders at twenty-four cents, and any holdout sitting behind three billion of newly senior debt",
+        "American Securities, which lost control of the company to its lenders as it had at Air Methods"
+      ],
+      "answer": 2,
+      "explanation": "Winners: the first-out three and, for now, the sponsor. Losers: the second-out holders. Left in the dust: the third-out noteholders and the holdouts, whose treatment under the amendment is not public."
+    }
+  ]
+}

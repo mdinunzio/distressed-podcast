@@ -1608,6 +1608,248 @@
           "date": "2026-09-19"
         }
       ]
+    },
+    {
+      "id": "non_pro_rata_exchange",
+      "name": "Non-pro-rata exchange",
+      "one_line": "A debt exchange in which holders of the same instrument are offered different terms, typically better terms to a group that provides new money or votes, with that group's votes used to amend the documents.",
+      "tier": "legal",
+      "level": 3,
+      "moyer": "Out-of-court restructurings; holdouts and coercion in exchange offers",
+      "aliases": [
+        "non pro rata exchange",
+        "side deal",
+        "two-track exchange"
+      ],
+      "introduced_in": "vibrantz",
+      "episode": 4,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "vibrantz",
+          "episode": 4,
+          "event": "introduced",
+          "date": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "new_money_tranche",
+      "name": "New-money tranche",
+      "one_line": "Fresh cash lent into a distressed company as part of a restructuring, placed at the top of the structure, with the lender usually rolling some existing paper up alongside it.",
+      "tier": "capital_structure",
+      "level": 3,
+      "moyer": "Out-of-court versus in-court; the out-of-court analogue of DIP financing",
+      "aliases": [
+        "new money",
+        "new-money loan",
+        "first-out new money"
+      ],
+      "introduced_in": "vibrantz",
+      "episode": 4,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "vibrantz",
+          "episode": 4,
+          "event": "introduced",
+          "date": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "distressed_exchange_default",
+      "name": "Distressed exchange as default",
+      "one_line": "A rating agency treats a completed exchange as a default (D or SD) when holders receive less than originally promised and the issuer would otherwise have defaulted, then re-rates the new structure.",
+      "tier": "process",
+      "level": 2,
+      "moyer": "Definitions of default; the distressed exchange as a road into restructuring",
+      "aliases": [
+        "distressed exchange",
+        "selective default",
+        "SD",
+        "D rating"
+      ],
+      "introduced_in": "vibrantz",
+      "episode": 4,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "vibrantz",
+          "episode": 4,
+          "event": "introduced",
+          "date": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "issue_price",
+      "name": "Issue price",
+      "one_line": "For US tax, the first price at which a substantial amount of a new debt instrument is sold for money or, for publicly traded debt, its trading value around issuance; issuers report it on Form 8937, which makes it a public mark on private exchange paper.",
+      "tier": "valuation",
+      "level": 4,
+      "moyer": null,
+      "aliases": [
+        "Form 8937",
+        "OID issue price"
+      ],
+      "introduced_in": "vibrantz",
+      "episode": 4,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "vibrantz",
+          "episode": 4,
+          "event": "introduced",
+          "date": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "clo",
+      "name": "Collateralised loan obligation (CLO)",
+      "one_line": "A securitisation vehicle that holds a portfolio of leveraged loans and issues rated notes against it, subject to tests that limit CCC-rated and defaulted holdings; the marginal holder of most broadly syndicated loans.",
+      "tier": "trading",
+      "level": 3,
+      "moyer": "How distressed claims trade; who holds bank debt",
+      "aliases": [
+        "CLO",
+        "collateralized loan obligation",
+        "CCC bucket"
+      ],
+      "introduced_in": "vibrantz",
+      "episode": 4,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "vibrantz",
+          "episode": 4,
+          "event": "introduced",
+          "date": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "cooperation_agreement",
+      "name": "Cooperation agreement",
+      "one_line": "A contract among lenders, usually holding a majority of a loan, to negotiate as a block and not to accept a side deal, so a borrower cannot pick off a subset in a non-pro-rata exchange.",
+      "tier": "legal",
+      "level": 3,
+      "moyer": "Holdout problem and creditor coordination",
+      "aliases": [
+        "co-op",
+        "coop",
+        "cooperation agreement",
+        "co-op agreement"
+      ],
+      "introduced_in": "vibrantz",
+      "episode": 4,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "vibrantz",
+          "episode": 4,
+          "event": "introduced",
+          "date": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "nda_restricted",
+      "name": "Going restricted (NDA)",
+      "one_line": "Signing a non-disclosure agreement to receive a company's material non-public information, which bars the holder from trading the name until the information is public and, in some deals, from talking to other lenders.",
+      "tier": "process",
+      "level": 3,
+      "moyer": null,
+      "aliases": [
+        "NDA",
+        "restricted",
+        "private side",
+        "going private"
+      ],
+      "introduced_in": "vibrantz",
+      "episode": 4,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "vibrantz",
+          "episode": 4,
+          "event": "introduced",
+          "date": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "redefault_risk",
+      "name": "Redefault risk",
+      "one_line": "The risk that a company which has completed a liability management exercise defaults again, because the exercise extended maturities and added senior debt without reducing leverage or fixing cash flow.",
+      "tier": "process",
+      "level": 3,
+      "moyer": "Out-of-court restructurings and their limits",
+      "aliases": [
+        "redefault",
+        "re-default",
+        "LME redefault",
+        "amend and extend"
+      ],
+      "introduced_in": "vibrantz",
+      "episode": 4,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "vibrantz",
+          "episode": 4,
+          "event": "introduced",
+          "date": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "interest_coverage",
+      "name": "Interest coverage",
+      "one_line": "EBITDA (or EBIT) divided by cash interest expense; the ratio that tells a creditor whether earnings can carry the interest bill regardless of the leverage multiple.",
+      "tier": "accounting",
+      "level": 1,
+      "moyer": "Financial analysis of the distressed firm",
+      "aliases": [
+        "coverage ratio",
+        "interest cover",
+        "EBITDA/interest"
+      ],
+      "introduced_in": "vibrantz",
+      "episode": 4,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "vibrantz",
+          "episode": 4,
+          "event": "introduced",
+          "date": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "sponsor_option_value",
+      "name": "Sponsor option value",
+      "one_line": "Equity that is out of the money behaves like an option: it is worth something only while the company avoids a filing, so a sponsor prefers an extension that keeps the option alive to a restructuring that hands the company to creditors.",
+      "tier": "valuation",
+      "level": 2,
+      "moyer": "Where value breaks; equity as a residual claim",
+      "aliases": [
+        "equity option value",
+        "option value of equity"
+      ],
+      "introduced_in": "vibrantz",
+      "episode": 4,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "vibrantz",
+          "episode": 4,
+          "event": "introduced",
+          "date": "2026-09-21"
+        }
+      ]
     }
   ]
 }

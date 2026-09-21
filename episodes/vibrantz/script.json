@@ -1,0 +1,321 @@
+{
+  "company": "Vibrantz Technologies Inc.",
+  "slug": "vibrantz",
+  "title": "Vibrantz: Two Queues for One Lifeboat",
+  "deal_type": "completed out-of-court non-pro-rata liability management exchange with a first-out new-money tranche and tiered first-lien exchange debt; rated CCC with a negative outlook and redefault risk",
+  "episode": 4,
+  "segments": [
+    {
+      "name": "situation",
+      "direction": "Measured and curious, two colleagues opening a file together; unhurried on the names and the dates.",
+      "turns": [
+        {
+          "speaker": "Host",
+          "text": "Today's company is Vibrantz Technologies. You've probably never heard of it, and that's the point. It makes pigments, glass and ceramic coatings, colourants, and battery additives. Houston based, fifty-five plants, owned by a private equity firm called American Securities. In February it ran one of the year's most talked-about restructurings without going near a courtroom."
+        },
+        {
+          "speaker": "Guest",
+          "text": "A private pigments company nobody's heard of became a headline restructuring? What actually happened to it?"
+        },
+        {
+          "speaker": "Host",
+          "text": "A leveraged buyout met a downturn. In April 2022 American Securities bought a listed company called Ferro for about two point one billion dollars, merged it with two businesses it owned, and financed it with debt: two point four billion of term loan and seven hundred and fifty-six million of nine percent bonds. Over three billion of debt on about two billion of sales."
+        },
+        {
+          "speaker": "Guest",
+          "text": "A dollar and a half of debt per dollar of revenue. And the loan floats, so the interest bill rose with rates."
+        },
+        {
+          "speaker": "Host",
+          "text": "Exactly. SOFR plus four and a quarter, about eight point three percent by last December. Then end markets went soft. Two thirds of revenue is construction, cars, furniture and appliances, and customers destocked. By September 2025 S&P had the company at triple-C-plus and leverage of nine to ten times earnings. By December a lender fund was marking the loan at fifty-five cents on the dollar."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Fifty-five cents on a first-lien loan. So the market says even the secured lenders won't be paid in full."
+        },
+        {
+          "speaker": "Host",
+          "text": "Right. Here's what happened next, and it's the whole episode in miniature. In February the company and its lawyers at Kirkland and Ellis went to three funds separately: GoldenTree, Monarch, and Oak Hill. Those three put in about three hundred and fifty million of new money and got the safest paper in the new structure. Everyone else saw terms only after signing a non-disclosure agreement, and got paper worth about half what they were owed. Over ninety percent signed."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Wait. The same GoldenTree that put two hundred million into the Saks rescue loan back in episode one?"
+        },
+        {
+          "speaker": "Host",
+          "text": "The same one. A fund that turns up with new money and asks for the top of the structure in return. And the sponsor has form. Its air ambulance company, Air Methods, went into Chapter Eleven in 2023 and came out nine weeks later owned by its lenders. This time it kept the keys."
+        },
+        {
+          "speaker": "Guest",
+          "text": "So the deal's done. What's still live, and why is this a case rather than a post-mortem?"
+        },
+        {
+          "speaker": "Host",
+          "text": "S&P affirmed triple-C in June with a negative outlook, twelve to fourteen times leverage and cash burn through its forecast. In July the company hired a CFO whose last title was chief restructuring officer and added a two hundred million receivables facility. The question is whether the runway lasts. Usual disclaimer: education, not investment advice."
+        }
+      ]
+    },
+    {
+      "name": "concepts",
+      "direction": "A map of the episode, brisk but clear; slow down for the ladder walk.",
+      "turns": [
+        {
+          "speaker": "Host",
+          "text": "Five ideas drive this one. A non-pro-rata exchange, where holders of the same loan got different deals depending on which room they were in. The new-money tranche, the price of admission to the best room. Why a rating agency calls a completed exchange a default, and why the loan funds cared. How to read a company's tax notice for what the new paper is worth. And what lenders do afterwards, plus the risk it all happens again."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Before we go anywhere, put the instruments on the ladder for me. Every episode I need this picture first."
+        },
+        {
+          "speaker": "Host",
+          "text": "Same seven rungs. Super-senior, first-lien secured, second-lien secured, senior unsecured, subordinated, preferred, common. Senior and secured say where the money comes from in a bad outcome, not the coupon size. Before the deal Vibrantz was simple. Rung one, a three hundred and twenty-five million revolver. Rung two, a two point four billion term loan, one class, cash coupon, due 2029. Rung four, seven hundred and thirty million of nine percent unsecured notes, cash coupon, due 2030. No preferred. Rung seven, American Securities."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Three instruments. That's the simplest structure we've had. So what does it look like after the deal?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Rung two became three tiers inside one lien. Same collateral, strict order of payment. First-out at the front, about seven hundred and seventy million, the new money plus the three funds' exchanged paper. Second-out behind it, about one and a half billion. Third-out behind that, about eight hundred and seventy million. All first-lien, cash pay, due 2030 or 2031. The unsecured notes almost vanished; ninety-seven percent exchanged into the lower two tiers."
+        },
+        {
+          "speaker": "Guest",
+          "text": "We did first-out and second-out in the Saks episode. Remind me why the tier matters if they all share one lien."
+        },
+        {
+          "speaker": "Host",
+          "text": "The lien tells you what you can grab, the tier tells you who gets paid from it first. If the collateral sells for a billion, the first-out gets its seven hundred and seventy million in full, the second-out splits the rest, the third-out gets nothing. At this leverage, the tier is the whole game."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And the sponsor? Did American Securities have to give up any of its equity to get this done?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Not that any public source shows. They kept all of the common, got up to three years of extra runway, and never filed. One flag: this is a private company. No credit agreement, no indenture, no financial statements. We have a press release, a rating agency, a lender's mark, and a tax notice. That's the whole record."
+        }
+      ]
+    },
+    {
+      "name": "unfurl_two_tracks",
+      "direction": "Engaged and a little indignant on the Guest's side; the Host stays even-handed and precise on the mechanics.",
+      "turns": [
+        {
+          "speaker": "Guest",
+          "text": "Okay, non-pro-rata exchange. Pro rata I know, everyone gets the same share. So non-pro-rata means some lenders got a better deal than others holding the identical loan?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes. Think of a lifeboat with two queues. Same ship, same ticket, but one queue heard about the lifeboat first and got the good seats. Pro rata is the default in a syndicated loan: every lender in a tranche shares payments and collateral equally. A non-pro-rata exchange breaks that. The company offers one group better terms, usually for new money or votes, offers everyone else something worse, then uses the first group's votes to amend the loan agreement so it's all legal."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And here the first group was GoldenTree, Monarch and Oak Hill. What did they get, in numbers?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Their new money, about three hundred and fifty million by press accounts, went into the first-out tranche, and about four hundred and seventeen million of their old loans and notes became first-out paper the company prices at ninety-eight cents. Everyone else? A term-loan holder outside the room got, per hundred dollars of old loan, about sixty-five of second-out and twenty-six of third-out. Ninety-two of new face, worth about fifty at the company's own prices. One queue holds ninety-eight, the other fifty. The noteholders did worse, about thirty-one, though they got a lien for the first time."
+        },
+        {
+          "speaker": "Guest",
+          "text": "How did the company stop the second queue from organising? Ninety percent of them signed."
+        },
+        {
+          "speaker": "Host",
+          "text": "A non-disclosure agreement. Lenders saw the terms only after signing an NDA that also bound them not to talk to other lenders or challenge the deal before it closed, and Bloomberg reports some had little time to decide. The desk word is going restricted: once you've signed to see private information, you can't trade the name until it's public. Here the restriction was a gag. Each lender decided alone, looking at fifty cents or the prospect of steeper losses."
+        },
+        {
+          "speaker": "Guest",
+          "text": "So the new money bought their seats. Is that its own concept, or just a fact about this deal?"
+        },
+        {
+          "speaker": "Host",
+          "text": "It's the out-of-court cousin of the DIP loan from episode one. A new-money tranche is fresh cash lent into a distressed company, and the lender's price for it is priority. It goes in at the top, and the lender usually rolls some existing paper up alongside it. In Chapter Eleven a judge blesses that priority; out of court, the lenders' own votes do. Moyer files this under out-of-court versus in-court. Same economics, different referee."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Why did American Securities do it this way rather than file, given they've been through a Chapter Eleven before?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Because of last time. Air Methods filed, and nine weeks later the lenders owned it. Here the equity is out of the money: twelve times leverage on a business worth maybe nine or ten times if sold. Equity that far underwater is an option, and an option has value only while it's alive. A filing kills it; an extension keeps it alive for free. That's sponsor option value, and it explains most liability management exercises."
+        }
+      ]
+    },
+    {
+      "name": "unfurl_issue_price",
+      "direction": "Slow and careful, like reading a document line by line; warm when the Guest gets it.",
+      "turns": [
+        {
+          "speaker": "Guest",
+          "text": "You keep saying the company's own prices. Where does a private company publish what its debt is worth?"
+        },
+        {
+          "speaker": "Host",
+          "text": "In a tax form. When a company changes its debt, US tax law makes it publish a Form 8937 so holders can work out their gains and losses. Vibrantz posted one in April. It lists every tranche and its issue price. Issue price is a tax term: for debt that trades, it's the trading value in the month around the exchange. So these are the market's marks on the new paper in late February, published by the company itself."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And what were the marks, tranche by tranche, on the tax form? Give me the whole table."
+        },
+        {
+          "speaker": "Host",
+          "text": "First-out, ninety-eight. Second-out loans and notes, sixty-six. Third-out, twenty-seven for the loan holders' piece, twenty-four for the noteholders'. Compare the Barings mark on the old single-class loan, fifty-five in December. The deal didn't create value. It sorted the same value into a queue and priced each place in it."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Useful trick. Now the accounting side. S&P says leverage is twelve to fourteen times and coverage is weak. Coverage of what?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Interest coverage, the simplest ratio a creditor looks at. Earnings before interest, tax, depreciation and amortisation, divided by the cash interest bill. Think of a household. Leverage is your mortgage divided by your salary. Coverage is your salary divided by the mortgage payment. Three billion of debt at eight or nine percent is roughly two hundred and fifty to two hundred and ninety million of interest a year, and S&P's multiple implies earnings of about two hundred and twenty to two hundred and eighty. Coverage of about one times. Every dollar earned goes to interest, and S&P says cash interest rose after the deal. Runway, not repair."
+        },
+        {
+          "speaker": "Guest",
+          "text": "So put the fulcrum on the ladder. Moyer's fulcrum security is the class where the value runs out. Where is it here?"
+        },
+        {
+          "speaker": "Host",
+          "text": "We read it from prices and ratings, since there's no earnings figure to build a valuation on. S&P rates the first-out B-minus with a recovery rating of one, ninety to one hundred percent back in a default. The second-out is triple-C-minus with a five, ten to thirty percent. The third-out is double-C with a six, zero to ten. Value covers the seven hundred and seventy million of first-out and runs out inside the one and a half billion of second-out. That's the fulcrum. The third-out at twenty-seven is an option on a recovery, and the equity an option behind that. But out of court, the second-out owns paper at sixty-six, not the company, until someone files or equitises."
+        }
+      ]
+    },
+    {
+      "name": "unfurl_default_and_clos",
+      "direction": "Quicker, a touch wry; the Host enjoys the ratings mechanics, the Guest is skeptical.",
+      "turns": [
+        {
+          "speaker": "Guest",
+          "text": "Now the rating. S&P cut Vibrantz to D on February the twentieth, then to triple-C on March the fifth. Nobody missed a payment. How is that a default?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Under the agencies' rules a distressed exchange is a default. Two tests. Did holders receive less than promised? Yes, about fifty cents of value per hundred. Would the company have defaulted anyway without it? S&P said yes, calling the deal tantamount to default. When both are true the agency rates the company D on completion, then re-rates the new structure. Moyer treats the distressed exchange as one of the roads into restructuring, alongside a payment default and a filing. The index providers even keep a separate dual-track default rate that counts them."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Two weeks at D, then back to triple-C. Why does the timing matter to anyone but the rating agency?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Because of who owns leveraged loans. Most of a loan like this sits in collateralised loan obligations, CLOs. A CLO is a fund that buys a few hundred leveraged loans and pays for them by issuing its own bonds in slices, triple-A down to equity. A bank made of a spreadsheet. Those bonds have tests. If too much of the portfolio is triple-C, or loans default, cash is diverted from the equity to the senior bonds. A defaulted loan counts at market value, fifty cents. A triple-C loan, inside the allowed bucket, counts at par."
+        },
+        {
+          "speaker": "Guest",
+          "text": "So a loan at D is a hole in the test, and the same loan at triple-C two weeks later is not. That's a very convenient two weeks."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's exactly the criticism. Fitch reported Vibrantz was in twenty-nine percent of the US CLOs it rates, the most widely held defaulted issuer of February. A commentator, Rod Dubitsky, argued the quick re-rating let CLO managers avoid carrying a defaulted asset, benefiting bankers and the CLO community. S&P's stated reasons were the new money, the end of amortisation and the longer maturities, while admitting leverage stayed unsustainable. Both can be true. The rating followed its rules, and the rules suit the holders."
+        }
+      ]
+    },
+    {
+      "name": "unfurl_lenders_fight_back",
+      "direction": "Forward-looking and practical; the tone of a desk planning its next move.",
+      "turns": [
+        {
+          "speaker": "Guest",
+          "text": "What do lenders actually do about this? If I'm a CLO manager holding second-out at sixty-six, I'm angry, but I signed the NDA."
+        },
+        {
+          "speaker": "Host",
+          "text": "You sign a cooperation agreement before the next one. A co-op is a contract among lenders, usually holding well over half a loan, to negotiate as a block and take no side deal. Think of a union. The company can't pick off three funds if those three have promised the other thirty they won't go alone. Scott Greenberg at Gibson Dunn, who represented the ad hoc creditor group here, says sponsors are getting very aggressive in 2026 and the unintended consequence may just be more co-ops. With one in place, the first-out track couldn't have been built. Moyer's holdout chapters are about exactly this."
+        },
+        {
+          "speaker": "Guest",
+          "text": "What about the lenders who refused? A few holdouts didn't sign anything. What happens to them?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Less than one percent of the loan and about three percent of the notes. They keep their old coupons and maturities, but what happened to their protections isn't public. In the standard version of this trade the amendment strips the covenants and leaves the holdouts behind the new structure. We can't verify that here."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Then the last piece. You said the deal was runway, not repair. What's the risk it just happens again?"
+        },
+        {
+          "speaker": "Host",
+          "text": "That's redefault risk, and it's what S&P's negative outlook is about. A liability management exercise buys time. If earnings don't recover, the company hits the same wall with more senior debt in front of the same collateral. S&P's downgrade triggers: continued cash burn, liquidity sources below uses, a skipped interest payment, or another distressed exchange. The outlook pieces call the sequel handing over the keys. Air Methods was this sponsor's sequel last time."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And the two hundred million receivables facility in July. Good news or bad news for the lenders?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Both. More liquidity, but it's a securitisation, the concept from the INEOS episode. Receivables in thirteen countries now sit outside the lenders' collateral, so in a liquidation there's less for all three tiers. And the new CFO, Garrett Gabel, was chief restructuring officer at his last company. A board hiring that resume is telling you what it expects to need."
+        }
+      ]
+    },
+    {
+      "name": "recap",
+      "direction": "The trader's recap: crisp, confident, rung by rung; a beat of quiet on the losers.",
+      "turns": [
+        {
+          "speaker": "Guest",
+          "text": "Trader's recap. Where did the value end up, instrument by instrument, and on which rung?"
+        },
+        {
+          "speaker": "Host",
+          "text": "At the front of rung two. About seven hundred and seventy million of first-out paper, priced at ninety-eight and rated for a ninety to one hundred percent recovery, built out of new money and a loan marked at fifty-five. Everything behind it was marked down: second-out at sixty-six, third-out at twenty-four to twenty-seven, the equity an option on twelve times leverage. Nothing was created. Seven hundred and seventy million of claims moved to the front of the queue and two point three billion moved back."
+        },
+        {
+          "speaker": "Guest",
+          "text": "The twists and turns, and what a desk should have been watching along the way?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Three. The two tracks and the NDA, which decided who was in which queue before anyone knew there were two queues. The two-week D rating, which turned a default into a triple-C holding for a quarter of the CLO market. And the affiliate that issued the first-out paper, which matters if a second-out holder ever litigates. The desk was watching something simpler: a loan at fifty-five and a sponsor who'd already lost one company to its lenders. The only question was who'd be in the room."
+        },
+        {
+          "speaker": "Guest",
+          "text": "So if I'd been on the desk, where did I want to be, round by round?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Round one, late 2025, the loan in the fifties. You wanted it only if you'd be asked to write the new-money cheque. Three funds were. Everyone else bought a fifty-cent loan and got a fifty-cent exchange. Round two, the exchange: you wanted the first-out, and only GoldenTree, Monarch and Oak Hill could get it. Round three, now. The second-out at sixty-six is the fulcrum, where a fund that wants to own this company in the sequel accumulates, and where the co-op forms."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And the last beat. Winners, losers, and who was left in the dust?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Winners, the first-out three, and American Securities for now, with the keys and a free option. Losers, the second-out holders, mostly CLOs, who ate the market's loss and were primed. Left in the dust, the third-out noteholders at twenty-four cents, and any holdout behind three billion of newly senior debt. Still in play, all of it. The runway ends when the cash does."
+        }
+      ]
+    },
+    {
+      "name": "watch",
+      "direction": "Practical and encouraging; a clear list of what to read and when to check back.",
+      "turns": [
+        {
+          "speaker": "Guest",
+          "text": "What do we watch? There's no court calendar here, and no earnings calls either, so where do the dates on the desk's calendar come from?"
+        },
+        {
+          "speaker": "Host",
+          "text": "From the rating agencies and the company's own announcements. S&P's June action has a negative outlook and named triggers, so the next S&P review is the first date. Moody's sits at C, one notch above default. Watch anything the company says about liquidity, because the receivables facility and the new-money cash fund the burn. And watch the CFO. A former chief restructuring officer arriving in July is either a turnaround story or the start of round two."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And the open questions, the ones we simply can't answer from the public record today?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Three. Do the second-out holders organise, and do they sue over the two-track process. What did the amendment actually do to the holdouts, whose position we couldn't source. And can earnings recover enough to push value through two point three billion of senior claims before 2030, when the new term loans mature. The new notes sit a year behind, in 2031."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And the reading list, now that we have the vocabulary to understand it. Where should a new listener start?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Start with the Form 8937 on the company's website. You now know it's the issue price table, and you can rebuild ninety-eight, sixty-six and twenty-seven from it yourself. Then the February eighteenth press release. Find the sentence saying every lender was offered the chance to participate; it's the legal defence to everything in the two-tracks segment. Then S&P's June action for the recovery ratings, and the Bloomberg piece on side deals, which uses Vibrantz as its case study. In Moyer, pair it with out-of-court versus in-court and the fulcrum chapters. Now go take the quiz; the questions you miss come back next episode."
+        }
+      ]
+    }
+  ]
+}
