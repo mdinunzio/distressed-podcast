@@ -1,0 +1,321 @@
+{
+  "company": "Telesat Corporation",
+  "slug": "telesat",
+  "title": "Telesat: Sixty-Two Percent Out of Reach",
+  "deal_type": "live pre-restructuring: US$1.71 billion first-lien maturity on December 6, 2026 at the GEO subsidiary; contested distribution of 62% of the Lightspeed (LEO) equity to a non-guarantor; term-lender lawsuits in New York and Ontario; lender recapitalisation proposal under negotiation; going-concern doubt",
+  "episode": 5,
+  "segments": [
+    {
+      "name": "situation",
+      "direction": "Brisk and alert, two colleagues opening a file with a deadline on it; slow down on the dates.",
+      "turns": [
+        {
+          "speaker": "Host",
+          "text": "Today's company is Telesat, Canada's satellite operator, and this one has a date on it. December sixth, 2026, when about one point seven billion US dollars of first-lien debt comes due at the old business, which can't pay it. Telesat is two companies in one. Thirteen geostationary satellites, GEO, selling television and data capacity, revenue falling twenty-five percent a year. And Lightspeed, a two hundred and twenty-five satellite low-earth-orbit constellation, LEO, built on two and a half billion Canadian dollars of government loans and a two point seven billion military contract."
+        },
+        {
+          "speaker": "Guest",
+          "text": "So a dying business and a growing one under the same roof. Where does the debt sit, and who guarantees it?"
+        },
+        {
+          "speaker": "Host",
+          "text": "All of it at the old one. The GEO company, Telesat GEO, formerly Telesat Canada, owes about two point one billion US across a term loan and three sets of notes; only GEO entities guarantee it. Lightspeed sits in separate entities that guarantee nothing. Then in September 2025 Telesat moved sixty-two percent of Lightspeed's equity out of the GEO company to an affiliate of the parent, leaving the lenders a claim on thirty-eight percent. Four months later the lenders sued in two countries."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Hang on. They moved the crown jewel out of the lenders' reach, right before the debt matures? Who are the lenders?"
+        },
+        {
+          "speaker": "Host",
+          "text": "A group holding more than three quarters of the term loan since 2024, led by Silver Point, Sound Point and GoldenTree. Silver Point is the Greenwich distressed shop founded by two ex-Goldman special situations partners. And GoldenTree, yes, is the fund from the Saks rescue loan and the Vibrantz first-out room. Third episode running, always at the front of the queue."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And on the other side of the table, who's running the company and who owns it?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Dan Goldberg, chief executive since 2006, a lawyer by training, eighteen years into building Lightspeed. He says the lawsuits were filed by \"a group of distressed debt hedge funds\", are \"without merit\", and that the company \"operated within our covenants\" and \"within the law\". Behind him, two shareholders at about thirty-six percent each: PSP Investments, a Canadian public pension, and MHR, Mark Rachesky's fund; Rachesky trained under Carl Icahn and chairs the board."
+        },
+        {
+          "speaker": "Guest",
+          "text": "So where are we right now, with eleven weeks to go before that December date?"
+        },
+        {
+          "speaker": "Host",
+          "text": "The auditors have put substantial doubt about going concern in the accounts. S&P rates the GEO company double-C and says there is \"certainty\" it can't repay on time. In August the lenders proposed a recapitalisation: full principal in new debt, secured by Lightspeed equity, plus new junior capital. Management wants \"a consensual plan\" and says Chapter Eleven is \"not the case at all\". Usual disclaimer: education, not advice."
+        }
+      ]
+    },
+    {
+      "name": "concepts",
+      "direction": "A clear map; patient on the two-box structure and the ladder.",
+      "turns": [
+        {
+          "speaker": "Host",
+          "text": "Five ideas carry this one. The ring-fence: keeping a growth business away from the old one's creditors, and the covenant governing what leaves. The lawsuit: what fraudulent conveyance means, and the Canadian remedies that make this case unusual. The fulcrum, here a percentage rather than a class. The endgame: the lenders' price for an extension, and a 1991 statute that may block ordinary insolvency law. And going-concern doubt, the accounting flag tying it together."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Ladder first, every episode. And since you said two companies, I'm guessing we need two ladders this time?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Two boxes, same seven rungs in each: super-senior, first-lien secured, second-lien, senior unsecured, subordinated, preferred, common. Senior and secured say where the money comes from in a bad outcome, not the coupon. GEO box, rung two: three instruments sharing one first lien, pari passu. A term loan of about one point three two billion US, SOFR plus two seventy-five, due December sixth; three hundred and eighty-seven million of five and five-eighths notes, same date; two hundred and twenty-five million of four and seven-eighths notes, June 2027. All cash coupon, principal at maturity. Rung four: two hundred and thirteen million of six and a half percent unsecured notes, October 2027."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Nothing on rung one? No revolver at the top, and no preferred anywhere in the whole structure?"
+        },
+        {
+          "speaker": "Host",
+          "text": "The two hundred million revolver expired in December 2024 and was never replaced, so there was no committed liquidity at all. What sits at the top now is a hundred and twenty million US loan borrowed in August by a non-guarantor subsidiary of the GEO company, secured on that subsidiary and \"certain assets\" of Telesat GEO. No preferred anywhere. Rung seven is the parent, Telesat Corporation."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And the Lightspeed box, the one the GEO lenders can't reach? What sits on its rungs?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Rung two: the government loans, two point one four billion from Canada and four hundred million from Quebec, CORRA plus four seventy-five, maturing 2040, secured on the Lightspeed assets, interest capitalised during construction. About seven hundred and sixteen million drawn, one point eight five billion still available. Then the governments' warrants for eleven point eight seven percent of the LEO equity. Then the common: sixty-two percent at the parent's affiliate, thirty-eight still inside the GEO group."
+        },
+        {
+          "speaker": "Guest",
+          "text": "So the GEO lenders' only way to Lightspeed is that thirty-eight percent stake. That's the whole fight, isn't it?"
+        },
+        {
+          "speaker": "Host",
+          "text": "It is. Their lien covers \"substantially all\" GEO assets \"excluding assets relating to the Telesat Lightspeed business\". Lightspeed cash can't flow to GEO either; the government loans require LEO's independence and forbid financial assistance to affiliates. So LEO value reaches these lenders only as equity, and someone decided how much."
+        }
+      ]
+    },
+    {
+      "name": "unfurl_ring_fence",
+      "direction": "Methodical, with a rising note of disbelief from the Guest; precise on the mechanics.",
+      "turns": [
+        {
+          "speaker": "Guest",
+          "text": "Take me through the ring-fence. We've done guarantees and structural subordination since episode one. Remind me how they apply here."
+        },
+        {
+          "speaker": "Host",
+          "text": "A guarantee pulls a claim up to another entity; its absence leaves you a creditor of one box only. Telesat's lenders lent to Telesat Canada, guaranteed by its GEO subsidiaries. Lightspeed was built from the start in \"LEO Non-Guarantor\" entities, with its own government financing, non-recourse to GEO, the episode two concept. That's step one of the fence. Step two, in September 2025, moved most of the equity in those entities out of the GEO box entirely."
+        },
+        {
+          "speaker": "Guest",
+          "text": "How is that allowed? A company with a lien on substantially all its assets just hands sixty-two percent of its best asset to its parent?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Through the restricted payments covenant. Every loan agreement limits what can leave the credit group: dividends, distributions, investments in non-guarantors. Think of a shared household account with rules about withdrawals. The rules don't say zero; they set baskets, fixed amounts and earnings-based formulas, within which the company may pay out without asking. Telesat says the distribution was \"accomplished in strict accordance with relevant debt agreements\". The lenders say the capacity didn't exist. Which basket was used isn't public."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Let me restate. The lenders' documents allowed some value to leave, and Telesat used that room to move sixty-two percent of Lightspeed. Why sixty-two, not a hundred?"
+        },
+        {
+          "speaker": "Host",
+          "text": "The filings never say. The lawsuit implies the answer: a full transfer would plainly be all or substantially all of the company's value, which needs consent. Sixty-two was, presumably, what the baskets allowed. The stated purpose is \"more flexibility to Telesat Corporation to raise capital in the future\". It's the drop-down pattern from the New Fortress and INEOS episodes, and the August loan repeats it: a hundred and twenty million US borrowed at a non-guarantor subsidiary of GEO, secured on its own and some GEO assets, nearly doubling the old business's hundred and sixty million of cash."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Who benefits from the fence? Let's be blunt about it, since I think I can guess."
+        },
+        {
+          "speaker": "Host",
+          "text": "The parent's shareholders, PSP and MHR, who hold sixty-two percent of Lightspeed outside any lender's reach, plus thirty-eight through GEO. That's sponsor option value from episode four: equity that would be wiped out in a GEO restructuring keeps the growth asset. The Ontario claim goes further, alleging MHR's stake gained about thirty-five percent, roughly thirty million dollars, after the distribution. An allegation, not a finding."
+        }
+      ]
+    },
+    {
+      "name": "unfurl_lawsuit",
+      "direction": "Slower and careful, like reading a claim count by count; the Host keeps both sides' arguments honest.",
+      "turns": [
+        {
+          "speaker": "Guest",
+          "text": "Now the lawsuit. Wilmington Savings Fund Society, as agent, sued in New York and Ontario in January. The headline word was fraudulent conveyance. What is that, precisely?"
+        },
+        {
+          "speaker": "Host",
+          "text": "A transfer a court can unwind because it cheated creditors. Think of someone signing their house over to a relative the week before the bailiffs arrive. Two routes. Actual intent: the transfer was meant to hinder creditors. Constructive: the company was insolvent at the time and got less than fair value. The Ontario Fraudulent Conveyances Act is the vehicle, and the claim says Telesat Canada \"was insolvent at the time of the Transaction\" and acted \"with the intent to harm and prejudice the Term Lenders\". Moyer files this under avoidance actions."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Insolvent in September 2025? The company had half a billion of cash at year-end. How does that square?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Consolidated, yes. But only about two hundred million sat at Telesat Canada and its guarantors, against one point seven billion US due fifteen months later. Insolvency here isn't cash today; it's whether you can pay debts as they come due. S&P flagged distressed exchange risk in June 2025, and by March the auditors wrote substantial doubt into the accounts. The lenders will argue the doubt was already true in September. The company will argue it wasn't."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Second count. Section six point oh three of the credit agreement, all or substantially all. I know the words, not the doctrine."
+        },
+        {
+          "speaker": "Host",
+          "text": "Most credit agreements ban transferring all or substantially all assets without lender consent. The fight is always over the measure: assets by book value, or by value to creditors? The lenders say sixty-two percent of Lightspeed was substantially all of Telesat Canada's value, because the GEO fleet is worth a fraction of its debt and the constellation multiples of it. Telesat says operations didn't change and the covenant wasn't tripped. Courts have split on this for decades."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And the count you said has no American equivalent at all? What is that one actually about?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Oppression. Canadian corporate law lets a court fix conduct that is \"oppressive to, unfairly prejudicial to, or unfairly disregards the reasonable expectations\" of a stakeholder, and creditors can bring it. It asks what the lenders reasonably expected when they lent, not just what the words permitted. That's why the Ontario action names Telesat Canada's directors personally, and why the relief sought includes an interest in the parent or the recipient equal to the transferred equity's value. Nothing is decided; Telesat moved to dismiss in New York in April."
+        }
+      ]
+    },
+    {
+      "name": "unfurl_fulcrum",
+      "direction": "Numbers-forward, patient; warm when the Guest gets the percentage idea.",
+      "turns": [
+        {
+          "speaker": "Guest",
+          "text": "Numbers now. Give me the GEO business on its own first, before we add Lightspeed back in."
+        },
+        {
+          "speaker": "Host",
+          "text": "Guidance for 2026 is three hundred to three hundred and twenty million Canadian of revenue and two hundred and ten to two hundred and thirty million of adjusted EBITDA. Against about two point one five billion US of GEO debt, that's twelve to thirteen times leverage on a business shrinking a quarter a year. Cash interest last year was two hundred and thirty-three million against adjusted EBITDA of two hundred and thirteen: interest coverage, from episode four, below one."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Which brings us to the going-concern language. What does it actually mean when an auditor writes that?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Going-concern doubt is the auditor saying the accounts assume the company survives the next year, and there's a real chance it won't. A doctor writing \"guarded\" on a chart. It's triggered by a maturity you can't meet, a covenant you'll breach, or cash running out. Telesat's annual report ties the doubt \"solely to the upcoming Telesat Canada Debt maturities in December 2026\". It tells the desk the refinancing isn't optional, and the court something about when insolvency began."
+        },
+        {
+          "speaker": "Guest",
+          "text": "So on GEO alone the first lien is impaired. Moyer's fulcrum, the class where value runs out, is the term loan."
+        },
+        {
+          "speaker": "Host",
+          "text": "On GEO alone, yes. Now add Lightspeed. The governments' warrants for eleven point eight seven percent of the LEO equity are carried at more than one point three billion dollars. Divide, and the implied value of Lightspeed is roughly eleven billion Canadian. My arithmetic; management never states a valuation. Even a fraction of that covers the entire GEO debt stack several times over. Thirty-eight percent, if reachable, covers it comfortably."
+        },
+        {
+          "speaker": "Guest",
+          "text": "So the fulcrum isn't a class. It's whether the lenders end up with thirty-eight percent, a hundred percent, or something in between."
+        },
+        {
+          "speaker": "Host",
+          "text": "Exactly. The fulcrum is a percentage. Hold thirty-eight and value LEO conservatively, and the first lien is the fulcrum and the unsecured notes near zero. Win back or get pledged the sixty-two, and the secured debt is covered and the six and a half percent notes money-good behind it. Now the one public price: those unsecured notes at about seventy-one cents in August, per a bond newswire. Seventy-one is not a fulcrum price. The market leans toward LEO value reaching GEO creditors."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And the term loan's own price? That's the instrument we keep coming back to, after all."
+        },
+        {
+          "speaker": "Host",
+          "text": "Not public. The anchor is history: the company bought back a hundred and one million US of term loan in 2024 at fifty cents, and since 2021 retired eight hundred and fifty-seven million of debt for four hundred and fifty, an average of fifty-two and a half. That's where the loan traded before the fence."
+        }
+      ]
+    },
+    {
+      "name": "unfurl_endgame",
+      "direction": "Forward-looking and practical; the tone of a desk mapping the branches before a deadline.",
+      "turns": [
+        {
+          "speaker": "Guest",
+          "text": "Eleven weeks left. What are the branches from here, and what did the lenders actually propose in August?"
+        },
+        {
+          "speaker": "Host",
+          "text": "The proposal, per the Globe and Mail, since no term sheet is public: full principal in new debt, Lightspeed equity as collateral, and cash from new junior capital. The interesting word is collateral. That's collateral enhancement: lenders extend or refinance only if assets outside their security package are pledged into it. A landlord renewing a lease on condition you add a guarantor. Here the asset is the sixty-two percent, and the annual report itself says pledging \"some or all\" of it \"may be required as a condition of any consensual refinancing\"."
+        },
+        {
+          "speaker": "Guest",
+          "text": "So the lawsuit and the proposal are the same demand in two languages: give us the LEO equity."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes. And the junior capital is the new-money idea from episode four, arriving below the lenders this time rather than above them. What complicates a pledge is the government lenders, whose loan requires LEO's independence and likely their consent to any change in control."
+        },
+        {
+          "speaker": "Guest",
+          "text": "If there's no deal, why can't Telesat just file? Chapter Eleven, or the Canadian version?"
+        },
+        {
+          "speaker": "Host",
+          "text": "The Canadian version is the CCAA, the Companies' Creditors Arrangement Act: court supervision, a stay, a creditor-voted plan, with a court-appointed monitor watching management rather than a debtor-in-possession. But Telesat Canada has a wrinkle almost no other borrower has. A 1991 Act of Parliament, from its privatisation, says \"no Act relating to the solvency or winding-up of a corporation applies to Telesat and in no case shall the affairs of Telesat be wound up unless authorized by an Act of Parliament\"."
+        },
+        {
+          "speaker": "Guest",
+          "text": "A statutory bar on bankruptcy? Does that protect the lenders or the company, in practice?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Nobody knows; it's untested. It may mean the lenders can't force a winding-up, weakening their threat. It may mean the company can't use a CCAA stay against them, weakening its. Whether it covers the renamed Telesat GEO or a US filing is, in the Globe's words, unclear. Goldberg, asked about July court documents hinting at Chapter Eleven, said \"that is not the case at all\". ATB Cormark's David McFadgen says default is \"not an unlikely event\" and investors \"should prepare themselves\"."
+        }
+      ]
+    },
+    {
+      "name": "recap",
+      "direction": "The trader's recap: crisp and rung by rung; a beat of quiet on who is exposed.",
+      "turns": [
+        {
+          "speaker": "Guest",
+          "text": "Trader's recap. Where has the value accumulated, on which rung, and in what form is it held?"
+        },
+        {
+          "speaker": "Host",
+          "text": "In Lightspeed, in the sixty-two percent at the parent's affiliate, outside the GEO box. On the company's own warrant mark that slice is worth several times the entire GEO debt stack. The GEO lenders, rung two, hold a first lien on a shrinking fleet, thirty-eight percent of LEO, and a lawsuit. The governments hold the safest paper: first lien on LEO plus warrants worth over one point three billion on a two and a half billion loan. Nothing was destroyed. Value was fenced."
+        },
+        {
+          "speaker": "Guest",
+          "text": "The twists and turns, and what a desk should have been watching all along the way?"
+        },
+        {
+          "speaker": "Host",
+          "text": "September twelfth, 2025, the distribution, made while S&P was already warning of a distressed exchange and six months before the auditors wrote substantial doubt. January twenty-first, two lawsuits, the Ontario one naming directors. August, a two point seven billion military contract and a hundred and twenty million loan at another non-guarantor, in one fortnight. The desk watched one thing throughout: which side of the fence each dollar landed on."
+        },
+        {
+          "speaker": "Guest",
+          "text": "So if I'd been on the desk, where did I want to be, round by round?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Round one, 2024, the loan around fifty: you wanted to be in the group that would hold seventy-five percent, because that group decides the litigation. Round two, after the fence: the equity, up thirty-seven percent on one contract, if you believed the fence holds; the loan if not. Round three, now: the six and a half percent notes at seventy-one are the cleanest bet that LEO value reaches GEO creditors, and the cleanest loss if it doesn't."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And the last beat. Winners, losers, and who's been left in the dust, so far?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Winners: the governments of Canada and Quebec, and on paper the shareholders. Losers: the first-lien lenders, who lent against seven hundred million of EBITDA and now face thirteen times on GEO alone, their claim on the growth asset cut from a hundred to thirty-eight percent. Left in the dust, potentially: the unsecured noteholders, if the secured class takes a LEO pledge and leaves them behind. All still in play."
+        }
+      ]
+    },
+    {
+      "name": "watch",
+      "direction": "Practical and encouraging; a clear calendar and a short reading list.",
+      "turns": [
+        {
+          "speaker": "Guest",
+          "text": "What do we watch? For once there's a hard date on the calendar, so walk me through it."
+        },
+        {
+          "speaker": "Host",
+          "text": "December first, the coupons on the secured notes. December sixth, the term loan and the five and five-eighths notes mature, one point seven billion US on a single day. Before that, in early November, third-quarter results and any word on a forbearance or a signed deal. Late 2026, the first Lightspeed launches on fourteen contracted Falcon Nines. And any ruling in New York on the motion to dismiss, or a hearing date in Ontario, neither of which is public today."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And the open questions, the ones we simply can't answer from the public record today?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Three. Which basket permitted the sixty-two percent, and whether it truly did; the credit agreement is a 2012 document with seven amendments, and nobody outside the room has quoted the clause. Whether the 1991 Act blocks a CCAA or Chapter Eleven filing by a renamed subsidiary. And whether the governments, as Lightspeed's senior lenders, would consent to pledging its equity to American hedge funds."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And the reading list, now that we have the vocabulary to understand it. Where should a listener start?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Start with the 2025 twenty-F, the annual report: the going-concern note, the legal proceedings section that summarises all four counts with the section number, and the debt note. Then the September twelfth, 2025 press release, five sentences long; notice which sentence is missing, the reason. Then section eight, sub two, of the Telesat Canada Reorganization and Divestiture Act, one sentence you can read in ten seconds. And the Globe and Mail's September piece on the lender proposal. In Moyer, pair it all with the chapters on the fulcrum security and on avoidance actions. Now take the quiz; the questions you miss come back next episode."
+        }
+      ]
+    }
+  ]
+}

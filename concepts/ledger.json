@@ -1850,6 +1850,204 @@
           "date": "2026-09-21"
         }
       ]
+    },
+    {
+      "id": "restricted_payments",
+      "name": "Restricted payments covenant",
+      "one_line": "The covenant in a credit agreement or indenture that limits dividends, distributions, investments and other transfers of value out of the credit group, permitting them only within defined baskets and formulas.",
+      "tier": "legal",
+      "level": 3,
+      "moyer": "Covenants and protection of the credit group",
+      "aliases": [
+        "restricted payments",
+        "RP covenant",
+        "RP basket",
+        "dividend covenant",
+        "builder basket"
+      ],
+      "introduced_in": "telesat",
+      "episode": 5,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "telesat",
+          "episode": 5,
+          "event": "introduced",
+          "date": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": "fraudulent_conveyance",
+      "name": "Fraudulent conveyance",
+      "one_line": "A transfer of assets that a court can set aside because it was made with intent to hinder creditors, or while the transferor was insolvent and received less than fair value; in Ontario, under the Fraudulent Conveyances Act.",
+      "tier": "legal",
+      "level": 3,
+      "moyer": "Avoidance actions; the zone of insolvency",
+      "aliases": [
+        "fraudulent transfer",
+        "fraudulent conveyances act",
+        "avoidance action",
+        "voidable transfer"
+      ],
+      "introduced_in": "telesat",
+      "episode": 5,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "telesat",
+          "episode": 5,
+          "event": "introduced",
+          "date": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": "all_or_substantially_all",
+      "name": "All or substantially all",
+      "one_line": "The covenant threshold in credit agreements and indentures that bars a merger or transfer of all or substantially all of a company's assets (or, lenders argue, its value) without lender consent.",
+      "tier": "legal",
+      "level": 4,
+      "moyer": null,
+      "aliases": [
+        "substantially all",
+        "all-or-substantially-all",
+        "section 6.03",
+        "asset sale covenant"
+      ],
+      "introduced_in": "telesat",
+      "episode": 5,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "telesat",
+          "episode": 5,
+          "event": "introduced",
+          "date": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": "oppression_remedy",
+      "name": "Oppression remedy",
+      "one_line": "A Canadian statutory remedy allowing a court to correct corporate conduct that is oppressive to, unfairly prejudicial to, or unfairly disregards the reasonable expectations of a security holder or creditor; it has no direct US equivalent.",
+      "tier": "legal",
+      "level": 4,
+      "moyer": null,
+      "aliases": [
+        "oppression",
+        "oppression claim",
+        "CBCA oppression"
+      ],
+      "introduced_in": "telesat",
+      "episode": 5,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "telesat",
+          "episode": 5,
+          "event": "introduced",
+          "date": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": "going_concern_doubt",
+      "name": "Going-concern doubt",
+      "one_line": "The statement by management or the auditor that there is substantial doubt (a material uncertainty) about a company's ability to meet its obligations over the next year, typically triggered by an unrefinanced maturity, a covenant breach or a cash shortfall.",
+      "tier": "accounting",
+      "level": 2,
+      "moyer": "Financial-statement warning signs of distress",
+      "aliases": [
+        "going concern",
+        "substantial doubt",
+        "material uncertainty",
+        "going concern qualification"
+      ],
+      "introduced_in": "telesat",
+      "episode": 5,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "telesat",
+          "episode": 5,
+          "event": "introduced",
+          "date": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": "collateral_enhancement",
+      "name": "Collateral enhancement",
+      "one_line": "Adding assets or equity that were outside a lender's security package into it as the price of an extension, amendment or refinancing.",
+      "tier": "capital_structure",
+      "level": 3,
+      "moyer": "Out-of-court restructuring terms",
+      "aliases": [
+        "additional collateral",
+        "collateral pledge",
+        "pledge of equity",
+        "credit enhancement"
+      ],
+      "introduced_in": "telesat",
+      "episode": 5,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "telesat",
+          "episode": 5,
+          "event": "introduced",
+          "date": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": "ccaa",
+      "name": "CCAA",
+      "one_line": "The Companies' Creditors Arrangement Act, Canada's court-supervised restructuring regime for large debtors, with a stay of proceedings, a creditor-voted plan and a court-appointed monitor; the counterpart to Chapter 11.",
+      "tier": "process",
+      "level": 3,
+      "moyer": "Out-of-court versus in-court restructuring (Canadian analogue)",
+      "aliases": [
+        "Companies' Creditors Arrangement Act",
+        "Companies Creditors Arrangement Act",
+        "CCAA filing"
+      ],
+      "introduced_in": "telesat",
+      "episode": 5,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "telesat",
+          "episode": 5,
+          "event": "introduced",
+          "date": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": "statutory_insolvency_bar",
+      "name": "Statutory insolvency bar",
+      "one_line": "A special statute providing that ordinary solvency and winding-up laws do not apply to a named corporation, such as section 8(2) of the Telesat Canada Reorganization and Divestiture Act, which requires an Act of Parliament to wind Telesat up.",
+      "tier": "legal",
+      "level": 4,
+      "moyer": null,
+      "aliases": [
+        "Telesat Canada Reorganization and Divestiture Act",
+        "special act corporation",
+        "winding-up bar"
+      ],
+      "introduced_in": "telesat",
+      "episode": 5,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "telesat",
+          "episode": 5,
+          "event": "introduced",
+          "date": "2026-09-23"
+        }
+      ]
     }
   ]
 }

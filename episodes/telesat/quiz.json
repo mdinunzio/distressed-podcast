@@ -1,0 +1,336 @@
+{
+  "slug": "telesat",
+  "episode": 5,
+  "title": "Telesat: Sixty-Two Percent Out of Reach",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "multiple_choice",
+      "level": 1,
+      "concept_ids": [
+        "guarantee",
+        "structural_subordination"
+      ],
+      "prompt": "Telesat is two businesses under one parent. Where does the roughly US$2.1 billion of old debt sit, and who guarantees it?",
+      "choices": [
+        "At the parent, Telesat Corporation, guaranteed by both the GEO fleet and the Lightspeed entities, which is why the governments needed warrants",
+        "At the GEO company, formerly Telesat Canada, guaranteed only by GEO entities, while the Lightspeed entities guarantee nothing",
+        "At the Lightspeed entities, guaranteed by the GEO company, so the December maturity falls on the constellation's cash",
+        "Split evenly between the GEO company and Lightspeed, each guaranteeing the other under the 2019 amended credit agreement"
+      ],
+      "answer": 1,
+      "explanation": "The term loan and three sets of notes are obligations of Telesat GEO Inc., guaranteed by GEO subsidiaries. Lightspeed was built in LEO Non-Guarantor entities from the start, so its assets and cash are outside the lenders' reach: structural subordination by design."
+    },
+    {
+      "id": "q02",
+      "type": "numeric",
+      "level": 1,
+      "concept_ids": [
+        "going_concern_doubt"
+      ],
+      "prompt": "About how much first-lien debt, in billions of US dollars, matures at the GEO company on December 6, 2026?",
+      "answer": 1.7,
+      "tolerance": 0.15,
+      "unit": "US$ billions",
+      "explanation": "About US$1.7 billion: the US$1.32 billion term loan and US$387 million of 5.625 percent secured notes on a single day. The auditors tie their going-concern doubt solely to these maturities."
+    },
+    {
+      "id": "q03",
+      "type": "numeric",
+      "level": 2,
+      "concept_ids": [
+        "restricted_payments"
+      ],
+      "prompt": "What percentage of the equity of the Lightspeed business did Telesat move out of the GEO company in September 2025?",
+      "answer": 62,
+      "tolerance": 1,
+      "unit": "percent",
+      "explanation": "Sixty-two percent went to an affiliate of the parent that is a non-guarantor; thirty-eight percent stayed inside the GEO group. Telesat says the distribution was made in strict accordance with its debt agreements."
+    },
+    {
+      "id": "q04",
+      "type": "order",
+      "level": 2,
+      "concept_ids": [
+        "structural_subordination"
+      ],
+      "prompt": "Rank the claims in the GEO box from most senior (first to be paid in a bad outcome) to most junior.",
+      "items": [
+        "The US$120 million August 2026 loan at a non-guarantor subsidiary, secured on its own assets and certain GEO assets",
+        "The first-lien term loan and the 5.625 percent and 4.875 percent secured notes, pari passu",
+        "The 6.5 percent senior unsecured notes due October 2027",
+        "Telesat Corporation's common equity"
+      ],
+      "explanation": "The August loan sits at the top in practice because it is separately secured at an entity outside the lenders' documents; the three secured instruments share one first lien; the 6.5 percent notes are the only contractually junior GEO claim; the common is last."
+    },
+    {
+      "id": "q05",
+      "type": "multiple_choice",
+      "level": 2,
+      "concept_ids": [
+        "restricted_payments"
+      ],
+      "prompt": "In the Host's household-account analogy, what does the restricted payments covenant actually do?",
+      "choices": [
+        "It forbids any dividend or distribution out of the credit group until the term loan and both series of secured notes have been repaid in full",
+        "It caps distributions at the amount of cash held at the GEO company, about a hundred and sixty million at June thirtieth",
+        "It requires every distribution to non-guarantors to be approved by holders of a majority of the term loan",
+        "It sets baskets, fixed amounts and earnings-based formulas within which the company may pay value out without asking the lenders"
+      ],
+      "answer": 3,
+      "explanation": "The rules never say zero. They define baskets, and the whole dispute is whether the baskets were big enough for sixty-two percent of Lightspeed. Which basket was used is not public."
+    },
+    {
+      "id": "q06",
+      "type": "multiple_choice",
+      "level": 4,
+      "concept_ids": [
+        "all_or_substantially_all",
+        "restricted_payments"
+      ],
+      "prompt": "Why sixty-two percent rather than all of Lightspeed? What did the Host say the filings and the lawsuit imply?",
+      "choices": [
+        "The filings never say; the lawsuit implies a full transfer would plainly have been all or substantially all of the company's value, which needs lender consent",
+        "The governments' warrants for 11.87 percent and the 38 percent pledged to the term lenders left exactly 62 percent free to distribute",
+        "The CBCA sections 34 and 36 solvency tests permit distributions of up to two thirds of a subsidiary's equity without a shareholder vote or lender consent",
+        "S&P required at least 38 percent to remain with the guarantors as a condition of keeping the rating at CCC-minus"
+      ],
+      "answer": 0,
+      "explanation": "Sixty-two was, presumably, what the baskets allowed. The stated purpose was more flexibility for the parent to raise capital; the reason for the number is missing from the five-sentence press release."
+    },
+    {
+      "id": "q07",
+      "type": "multiple_choice",
+      "level": 2,
+      "concept_ids": [
+        "sponsor_option_value"
+      ],
+      "prompt": "Who benefits most directly from the ring-fence, according to the episode?",
+      "choices": [
+        "The term lenders, who now hold a first lien on 38 percent of Lightspeed instead of an unsecured claim on all of it",
+        "The governments of Canada and Quebec, whose loan covenants required the 62 percent to be moved out of the GEO group",
+        "The parent's shareholders, PSP and MHR, who hold 62 percent of Lightspeed outside any lender's reach plus 38 percent through GEO",
+        "The 6.5 percent noteholders, whose claim moved up a rung once Lightspeed equity was pledged as collateral"
+      ],
+      "answer": 2,
+      "explanation": "Sponsor option value: equity that would be wiped out in a GEO restructuring keeps the growth asset. The lenders' Ontario claim alleges MHR's stake gained about thirty-five percent after the distribution, an allegation rather than a finding."
+    },
+    {
+      "id": "q08",
+      "type": "short_text",
+      "level": 3,
+      "concept_ids": [
+        "fraudulent_conveyance"
+      ],
+      "prompt": "What is the term for a transfer a court can unwind because it was made to cheat creditors, or while the company was insolvent and got less than fair value?",
+      "accepted": [
+        "fraudulent conveyance",
+        "fraudulent conveyances",
+        "fraudulent transfer",
+        "fraudulent-conveyance",
+        "fraudulent conveyance act"
+      ],
+      "explanation": "Fraudulent conveyance, brought here under the Ontario Fraudulent Conveyances Act. Moyer files it under avoidance actions. The claim says Telesat Canada was insolvent at the time of the transaction."
+    },
+    {
+      "id": "q09",
+      "type": "multiple_choice",
+      "level": 3,
+      "concept_ids": [
+        "fraudulent_conveyance"
+      ],
+      "prompt": "The Host described two routes to a fraudulent conveyance claim. Which pair is correct?",
+      "choices": [
+        "Actual intent to hinder creditors, or a transfer made while insolvent for less than fair value",
+        "A breach of the leverage covenant, or a transfer made within ninety days of a payment default",
+        "A transfer to a director or major shareholder, or a transfer that moves collateral across a border",
+        "Insolvency on a balance-sheet test, or a transfer larger than the restricted payments basket"
+      ],
+      "answer": 0,
+      "explanation": "Actual intent or constructive: insolvent at the time and less than fair value received. The lenders plead both, and the key fact question is whether Telesat Canada was already insolvent in September 2025."
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "level": 4,
+      "concept_ids": [
+        "all_or_substantially_all"
+      ],
+      "prompt": "Under Credit Agreement section 6.03, what did the Host say the fight over 'all or substantially all' is really about?",
+      "choices": [
+        "Whether the transfer needed approval by a simple majority of the term loan, as an amendment would, or required the unanimous consent of every lender and noteholder",
+        "Whether 62 percent of the equity is above the 50 percent threshold that the 2019 amended credit agreement sets for a transfer to count as substantially all",
+        "Whether the covenant covers equity of subsidiaries at all, or only physical assets like satellites and orbital slots",
+        "The measure: assets by book value, or by value to creditors, given the GEO fleet is worth a fraction of its debt and the constellation multiples of it"
+      ],
+      "answer": 3,
+      "explanation": "Courts have split on the phrase for decades. The lenders say sixty-two percent of Lightspeed was substantially all of Telesat Canada's value; Telesat says operations did not change and the covenant was never tripped."
+    },
+    {
+      "id": "q11",
+      "type": "short_text",
+      "level": 3,
+      "concept_ids": [
+        "oppression_remedy"
+      ],
+      "prompt": "Name the Canadian statutory claim, with no direct US equivalent, that lets a court fix conduct that unfairly disregards a stakeholder's reasonable expectations.",
+      "accepted": [
+        "oppression",
+        "oppression remedy",
+        "oppression claim",
+        "the oppression remedy",
+        "oppression action"
+      ],
+      "explanation": "The oppression remedy, available to creditors as well as shareholders. It asks what the lenders reasonably expected when they lent, not only what the documents' words permitted."
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "level": 4,
+      "concept_ids": [
+        "oppression_remedy"
+      ],
+      "prompt": "Why does the oppression count matter beyond the credit agreement's wording?",
+      "choices": [
+        "It shifts the case to a US bankruptcy court, where the automatic stay would freeze the December maturities and the government loans alike",
+        "It allows the lenders to accelerate the 2027 notes before the 2026 term loan matures",
+        "It converts the term loan into an equity claim on the parent automatically if the transfer is found to be oppressive, without any damages hearing",
+        "It asks what the lenders reasonably expected when they lent, and it is why the Ontario action names Telesat Canada's directors personally"
+      ],
+      "answer": 3,
+      "explanation": "The relief sought includes an interest in the parent or the recipient entity equal to the transferred equity's value. Nothing is decided in either court; Telesat moved to dismiss the New York case on jurisdiction in April."
+    },
+    {
+      "id": "q13",
+      "type": "numeric",
+      "level": 2,
+      "concept_ids": [
+        "fulcrum_security"
+      ],
+      "prompt": "Using 2026 GEO guidance against about US$2.15 billion of GEO debt, roughly what leverage multiple did the Host quote for the GEO business on its own?",
+      "answer": 12.5,
+      "tolerance": 1.0,
+      "unit": "times EBITDA",
+      "explanation": "Twelve to thirteen times, on a business shrinking a quarter a year, with cash interest of 233 million against adjusted EBITDA of 213 million. On GEO alone the first lien is impaired."
+    },
+    {
+      "id": "q14",
+      "type": "multiple_choice",
+      "level": 2,
+      "concept_ids": [
+        "going_concern_doubt"
+      ],
+      "prompt": "What does it mean when the auditor writes going-concern doubt into the accounts, as Telesat's did?",
+      "choices": [
+        "The accounts assume the company survives the next year, and there is a real chance it will not, here tied solely to the December 2026 maturities",
+        "The company has already missed a coupon payment and the accounts have been prepared on a liquidation basis rather than at historical cost",
+        "The auditor has resigned and the company must restate its prior-year revenue and adjusted EBITDA before it can refinance the term loan",
+        "The rating agencies must move the issuer to selective default within thirty days of the filing, which S&P did in May by moving to CC"
+      ],
+      "answer": 0,
+      "explanation": "Like a doctor writing guarded on a chart. It is triggered by a maturity you cannot meet, a covenant you will breach, or cash running out, and it tells the desk the refinancing is not optional."
+    },
+    {
+      "id": "q15",
+      "type": "multiple_choice",
+      "level": 3,
+      "concept_ids": [
+        "fulcrum_security"
+      ],
+      "prompt": "The Host said the fulcrum at Telesat is a percentage rather than a class. What did that mean?",
+      "choices": [
+        "Recovery depends on what share of the term loan the ad hoc group controls, since seventy-five percent decides the litigation",
+        "Recovery depends on whether the GEO lenders end up with 38 percent of Lightspeed, 100 percent, or something in between",
+        "Recovery depends on the 11.87 percent warrant dilution, which sets how much LEO equity the governments can take",
+        "Recovery depends on the 25 percent annual revenue decline in the GEO fleet, which sets the value of the collateral"
+      ],
+      "answer": 1,
+      "explanation": "Hold 38 percent and value LEO conservatively and the first lien is the fulcrum; win back or get pledged the 62 and the secured debt is covered and the unsecured notes are money-good behind it."
+    },
+    {
+      "id": "q16",
+      "type": "multiple_choice",
+      "level": 3,
+      "concept_ids": [
+        "fulcrum_security"
+      ],
+      "prompt": "The 6.5 percent unsecured notes traded at about 71 cents in August. What did the Host read from that price?",
+      "choices": [
+        "That the unsecured notes are the fulcrum and will convert into most of the reorganised equity of the GEO company",
+        "That the market expects a distressed exchange at roughly 71 cents for every GEO instrument",
+        "That the market leans toward Lightspeed value reaching GEO creditors, since 71 is not a fulcrum price",
+        "That the notes are pricing the US$120 million August loan as senior to the term loan"
+      ],
+      "answer": 2,
+      "explanation": "Seventy-one on the most junior GEO claim says the market expects the secured class to be covered, which only happens if LEO value comes back into reach. The term loan's own price is not public."
+    },
+    {
+      "id": "q17",
+      "type": "multiple_choice",
+      "level": 2,
+      "concept_ids": [
+        "collateral_enhancement"
+      ],
+      "prompt": "The lenders' August proposal reportedly offers full principal in new debt. What is the feature the Host called collateral enhancement?",
+      "choices": [
+        "Cash from new junior capital that repays the 5.625 percent notes at par on December 6 ahead of the term loan",
+        "A guarantee from the Governments of Canada and Quebec covering the December 2026 maturities",
+        "A first-out tranche for Silver Point, Sound Point and GoldenTree ranking ahead of the other term lenders, as at Vibrantz",
+        "Lightspeed equity, which was outside the lenders' security package, pledged into it as the price of the extension"
+      ],
+      "answer": 3,
+      "explanation": "Like a landlord renewing a lease on condition you add a guarantor. The annual report itself says pledging some or all of the 62 percent may be required as a condition of any consensual refinancing."
+    },
+    {
+      "id": "q18",
+      "type": "short_text",
+      "level": 3,
+      "concept_ids": [
+        "ccaa"
+      ],
+      "prompt": "What is the acronym for Canada's court-supervised restructuring statute, the counterpart to Chapter Eleven?",
+      "accepted": [
+        "CCAA",
+        "C.C.A.A.",
+        "Companies' Creditors Arrangement Act",
+        "Companies Creditors Arrangement Act"
+      ],
+      "explanation": "The Companies' Creditors Arrangement Act: a stay, a creditor-voted plan and a court-appointed monitor watching management rather than a debtor-in-possession."
+    },
+    {
+      "id": "q19",
+      "type": "multiple_choice",
+      "level": 4,
+      "concept_ids": [
+        "statutory_insolvency_bar"
+      ],
+      "prompt": "What does the 1991 Telesat Canada Reorganization and Divestiture Act say, and what did the Host conclude about its effect?",
+      "choices": [
+        "It guarantees Telesat Canada's debt with the full faith of the Government of Canada, so a December default would be covered by Parliament",
+        "It requires any restructuring plan to be approved by the Governments of Canada and Quebec as senior lenders to Lightspeed",
+        "It says no solvency or winding-up Act applies to Telesat and it cannot be wound up without an Act of Parliament; who that helps is untested",
+        "It bars foreign hedge funds from holding more than one third of Telesat's debt, which is why the ad hoc group sued in Ontario"
+      ],
+      "answer": 2,
+      "explanation": "It may stop the lenders forcing a winding-up, weakening their threat; it may also stop the company using a CCAA stay, weakening its. Whether it covers the renamed Telesat GEO or a US filing is unclear."
+    },
+    {
+      "id": "q20",
+      "type": "multiple_choice",
+      "level": 3,
+      "concept_ids": [
+        "collateral_enhancement",
+        "fulcrum_security"
+      ],
+      "prompt": "In the trader's recap, who could be left in the dust, and why?",
+      "choices": [
+        "The governments of Canada and Quebec, if the GEO lenders win a pledge of the 62 percent ahead of their warrants",
+        "The parent's shareholders, whose 62 percent would be cancelled if the Ontario court voids the transfer",
+        "The 6.5 percent unsecured noteholders, if the secured class takes a Lightspeed pledge and leaves them behind it",
+        "The ad hoc group, whose 75 percent of the term loan would be diluted by the new junior capital"
+      ],
+      "answer": 2,
+      "explanation": "Winners so far: the governments and, on paper, the shareholders. Losers: the first-lien lenders facing thirteen times on GEO alone with their claim on the growth asset cut to 38 percent. A secured-only deal would prime the unsecured notes."
+    }
+  ]
+}
