@@ -2048,6 +2048,211 @@
           "date": "2026-09-23"
         }
       ]
+    },
+    {
+      "id": "bond_insurance",
+      "name": "Bond insurance (monoline wrap)",
+      "one_line": "A financial guarantee from a monoline insurer that scheduled principal and interest on a bond will be paid on time, so the insured bond trades on the insurer's credit while the insurer typically takes the controlling vote on remedies and bears the loss.",
+      "tier": "capital_structure",
+      "level": 3,
+      "moyer": "Who really holds the claim; how distressed claims trade",
+      "aliases": [
+        "monoline",
+        "wrapped bonds",
+        "insured bonds",
+        "bond insurer",
+        "Assured Guaranty wrap"
+      ],
+      "introduced_in": "brightline",
+      "episode": 6,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "brightline",
+          "episode": 6,
+          "event": "introduced",
+          "date": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "id": "private_activity_bonds",
+      "name": "Private activity bonds",
+      "one_line": "Tax-exempt municipal bonds issued through a governmental conduit issuer on behalf of a private project with a public purpose; the private company is the real borrower and the buyers are municipal mutual funds seeking tax-free income and par preservation.",
+      "tier": "capital_structure",
+      "level": 3,
+      "moyer": null,
+      "aliases": [
+        "PABs",
+        "PAB",
+        "conduit bonds",
+        "tax-exempt bonds",
+        "municipal bonds"
+      ],
+      "introduced_in": "brightline",
+      "episode": 6,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "brightline",
+          "episode": 6,
+          "event": "introduced",
+          "date": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "id": "holdco_opco_layering",
+      "name": "HoldCo / OpCo layering",
+      "one_line": "A capital structure in which successive holding companies each borrow against the equity of the entity below, so that debt described as secured at an upper layer is structurally subordinated to every claim at the operating company whose assets generate the value.",
+      "tier": "capital_structure",
+      "level": 3,
+      "moyer": "Capital structure and where value breaks",
+      "aliases": [
+        "holding company debt",
+        "HoldCo notes",
+        "equity-secured notes",
+        "tower structure",
+        "layered structure"
+      ],
+      "introduced_in": "brightline",
+      "episode": 6,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "brightline",
+          "episode": 6,
+          "event": "introduced",
+          "date": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "id": "ramp_up_risk",
+      "name": "Ramp-up risk",
+      "one_line": "Project-finance demand risk: debt sized to a forecast of how quickly customers or usage will build after a project opens, so that a slower ramp leaves cash flow and coverage below the level the debt assumed.",
+      "tier": "valuation",
+      "level": 3,
+      "moyer": "Causes of distress",
+      "aliases": [
+        "ramp-up",
+        "ramp up risk",
+        "demand risk",
+        "projection risk"
+      ],
+      "introduced_in": "brightline",
+      "episode": 6,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "brightline",
+          "episode": 6,
+          "event": "introduced",
+          "date": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "id": "debt_service_reserve_fund",
+      "name": "Debt service reserve fund",
+      "one_line": "Cash set aside with the trustee at a bond closing, usually a few coupons' worth, that is drawn to pay debt service when operating cash flow falls short; its depletion marks the date at which the next payment cannot be made.",
+      "tier": "accounting",
+      "level": 2,
+      "moyer": null,
+      "aliases": [
+        "DSRF",
+        "DSRA",
+        "debt service reserve",
+        "reserve fund",
+        "reserve account"
+      ],
+      "introduced_in": "brightline",
+      "episode": 6,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "brightline",
+          "episode": 6,
+          "event": "introduced",
+          "date": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "id": "coupon_deferral_option",
+      "name": "Coupon deferral option",
+      "one_line": "An indenture right allowing the borrower to postpone a fixed number of interest payments, usually at a step-up rate, together with the ability of majority holders to extend grace periods by amendment; the out-of-court tool for buying time without a filing.",
+      "tier": "legal",
+      "level": 3,
+      "moyer": "Out-of-court restructuring; amend and extend",
+      "aliases": [
+        "interest deferral",
+        "deferral option",
+        "step-up rate",
+        "grace period extension",
+        "amend and extend"
+      ],
+      "introduced_in": "brightline",
+      "episode": 6,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "brightline",
+          "episode": 6,
+          "event": "introduced",
+          "date": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "id": "non_debtor_opco",
+      "name": "Non-debtor operating company",
+      "one_line": "A restructuring in which holding companies file Chapter 11 while the operating company stays outside the case, keeping its contracts and collateral out of court, with the DIP often borrowed by the non-debtor and secured by a priming lien on its equity held by a debtor.",
+      "tier": "process",
+      "level": 4,
+      "moyer": "The Chapter 11 process; DIP financing",
+      "aliases": [
+        "non-debtor OpCo",
+        "OpCo outside the filing",
+        "holdco-only filing",
+        "non-debtor affiliate"
+      ],
+      "introduced_in": "brightline",
+      "episode": 6,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "brightline",
+          "episode": 6,
+          "event": "introduced",
+          "date": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "id": "make_whole",
+      "name": "Make-whole",
+      "one_line": "A prepayment premium that compensates a lender for the interest it would have earned had the loan run to maturity, payable when the borrower repays early or, lenders argue, when a transaction amounts to an early repayment or a breach.",
+      "tier": "legal",
+      "level": 3,
+      "moyer": null,
+      "aliases": [
+        "make whole",
+        "make-whole premium",
+        "prepayment premium",
+        "yield maintenance"
+      ],
+      "introduced_in": "brightline",
+      "episode": 6,
+      "status": "introduced",
+      "history": [
+        {
+          "slug": "brightline",
+          "episode": 6,
+          "event": "introduced",
+          "date": "2026-10-05"
+        }
+      ]
     }
   ]
 }

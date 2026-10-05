@@ -1,0 +1,305 @@
+{
+  "company": "Brightline Holdings LLC / Brightline Trains Florida LLC",
+  "slug": "brightline",
+  "title": "Brightline: The Tower Above the Railroad",
+  "deal_type": "prearranged Chapter 11 (District of New Jersey, filed September 24, 2026) of seventeen holding-company debtors with the operating railroad kept outside the filing; RSA with the bond insurer and municipal mutual funds; $257.7 million DIP borrowed by the non-debtor operating company under a priming lien on its pledged equity; $490 million exit financing; municipal principal untouched; taxable notes and holding-company loans crammed to an equity pool",
+  "episode": 6,
+  "segments": [
+    {
+      "name": "situation",
+      "direction": "Brisk and vivid, a story with a train in it; slow down on the dollar figures and the dates.",
+      "turns": [
+        {
+          "speaker": "Host",
+          "text": "Today's company is Brightline, America's only privately owned intercity passenger railroad. Two hundred and thirty-five miles from Miami to Orlando, conceived in 2012 by Wes Edens, the Fortress co-founder who owns the Milwaukee Bucks and founded New Fortress Energy from episode two. In 2025 it carried three point one million passengers and took in two hundred and fourteen million dollars. The bond documents had assumed six point six million passengers and nearly seven hundred million."
+        },
+        {
+          "speaker": "Guest",
+          "text": "So the trains work, the riders came, and it still broke? That's under half the passengers and a third of the revenue."
+        },
+        {
+          "speaker": "Host",
+          "text": "And the debt was sized to the forecast. About seven point one billion dollars of funded debt, stacked in layers of holding companies, each secured only by the equity of the one below. Annual debt payments of about a hundred and sixty-two million against revenue that can't cover operating costs and interest together. Since 2017 it has paid seven hundred and sixty-two million of interest on five hundred and sixty-two million of cumulative revenue."
+        },
+        {
+          "speaker": "Guest",
+          "text": "More interest than revenue, over the whole life of the company. So what actually happened this year?"
+        },
+        {
+          "speaker": "Host",
+          "text": "It deferred every coupon it could, drained its reserve funds on July first, and ran out of extensions. On September twenty-fourth, seventeen holding companies filed Chapter Eleven in New Jersey. The railroad itself, Brightline Trains Florida, did not file. The deal was pre-arranged with Assured Guaranty, the insurer wrapping half of the two point two billion of senior municipal bonds, and the big municipal mutual funds, Nuveen, First Eagle, Invesco, Nomura."
+        },
+        {
+          "speaker": "Guest",
+          "text": "A bond insurer and mutual funds writing a bankruptcy plan? Where are the hedge funds?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Outside, at first. Redwood, Aristeia and Nut Tree bought the one point one billion of taxable notes at around ten cents and wanted to run the restructuring themselves. The plan keeps all the municipal principal, gives the insurer and the funds ninety-five percent of the equity for three hundred and fifty million of new money, and offers the taxable notes a five percent pool, sweetened on September thirtieth to at least four point seven five percent plus warrants. Fortress's equity goes to zero."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And Assured's chief executive, I've read, said he wouldn't mind owning a railroad. Is that true?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Dominic Frederico, on a May earnings call: \"I don't mind owning a railroad.\" He insures one point one three billion of the bonds and holds the controlling vote. The one live fight comes from the top of the tower: CK Opportunities, the Certares and Knighthead venture that bought Hertz out of bankruptcy in 2021, holds a holding-company loan and has sued Morgan Stanley since 2023 over a seven hundred and fifty million make-whole. Judge Mark Hall approved the DIP over its objection. Education, not investment advice."
+        }
+      ]
+    },
+    {
+      "name": "concepts",
+      "direction": "A clear map; patient and deliberate on the tower, because the whole episode rests on it.",
+      "turns": [
+        {
+          "speaker": "Host",
+          "text": "Five ideas. The tower: a holding-company stack where every layer is secured, and almost every layer is worthless, because of where it sits. Municipal bonds and bond insurance, which is why a plan can leave four point four billion of principal untouched. The clock: reserve funds and coupon deferrals, the machinery that bought eighteen months. Keeping the operating company out of the filing and borrowing the DIP through it anyway. And a make-whole claim that explains the one objector."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Ladder first, and this time I suspect the ladder is a building. Walk me up it."
+        },
+        {
+          "speaker": "Host",
+          "text": "Same seven rungs: super-senior, first-lien secured, second-lien, senior unsecured, subordinated, preferred, common. Senior and secured say where the money comes from in a bad outcome, not the coupon. This time the rungs apply inside one company, the railroad, Brightline Trains Florida, call it OpCo. Rung one is the new DIP, two hundred and fifty-eight million, ten percent paid in kind. Rung two is the two point two billion of tax-exempt bonds, coupons around five and a quarter, due 2034 to 2053, plus a forty-five million revolver, sharing a first lien on track, stations, trains and revenues."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And everything above OpCo? There's a billion dollars of eleven percent senior secured notes somewhere in this."
+        },
+        {
+          "speaker": "Host",
+          "text": "Those sit at Brightline East, which owns the company that owns OpCo. Secured, yes, but only on that equity. Above it, one point two billion of ten and twelve percent tax-exempt bonds at AAF Operations Holdings, secured on membership interests. Above that, nine hundred and eighty-five million of commuter bonds secured on county agreements not yet signed. Above that, three holding-company loans of about one point four billion. Every one calls itself senior secured. On the railroad's ladder they're all behind rung two; their collateral is whatever is left after OpCo pays its own lenders."
+        },
+        {
+          "speaker": "Guest",
+          "text": "So on the railroad's ladder, the eleven percent senior secured notes sit on rung four or below. That's the structural subordination idea from episode one."
+        },
+        {
+          "speaker": "Host",
+          "text": "Exactly, applied five times. No preferred stock here; the 2024 deal called a seven hundred and seventy-five million holding-company facility preferred equity, but it's a loan on Brightline West shares. Rung seven is Fortress, at zero. The prices tell you the order: insured bonds at par, uninsured at sixty-four, the eleven percent notes at ten, the AAF bonds in the thirties. The commuter bonds at sixty-three are the odd one out; their collateral includes Brightline West shares and Tampa rights."
+        }
+      ]
+    },
+    {
+      "name": "unfurl_tower",
+      "direction": "Explanatory and precise; the Guest pushes back on the word secured.",
+      "turns": [
+        {
+          "speaker": "Guest",
+          "text": "Explain the tower properly. Why would anyone lend a billion dollars at eleven percent, secured, to a company whose only asset is shares in another company?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Because it's the only way to borrow more once the operating company has pledged everything. Think of a building where the ground floor owns the land and each floor above holds the deed to the floor below. A fire downstairs leaves the upper floors holding deeds to ash. HoldCo and OpCo layering lets a sponsor raise money four times against one asset, each time at a higher coupon, each lien real on paper and worthless if the floor below is underwater. If OpCo is worth less than two point two billion, Brightline East's collateral is worth nothing."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Let me restate. Secured means you have collateral. It doesn't tell you the collateral is worth anything. And here the collateral is equity in a company that owes more than it's worth."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's the whole lesson. And it repeats at the next floor: the AAF bonds are secured on membership interests in Brightline East, itself underwater. A default at Brightline East doesn't even cross-default OpCo. Each layer has its own documents, its own trustee, its own group, and they don't want the same thing."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Now the demand side. Six point six million projected, three point one million delivered. How does that happen in a bond document?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Ramp-up risk. A new project borrows against a forecast of how fast customers arrive. Think of a restaurant with a loan sized to being full every night, opening in a town that eats out twice a week. Brightline's 2024 bonds assumed six point six million passengers and six hundred and ninety-seven million of revenue. Actual 2025: three point one million riders, two hundred and fourteen million of revenue, a third of plan. Revenue is growing seventeen percent a year, and Fitch still calls the ramp-up \"comparatively longer for Brightline than for other new transportation development projects\"."
+        },
+        {
+          "speaker": "Guest",
+          "text": "So does OpCo even cover its own senior bonds, forgetting all the floors above it?"
+        },
+        {
+          "speaker": "Host",
+          "text": "No. Senior debt service alone is about a hundred and seventeen million a year, total payments about a hundred and sixty-two million. Trailing revenue of two hundred and thirty-four million, less about a hundred and forty million of cash operating costs, leaves less than the senior coupons. That's why reserves paid 2026's interest, and why Octus wrote that value \"breaks inside the senior OpCo bonds\". Moyer's fulcrum, where enterprise value runs out, is the two point two billion of municipal bonds. Everything above is an option."
+        }
+      ]
+    },
+    {
+      "name": "unfurl_muni",
+      "direction": "Patient and slightly wry; two new ideas, taught one at a time.",
+      "turns": [
+        {
+          "speaker": "Guest",
+          "text": "Municipal bonds in a private railroad. I thought munis were for cities and school districts. What's going on?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Private activity bonds. A government issuer, here the Florida Development Finance Corporation, issues tax-exempt bonds and lends the money to a private project with a public purpose. The issuer is a conduit; the railroad is the real borrower. The point is the buyer. Tax-exempt income attracts municipal mutual funds, whose mandate is tax-free coupons and par preserved. They aren't distressed investors. Two fund complexes held thirty-nine percent of Brightline's muni bonds, the top four fifty-six percent."
+        },
+        {
+          "speaker": "Guest",
+          "text": "So the lenders who hold the fulcrum are funds that, by temperament, want par back and don't want to own a railroad."
+        },
+        {
+          "speaker": "Host",
+          "text": "And the plan was written for them. Four point four billion of municipal principal untouched. Senior coupons deferred three times, through January 2028, repaid in 2031, with a fee. First Eagle's John Miller, who built Nuveen's municipal platform and now runs First Eagle's high-yield muni fund, put it in one sentence: the agreement \"preserves par value of tax-exempt debt, keeps related collateral outside\" Chapter Eleven. A muni investor would rather defer than take a haircut."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Now the insurance. The same bond trades at par if it's insured and at sixty-four if it isn't. Explain that."
+        },
+        {
+          "speaker": "Host",
+          "text": "Bond insurance. A monoline insurer, Assured Guaranty here, guarantees scheduled principal and interest. Think of a co-signer on a mortgage with a triple-A balance sheet. The insured holder is paid whatever happens, so the bond trades on the insurer's credit, at par. The uninsured half of the same issue trades on the railroad's credit, at sixty-four. And having taken the risk, the insurer takes the rights: Assured insures one point one three billion, just over half, and holds the controlling vote on remedies. The gatekeeper."
+        },
+        {
+          "speaker": "Guest",
+          "text": "So Assured is really the fulcrum holder in disguise. What has it cost them so far?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Forty-four million of loss development in the second quarter, \"primarily attributable to Brightline\", not yet through earnings because expected losses sit inside deferred premium. No claims paid; its finance chief said the next surveillance category would mean \"we're going to have to start paying claims\". Instead it lends: up to a hundred and seventy-eight million of the DIP, seventy million of the exit, and a guarantee of deferred interest. \"I don't mind owning a railroad\" means it would rather fund the restructuring than pay claims on it."
+        }
+      ]
+    },
+    {
+      "name": "unfurl_clock",
+      "direction": "Methodical, like reading a calendar; the Guest counts along.",
+      "turns": [
+        {
+          "speaker": "Guest",
+          "text": "You said the company bought eighteen months with its documents. What were the tools it used?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Two, and the first is a debt service reserve fund. A project borrower sets aside cash with the trustee at closing, a few coupons' worth, to pay debt service if revenues fall short. The emergency fund in the mortgage account. Brightline paid its January first senior coupon from reserves and then its July first coupon, and Fitch said in advance that July would deplete it. Brightline East had a separate forty-eight million reserve. After July first both were \"substantially depleted\". The reserve is the clock."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Which is why Fitch said default was highly likely by mid-2027 even in January. And the second tool?"
+        },
+        {
+          "speaker": "Host",
+          "text": "The coupon deferral option. Some indentures let the borrower skip a fixed number of coupons, usually three, at a step-up rate, and let a majority of holders amend grace periods. Think of a credit card permitting three skipped payments at a penalty rate. The AAF bonds allowed three deferrals: July 2025, January 2026, and July. The commuter bonds' February seventeenth coupon went unpaid, with a two percent step-up, and the indenture was amended thirteen times by September to push the grace period, each extension shorter than the last."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Thirteen amendments. So this was an out-of-court extension running in parallel with the pre-bankruptcy talks, the thing Moyer calls amend and extend."
+        },
+        {
+          "speaker": "Host",
+          "text": "Right, and it has a ceiling. Debtwire counted the cliff in May: a one point zero eight billion commuter tender on June fifteenth, a hundred and nineteen million of senior and Brightline East interest on July first, two hundred and eighty-two million of AAF coupons and sinking fund on July fifteenth. Nearly one point five billion in sixty days against sixteen million of liquidity, on S&P's estimate. Deferrals push dates; they don't make cash."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And who bridged the gap when the reserves ran dry? Someone had to pay the July bills."
+        },
+        {
+          "speaker": "Host",
+          "text": "Assured, in effect. In May and June OpCo sold forty-three million of seven and a half percent notes to Assured and affiliates at seventy cents, later about a hundred and forty-nine million at a thirty percent discount. In August Assured committed three hundred and fifty million \"in case of bankruptcy\". Whoever funds the bridge funds the DIP, and whoever funds the DIP writes the plan."
+        }
+      ]
+    },
+    {
+      "name": "unfurl_opco_out",
+      "direction": "Forward-leaning, procedural; the Host enjoys the structural trick, the Guest wants the catch.",
+      "turns": [
+        {
+          "speaker": "Guest",
+          "text": "Seventeen companies filed and the railroad didn't. How does that work, and why do it?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Keeping the operating company a non-debtor. The holding companies above OpCo file Chapter Eleven; OpCo keeps running, keeps its contracts, keeps its tax-exempt bonds outside the court. Think of putting the parents' holding company into bankruptcy while the shop downstairs stays open. Three reasons. The muni funds wanted their collateral outside Chapter Eleven. OpCo is probably the only entity that counts as a railroad under the Bankruptcy Code, and a railroad case requires a court-appointed trustee. And two hundred and nine fatalities on the line mean injury claims nobody wants inside a plan."
+        },
+        {
+          "speaker": "Guest",
+          "text": "But then how does a non-debtor borrow a DIP? The DIP, from episode one, is the loan a company takes inside Chapter Eleven with court-approved priority."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's the trick. OpCo borrows the two hundred and fifty-eight million, ten percent paid in kind plus an eight percent fee, as a non-debtor. The collateral includes a priming lien, the episode one idea of a new lien ahead of old ones, on the one thing the estate owns that touches the railroad: the debtor's pledge of all of OpCo's equity, which already secures the OpCo bonds. The debtors guarantee it, capped at five million. Ninety-seven percent of the money runs the trains."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And at exit? Where does the new money sit, and who ends up owning the railroad?"
+        },
+        {
+          "speaker": "Host",
+          "text": "A hundred and forty million of new senior notes pari passu with the muni bonds, half from Assured, and three hundred and fifty million of second-lien junior notes bought by the mutual funds with a ten percent backstop fee. The junior note buyers get ninety-five percent of a new holding company that owns OpCo. Five percent goes to a pool for the debtors' creditors, where the eleven percent notes and holding-company loans land. New money bought control, the episode four idea."
+        },
+        {
+          "speaker": "Guest",
+          "text": "Now the objector. CK Opportunities and a seven hundred and fifty million dollar make-whole. What is that, and why so big?"
+        },
+        {
+          "speaker": "Host",
+          "text": "A make-whole is a prepayment premium: repay early and you owe the lender the interest it would have earned. Think of the early-termination fee on a fixed-rate mortgage, scaled to a twenty percent loan. CK holds most of a Brightline Holdings loan compounding at twenty percent. In December 2022 Brightline sold about forty percent of Brightline West to an Edens-controlled entity for about two hundred and sixty million and treated that as taking Brightline West out of the loan's collateral. CK says that breached the covenants, triggered the make-whole, and looks like a fraudulent transfer, the episode five concept. Judge Hall approved the DIP anyway; the make-whole ruling is still reserved."
+        }
+      ]
+    },
+    {
+      "name": "recap",
+      "direction": "The trader's recap: crisp and rung by rung; a beat of quiet on Fortress.",
+      "turns": [
+        {
+          "speaker": "Guest",
+          "text": "Trader's recap. Where did the value accumulate, on which rung, and in what form is it held?"
+        },
+        {
+          "speaker": "Host",
+          "text": "At OpCo, rung two, with the people who already held the fulcrum. The senior municipal bonds keep every dollar of two point two billion of principal and defer coupons. The three hundred and fifty million of junior notes, bought by the same funds, carries ninety-five percent of the railroad's equity. The insurer keeps its policy and has paid no claims. Everything above OpCo became claims on other assets, Tampa rights, Brightline West shares, county agreements, plus a five percent pool."
+        },
+        {
+          "speaker": "Guest",
+          "text": "The twists and turns, and what a desk should have been watching all along the way?"
+        },
+        {
+          "speaker": "Host",
+          "text": "December 2022, the Brightline West sale that took the growth project out of the holding-company lenders' collateral and started a three-year lawsuit. July first, 2026, the reserve-funded coupons that postponed default \"for the final time\". August, Assured's three hundred and fifty million commitment, which decided the DIP lender. September twenty-ninth, the hedge funds signing minutes before the hearing, taking support to four point six billion. The desk watched who funds the DIP, because the DIP lender writes the plan."
+        },
+        {
+          "speaker": "Guest",
+          "text": "So if I'd been on the desk, where did I want to be, round by round?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Round one, 2025, the uninsured senior bonds in the sixties: the fulcrum, par principal, a deferred tax-exempt coupon and a seat at the table, if you could stand the wait. Round two, spring 2026, the eleven percent notes at eight to ten cents: an option on a seat, paid out as four point seven five percent plus warrants. Round three, now: the junior notes and the ninety-five percent, open only to RSA parties."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And the last beat. Winners, losers, and who has been left in the dust so far?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Winners: Assured and the municipal funds, with par principal, the new paper, the equity and the fees. Losers: the original holders of the eleven percent notes, from one point one billion of senior secured paper to forty-eight million of cash and a few percent of equity. Left in the dust: Fortress at zero after fourteen years; the AAF and commuter bondholders, whose untouched principal is now a claim on expansions with no start date; and CK, with a lawsuit."
+        }
+      ]
+    },
+    {
+      "name": "watch",
+      "direction": "Practical and encouraging; a clear calendar and a short reading list.",
+      "turns": [
+        {
+          "speaker": "Guest",
+          "text": "What do we watch? For once this one has both a court calendar and a bond calendar to follow."
+        },
+        {
+          "speaker": "Host",
+          "text": "October twenty-ninth, the final DIP hearing. November ninth, the schedules. Around November twenty-third, sixty days from the petition, the plan and disclosure statement must be filed; that's when we finally see recovery percentages by class. Around January seventh, the disclosure statement order, then confirmation within forty-five days of solicitation and effectiveness two weeks later. January first, 2027: the next senior and Brightline East coupons, which Fitch says cannot be paid without the deal. September 2027: the end of the AAF bonds' cash-interest grace period."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And the open questions, the ones the public record simply can't answer for us today?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Three. The actual recovery percentages, which the RSA describes as consideration rather than numbers. The New York summary judgment on the make-whole, and whether CK's Brightline West claims survive the plan's releases. And Brightline West itself, where a six billion dollar federal loan is pending and a four hundred million equity cheque is due November second, which matters because the commuter bonds and one holding-company loan are secured on its shares."
+        },
+        {
+          "speaker": "Guest",
+          "text": "And the reading list, now that we have the vocabulary to understand it. Where does a listener start?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Start with Brightline's own monthly ridership report on its investor page, where the deferral amendments and the seventy-cent note sales are disclosed, a paragraph each. Then Assured Guaranty's second-quarter ten-Q, the transportation paragraph, for how an insurer describes an exposure it hasn't paid a claim on. Then the Stretto docket for the first-day declaration of Patrick Goddard, which lays out all seven point one billion in one table. In Moyer, pair it with where value breaks, the fulcrum security, and DIP financing. Now take the quiz; the questions you miss come back next episode."
+        }
+      ]
+    }
+  ]
+}

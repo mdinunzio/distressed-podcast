@@ -1,0 +1,343 @@
+{
+  "slug": "brightline",
+  "episode": 6,
+  "title": "Brightline: The Tower Above the Railroad",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "numeric",
+      "level": 1,
+      "concept_ids": [
+        "ramp_up_risk"
+      ],
+      "prompt": "How many passengers did Brightline carry in 2025, in millions, against the 6.6 million the bond documents assumed?",
+      "answer": 3.1,
+      "tolerance": 0.2,
+      "unit": "million passengers",
+      "explanation": "Three point one million riders and two hundred and fourteen million dollars of revenue, under half the passengers and a third of the revenue in the 2024 projections."
+    },
+    {
+      "id": "q02",
+      "type": "multiple_choice",
+      "level": 1,
+      "concept_ids": [
+        "holdco_opco_layering"
+      ],
+      "prompt": "Which entities filed Chapter Eleven on September twenty-fourth, and which did not?",
+      "choices": [
+        "Brightline Trains Florida, the operating railroad, filed, while its seventeen holding companies stayed outside under the restructuring support agreement",
+        "Seventeen holding companies filed, while Brightline Trains Florida, the railroad that runs the trains, stayed outside the case",
+        "Fortress Investment Group filed on behalf of all Brightline entities, including Brightline West, in the District of New Jersey",
+        "Assured Guaranty placed the operating company into a railroad reorganisation under a court-appointed trustee"
+      ],
+      "answer": 1,
+      "explanation": "The holding companies above OpCo filed; the railroad kept running, kept its contracts and kept its tax-exempt bonds outside the court. Fortress and Brightline West did not file."
+    },
+    {
+      "id": "q03",
+      "type": "multiple_choice",
+      "level": 2,
+      "concept_ids": [
+        "structural_subordination",
+        "holdco_opco_layering"
+      ],
+      "prompt": "The Brightline East eleven percent notes are called senior secured. On the railroad's own ladder, why did the Host place them behind rung two?",
+      "choices": [
+        "Because their lien attaches only to equity in the company that owns OpCo, which is worth nothing if OpCo owes more than it is worth",
+        "Because an eleven percent coupon signals junior risk, and the ladder ranks instruments by their coupon from lowest to highest",
+        "Because the notes were repurchased at a discount in December 2024, which the indenture treats as a voluntary subordination",
+        "Because the Florida Development Finance Corporation holds a statutory priority over any taxable notes in a conduit structure"
+      ],
+      "answer": 0,
+      "explanation": "Secured means you have collateral; it does not mean the collateral is worth anything. Each floor of the tower holds the deed to the floor below, and a fire downstairs leaves deeds to ash."
+    },
+    {
+      "id": "q04",
+      "type": "order",
+      "level": 2,
+      "concept_ids": [
+        "structural_subordination",
+        "dip_financing"
+      ],
+      "prompt": "Rank these Brightline claims from most senior on the railroad's ladder to most junior.",
+      "items": [
+        "The 258 million dollar DIP, ten percent paid in kind, with a priming lien",
+        "The 2.2 billion of tax-exempt bonds at OpCo, first lien on track, stations and trains",
+        "The 1.1 billion of eleven percent notes at Brightline East, secured on equity in OpCo's parent",
+        "The 1.2 billion of AAF Operations Holdings bonds, secured on membership interests in Brightline East",
+        "Fortress's common equity"
+      ],
+      "explanation": "Rung one the DIP, rung two the OpCo bonds; every layer above OpCo is secured only on the equity of the layer below, so it ranks behind. Fortress's equity is at zero."
+    },
+    {
+      "id": "q05",
+      "type": "numeric",
+      "level": 2,
+      "concept_ids": [
+        "holdco_opco_layering"
+      ],
+      "prompt": "Roughly how much funded debt, in billions of dollars, sits across the whole Brightline tower according to the first-day declaration?",
+      "answer": 7.1,
+      "tolerance": 0.4,
+      "unit": "$ billions",
+      "explanation": "About seven point one billion: roughly 2.5 billion at the debtors, 2.4 billion at OpCo and 2.2 billion at other non-debtor affiliates, stacked in layers each secured by the equity below."
+    },
+    {
+      "id": "q06",
+      "type": "multiple_choice",
+      "level": 3,
+      "concept_ids": [
+        "ramp_up_risk",
+        "fulcrum_security"
+      ],
+      "prompt": "Why did the Host say the fulcrum sits in the 2.2 billion of senior municipal bonds, the top layer of debt?",
+      "choices": [
+        "Because the senior bonds begin maturing first, in 2034, so under the plan they are the first class that must be repaid in cash rather than deferred",
+        "Because Assured Guaranty insures half of them, which makes the insured half the only class with a controlling vote on the plan and the DIP",
+        "Because OpCo's trailing revenue less cash operating costs does not cover even the senior coupons, so value runs out inside that class",
+        "Because 206 million of the eleven percent notes were repurchased in December 2024, leaving the senior bonds as the only class still impaired"
+      ],
+      "answer": 2,
+      "explanation": "Senior debt service is about 117 million a year; revenue of 234 million less about 140 million of cash costs leaves less than that. Octus: value breaks inside the senior OpCo bonds. Everything above is an option."
+    },
+    {
+      "id": "q07",
+      "type": "short_text",
+      "level": 3,
+      "concept_ids": [
+        "private_activity_bonds"
+      ],
+      "prompt": "What is the term for tax-exempt bonds issued through a government conduit on behalf of a private project with a public purpose?",
+      "accepted": [
+        "private activity bonds",
+        "private activity bond",
+        "PABs",
+        "PAB",
+        "private-activity bonds",
+        "conduit bonds"
+      ],
+      "explanation": "Private activity bonds. The Florida Development Finance Corporation is the conduit issuer; the railroad is the real borrower; the buyers are municipal mutual funds whose mandate is tax-free income and par preserved."
+    },
+    {
+      "id": "q08",
+      "type": "multiple_choice",
+      "level": 2,
+      "concept_ids": [
+        "private_activity_bonds"
+      ],
+      "prompt": "Why does the plan leave 4.4 billion dollars of municipal bond principal untouched and defer coupons instead of cutting the debt?",
+      "choices": [
+        "Because federal tax law makes any principal reduction on tax-exempt bonds a taxable event for the conduit issuer, the Florida Development Finance Corporation, and for every holder",
+        "Because the hedge funds holding the eleven percent notes insisted on it as a condition of providing the 350 million of junior notes",
+        "Because Assured Guaranty's insurance policy would terminate automatically on any principal reduction, leaving the insured 1.13 billion of bonds uninsured and unrated",
+        "Because the holders are municipal mutual funds whose mandate is tax-free coupons and par, and who would rather defer than take a haircut or bring collateral into court"
+      ],
+      "answer": 3,
+      "explanation": "First Eagle's John Miller: the agreement preserves par value of tax-exempt debt and keeps the collateral outside Chapter Eleven. Senior coupons defer three times through January 2028, repaid in 2031, with a fee."
+    },
+    {
+      "id": "q09",
+      "type": "multiple_choice",
+      "level": 3,
+      "concept_ids": [
+        "bond_insurance"
+      ],
+      "prompt": "The same Brightline senior bond trades at par if insured and at 64 if not. What explains the gap?",
+      "choices": [
+        "The insured bonds carry a higher coupon set by Assured Guaranty at issuance in May 2024, which supports the price against the uninsured half",
+        "The insured bonds are paid by Assured whatever happens, so they trade on the insurer's credit while the uninsured half trades on the railroad's",
+        "The insured bonds were issued in the May 2024 refinancing and the uninsured ones in 2019 for Orlando, so the uninsured bonds mature first and default first",
+        "The uninsured bonds are structurally subordinated at Brightline East, while the insured bonds sit at the operating company"
+      ],
+      "answer": 1,
+      "explanation": "Bond insurance is a co-signer with a triple-A balance sheet. Having taken the risk, Assured takes the rights: it insures 1.13 billion, just over half, and holds the controlling vote on remedies."
+    },
+    {
+      "id": "q10",
+      "type": "numeric",
+      "level": 3,
+      "concept_ids": [
+        "bond_insurance"
+      ],
+      "prompt": "How much economic loss development, in millions of dollars, did Assured Guaranty report for the second quarter of 2026, primarily attributable to Brightline?",
+      "answer": 44,
+      "tolerance": 4,
+      "unit": "$ millions",
+      "explanation": "Forty-four million, not yet through earnings because expected losses sit inside deferred premium. No claims have been paid; the next surveillance category would mean paying them."
+    },
+    {
+      "id": "q11",
+      "type": "short_text",
+      "level": 2,
+      "concept_ids": [
+        "debt_service_reserve_fund"
+      ],
+      "prompt": "What is the name of the cash set aside with the trustee at a bond closing to pay coupons when revenues fall short?",
+      "accepted": [
+        "debt service reserve fund",
+        "debt service reserve",
+        "DSRF",
+        "DSRA",
+        "debt-service reserve fund",
+        "reserve fund",
+        "debt service reserve account"
+      ],
+      "explanation": "The debt service reserve fund, the emergency fund in the mortgage account. Brightline paid its January and July 2026 senior coupons from it, and after July first both reserves were substantially depleted."
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "level": 3,
+      "concept_ids": [
+        "coupon_deferral_option"
+      ],
+      "prompt": "How did the AAF Operations Holdings bonds and the commuter bonds buy eighteen months without a filing?",
+      "choices": [
+        "Three permitted coupon deferrals at a step-up rate on the AAF bonds, and thirteen indenture amendments extending the commuter bonds' grace period at a two percent step-up",
+        "Assured Guaranty advanced every deferred coupon under its policy and was repaid from the 258 million dollar DIP approved at the first-day hearing on September twenty-ninth",
+        "The trustee drew the Brightline East 48 million dollar reserve and the OpCo reserve fund to pay both series until both reserves ran out on July first",
+        "Morgan Stanley, as agent, waived the payment dates under the 2022 holding-company credit agreement until the make-whole suit was decided"
+      ],
+      "answer": 0,
+      "explanation": "Some indentures permit a fixed number of skipped coupons at a penalty rate and let majority holders amend grace periods. Each extension was shorter than the last. Deferrals push dates; they do not make cash."
+    },
+    {
+      "id": "q13",
+      "type": "numeric",
+      "level": 2,
+      "concept_ids": [
+        "coupon_deferral_option"
+      ],
+      "prompt": "Debtwire counted the cliff in May 2026: about how much, in billions of dollars, fell due within sixty days across the commuter tender and the July coupons?",
+      "answer": 1.5,
+      "tolerance": 0.15,
+      "unit": "$ billions",
+      "explanation": "Nearly one point five billion: a 1.08 billion commuter tender on June fifteenth, about 119 million of senior and Brightline East interest on July first, and 282 million of AAF coupons and sinking fund on July fifteenth, against about 16 million of liquidity."
+    },
+    {
+      "id": "q14",
+      "type": "multiple_choice",
+      "level": 2,
+      "concept_ids": [
+        "debt_service_reserve_fund",
+        "dip_financing"
+      ],
+      "prompt": "Who bridged the gap once the reserves ran dry, and what did the Host say that implied?",
+      "choices": [
+        "Fortress, with a 400 million dollar equity cheque in August, which is why its equity survives the plan with warrants and a right of first offer on future capital",
+        "The hedge funds holding the eleven percent notes, Redwood, Aristeia and Nut Tree, through a 350 million dollar rescue loan that was rolled into the DIP at the first-day hearing",
+        "Assured Guaranty, buying OpCo notes at seventy cents and committing 350 million in case of bankruptcy, and whoever funds the bridge tends to fund the DIP and write the plan",
+        "Morgan Stanley, as agent, by rolling the 775 million holding-company facility that had matured unpaid in November 2025 into a new two-year term loan"
+      ],
+      "answer": 2,
+      "explanation": "In May and June OpCo sold notes to Assured and affiliates at an issue price of seventy; in August Assured committed 350 million. The DIP lender writes the plan."
+    },
+    {
+      "id": "q15",
+      "type": "multiple_choice",
+      "level": 4,
+      "concept_ids": [
+        "non_debtor_opco",
+        "priming_lien"
+      ],
+      "prompt": "How does a company that did not file for bankruptcy end up borrowing the DIP?",
+      "choices": [
+        "The DIP is borrowed by Brightline East, a debtor, and lent down to OpCo through an intercompany note that the court ranks ahead of the 2.2 billion of tax-exempt bonds",
+        "OpCo is treated as a debtor for financing purposes only, under the railroad provisions of the Bankruptcy Code, which allow a DIP without appointing the section eleven sixty-three trustee",
+        "OpCo borrows as a non-debtor, and the collateral includes a priming lien on the debtor's pledge of all of OpCo's equity, which already secures the OpCo bonds",
+        "Assured Guaranty borrows the DIP itself and advances the money to OpCo under its insurance policy, so no court approval is needed"
+      ],
+      "answer": 2,
+      "explanation": "The one thing the estate owns that touches the railroad is the pledge of OpCo's equity. The DIP is 258 million at ten percent paid in kind plus an eight percent fee, guaranteed by the debtors with a five million cap; 97 percent runs the trains."
+    },
+    {
+      "id": "q16",
+      "type": "multiple_choice",
+      "level": 4,
+      "concept_ids": [
+        "non_debtor_opco"
+      ],
+      "prompt": "Which reason did the Host give for keeping the railroad outside the filing?",
+      "choices": [
+        "Filing OpCo would have triggered the make-whole on the Brightline Holdings loan, adding CK Opportunities' 750 million dollar claim to the pool ahead of the bonds",
+        "OpCo is probably the only entity that counts as a railroad under the Bankruptcy Code, and a railroad case requires a court-appointed trustee",
+        "A filing by OpCo would have cancelled the Florida Development Finance Corporation's conduit authority for the 2024 bonds and ended their tax-exempt status",
+        "OpCo's 45 million dollar Citizens revolver contained a cross-default to every bond series in the tower"
+      ],
+      "answer": 1,
+      "explanation": "Three reasons: the muni funds wanted their collateral outside Chapter Eleven; OpCo is the entity that counts as a railroad, with a mandatory trustee; and 209 fatalities on the line mean injury claims nobody wants inside a plan."
+    },
+    {
+      "id": "q17",
+      "type": "multiple_choice",
+      "level": 3,
+      "concept_ids": [
+        "new_money_tranche",
+        "non_debtor_opco"
+      ],
+      "prompt": "Under the restructuring support agreement, who ends up owning the railroad at exit, and for how much new money?",
+      "choices": [
+        "Fortress keeps 95 percent of the equity by funding 490 million of new capital, with 5 percent going to the hedge funds",
+        "The hedge funds holding the eleven percent notes receive 95 percent of the equity in exchange for 140 million of new senior notes",
+        "Assured Guaranty takes 100 percent of the equity in exchange for guaranteeing the deferred interest on the senior bonds",
+        "The buyers of 350 million of second-lien junior notes, the municipal mutual funds, receive 95 percent of a new holding company that owns OpCo"
+      ],
+      "answer": 3,
+      "explanation": "140 million of new senior notes rank pari passu with the muni bonds; 350 million of junior notes carries 95 percent of the equity; five percent goes to a pool for the debtors' creditors, sweetened to at least 4.75 percent plus warrants for the eleven percent noteholders."
+    },
+    {
+      "id": "q18",
+      "type": "short_text",
+      "level": 3,
+      "concept_ids": [
+        "make_whole"
+      ],
+      "prompt": "What is the prepayment premium called that pays a lender the interest it would have earned if a loan is repaid early?",
+      "accepted": [
+        "make-whole",
+        "make whole",
+        "makewhole",
+        "make-whole premium",
+        "make whole premium",
+        "yield maintenance"
+      ],
+      "explanation": "A make-whole. CK Opportunities, the Certares and Knighthead venture that bought Hertz out of bankruptcy in 2021, claims 750 million on a Brightline Holdings loan compounding at twenty percent."
+    },
+    {
+      "id": "q19",
+      "type": "multiple_choice",
+      "level": 4,
+      "concept_ids": [
+        "make_whole",
+        "fraudulent_conveyance"
+      ],
+      "prompt": "What transaction does CK Opportunities say triggered its make-whole and looks like a fraudulent transfer?",
+      "choices": [
+        "The December 2024 repurchase of 206 million of Brightline East notes at a discount, funded with proceeds of the twenty percent holding-company loan in breach of its covenants",
+        "The May 2024 refinancing led by Morgan Stanley that moved the 2.2 billion of senior bonds from Brightline East down to the operating company, stripping the loan's collateral",
+        "The December 2022 sale of about 40 percent of Brightline West to an Edens-controlled entity for about 260 million, treated as taking Brightline West out of the loan's collateral",
+        "The August 2025 remarketing of the commuter bonds, which added a second lien on Brightline West equity ahead of the holding-company lenders"
+      ],
+      "answer": 2,
+      "explanation": "CK has sued Morgan Stanley since 2023 over the deal. Judge Hall approved the DIP over its objection anyway; the New York make-whole ruling is still reserved."
+    },
+    {
+      "id": "q20",
+      "type": "multiple_choice",
+      "level": 3,
+      "concept_ids": [
+        "fulcrum_security",
+        "bond_insurance"
+      ],
+      "prompt": "In the trader's recap, where did the value accumulate, and who was left in the dust?",
+      "choices": [
+        "Value accumulated at Brightline East in the eleven percent notes, which took 4.75 percent of the equity plus warrants, and the municipal mutual funds were left in the dust with deferred coupons",
+        "Value accumulated at OpCo with the senior bondholders and the junior-note buyers who hold 95 percent of the equity; Fortress, the AAF and commuter bondholders and CK were left in the dust",
+        "Value accumulated with CK Opportunities, which received the management company and 95 percent of the equity; the insurer was left in the dust paying claims",
+        "Value accumulated with the hedge funds who bought the eleven percent notes at ten cents on the dollar and took control; Assured Guaranty was left in the dust paying claims with no vote"
+      ],
+      "answer": 1,
+      "explanation": "The value stayed in the railroad with the people who already held the fulcrum. Everything above OpCo became a claim on other assets plus a five percent pool; Fortress's equity went to zero after fourteen years."
+    }
+  ]
+}
